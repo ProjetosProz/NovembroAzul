@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de UBS - Novembro Azul</title>
+    <link rel="stylesheet" href="css/mapa.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+</head>
+<body>
+    <a href="index.html">Voltar</a>
+    <h1>Encontre uma unidade de saúde perto de você</h1>
+    <p>Pesquise uma cidade, bairro ou rua para encontrar unidades de atendimento e saiba onde buscar orientação sobre a saúde do homem.</p>
+
+    <div class="pesquisa">
+        <input type="text" id="buscar" placeholder="Digite sua cidade, bairro ou rua">
+        <button type="button" id="btnBuscar">Buscar</button>
+    </div>
+
+    <h2>Mapa de unidades UBS</h2>
+    <div class="mapa" id="mapa"></div>
+
+    <h2 class="titulo2">Ubs proximas de você</h2>
+    <div class="listaUbs" id="listaUbs"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script/mapa.js"></script>
+</body>
+</html>
