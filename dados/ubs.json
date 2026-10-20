@@ -1,0 +1,6446 @@
+[
+  {
+    "nome": "CENTRO DE SAUDE BARAO GERALDO",
+    "cidade": "Campinas",
+    "bairro": "JD AFIFE",
+    "logradouro": "AV ALBINO JOSE BARBOSA DE OLIVEIRA",
+    "lat": -22.831331,
+    "lon": -47.078951,
+    "cnes": "2022664"
+  },
+  {
+    "nome": "CENTRO DE SAUDE BOA ESPERANCA",
+    "cidade": "Campinas",
+    "bairro": "VILA BRANDINA",
+    "logradouro": "RUA MARINA VIEIRRA DE CARVALHO MESQUITA",
+    "lat": -22.897261,
+    "lon": -47.023711,
+    "cnes": "6028179"
+  },
+  {
+    "nome": "CENTRO DE SAUDE BOA VISTA",
+    "cidade": "Campinas",
+    "bairro": "VILA BOA VISTA",
+    "logradouro": "R DOS SALGUEIROS",
+    "lat": -22.885151,
+    "lon": -47.127311,
+    "cnes": "2022826"
+  },
+  {
+    "nome": "CENTRO DE SAUDE CAMPINA GRANDE",
+    "cidade": "Campinas",
+    "bairro": "CAMPINA GRANDE",
+    "logradouro": "R MARIA AMELIA RAMOS",
+    "lat": -22.960551,
+    "lon": -47.217371,
+    "cnes": "6032141"
+  },
+  {
+    "nome": "CENTRO DE SAUDE CAMPO BELO",
+    "cidade": "Campinas",
+    "bairro": "JD CAMPO BELO",
+    "logradouro": "RUA MILTON PEREIRA DE CASTRO",
+    "lat": -23.028221,
+    "lon": -47.114791,
+    "cnes": "6032605"
+  },
+  {
+    "nome": "CENTRO DE SAUDE CAMPOS ELISEOS",
+    "cidade": "Campinas",
+    "bairro": "CAMPOS ELISEOS",
+    "logradouro": "AV TANCREDO NEVES",
+    "lat": -22.943811,
+    "lon": -47.097861,
+    "cnes": "2022613"
+  },
+  {
+    "nome": "CENTRO DE SAUDE CARLOS GOMES",
+    "cidade": "Campinas",
+    "bairro": "JARDIM MONTE BELO",
+    "logradouro": "RUA LUIZA CRODA IAMARINO",
+    "lat": -22.761211,
+    "lon": -46.976241,
+    "cnes": "6028195"
+  },
+  {
+    "nome": "CENTRO DE SAUDE CARVALHO DE MOURA",
+    "cidade": "Campinas",
+    "bairro": "PQ RESIDENCIAL CARVA",
+    "logradouro": "R CELSO LUGLIO",
+    "lat": -22.957861,
+    "lon": -47.077731,
+    "cnes": "2023083"
+  },
+  {
+    "nome": "CENTRO DE SAUDE CASSIO RAPOSO DO AMARAL",
+    "cidade": "Campinas",
+    "bairro": "CJ HAB EDIVALDO ANTO",
+    "logradouro": "R PREFEITO CELSO DANIEL",
+    "lat": -22.846841,
+    "lon": -47.143161,
+    "cnes": "3950220"
+  },
+  {
+    "nome": "CENTRO DE SAUDE CENTRO",
+    "cidade": "Campinas",
+    "bairro": "CENTRO",
+    "logradouro": "R PADRE VIEIRA",
+    "lat": -22.902801,
+    "lon": -47.055601,
+    "cnes": "2022729"
+  },
+  {
+    "nome": "CENTRO DE SAUDE COSTA E SILVA",
+    "cidade": "Campinas",
+    "bairro": "JD SANTA GENEBRA",
+    "logradouro": "RUA JOAQUIM MANUEL DE MACEDO",
+    "lat": -22.855951,
+    "lon": -47.066321,
+    "cnes": "2023199"
+  },
+  {
+    "nome": "CENTRO DE SAUDE DIC I",
+    "cidade": "Campinas",
+    "bairro": "DIC I",
+    "logradouro": "RUA 17",
+    "lat": -22.976721,
+    "lon": -47.140321,
+    "cnes": "2032643"
+  },
+  {
+    "nome": "CENTRO DE SAUDE DIC III",
+    "cidade": "Campinas",
+    "bairro": "DIC III",
+    "logradouro": "RUA JOSE CAIVANI",
+    "lat": -22.978601,
+    "lon": -47.122061,
+    "cnes": "2046318"
+  },
+  {
+    "nome": "CENTRO DE SAUDE DIC VI",
+    "cidade": "Campinas",
+    "bairro": "DIC VI",
+    "logradouro": "R JULIAO SIMOES",
+    "lat": -22.980327,
+    "lon": -47.13182,
+    "cnes": "9725393"
+  },
+  {
+    "nome": "CENTRO DE SAUDE FERNANDA",
+    "cidade": "Campinas",
+    "bairro": "JD FERNANDA II",
+    "logradouro": "RUA VITOR BARANAUSKAS FILHO",
+    "lat": -23.038301,
+    "lon": -47.129641,
+    "cnes": "6032338"
+  },
+  {
+    "nome": "CENTRO DE SAUDE GUANABARA",
+    "cidade": "Campinas",
+    "bairro": "GUANABARA",
+    "logradouro": "RUA CONEGO NERY",
+    "lat": -22.886611,
+    "lon": -47.060911,
+    "cnes": "4245687"
+  },
+  {
+    "nome": "CENTRO DE SAUDE INTEGRACAO",
+    "cidade": "Campinas",
+    "bairro": "V CASTELO BRANCO",
+    "logradouro": "R ZOCCA",
+    "lat": -22.914811,
+    "lon": -47.112871,
+    "cnes": "2022842"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM AEROPORTO",
+    "cidade": "Campinas",
+    "bairro": "JD AEROPORTO",
+    "logradouro": "RUA CAIRI",
+    "lat": -22.971601,
+    "lon": -47.126431,
+    "cnes": "2037262"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM AURELIA",
+    "cidade": "Campinas",
+    "bairro": "VILA PROOST DE SOUZA",
+    "logradouro": "R LICINIA TEIXEIRA DE SOUZA",
+    "lat": -22.901481,
+    "lon": -47.092261,
+    "cnes": "2022672"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM BASSOLI",
+    "cidade": "Campinas",
+    "bairro": "JARDIM BASSOLI",
+    "logradouro": "RUA LEONEL FERREIRA GOMES",
+    "lat": -22.968541,
+    "lon": -47.202131,
+    "cnes": "0411191"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM CAPIVARI",
+    "cidade": "Campinas",
+    "bairro": "CAPIVARI",
+    "logradouro": "R PADRE EUSTAQUIO",
+    "lat": -22.953011,
+    "lon": -47.112231,
+    "cnes": "2039664"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM CONCEICAO",
+    "cidade": "Campinas",
+    "bairro": "JD CONCEICAO",
+    "logradouro": "R SILVINO DE GODOY",
+    "lat": -22.876521,
+    "lon": -47.032851,
+    "cnes": "2023164"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM ESMERALDINA",
+    "cidade": "Campinas",
+    "bairro": "JARDIM MAISA",
+    "logradouro": "RUA MIGUEL VENEROSO",
+    "lat": -22.934141,
+    "lon": -47.017731,
+    "cnes": "2022796"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM EULINA",
+    "cidade": "Campinas",
+    "bairro": "JARDIM EULINA",
+    "logradouro": "RUA MARTIN LUTHER KING JUNIOR",
+    "lat": -22.892791,
+    "lon": -47.105491,
+    "cnes": "2023156"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM FLORENCE",
+    "cidade": "Campinas",
+    "bairro": "JARDIM FLORENCE II",
+    "logradouro": "R OSVALDO PERALVA",
+    "lat": -22.940921,
+    "lon": -47.162401,
+    "cnes": "2022850"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM IPAUSSURAMA",
+    "cidade": "Campinas",
+    "bairro": "JD IPAUSSURAMA",
+    "logradouro": "AV MARCIO EGIDIO DE SOUZA ARANHA",
+    "lat": -22.929621,
+    "lon": -47.121771,
+    "cnes": "2022923"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM ROSSIN",
+    "cidade": "Campinas",
+    "bairro": "JD ROSSIN",
+    "logradouro": "R MAJOR ADOLPHO ROSSIN",
+    "lat": -22.932381,
+    "lon": -47.162681,
+    "cnes": "2023067"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM SANTA MONICA",
+    "cidade": "Campinas",
+    "bairro": "SANTA MONICA",
+    "logradouro": "R OLIVIO MANUEL DE CAMARGO",
+    "lat": -22.852341,
+    "lon": -47.107641,
+    "cnes": "2023172"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JARDIM SAO MARCOS",
+    "cidade": "Campinas",
+    "bairro": "JD CAMPINEIRO",
+    "logradouro": "AV MARIA LUIZA POMPEO DE CAMARGO",
+    "lat": -22.847701,
+    "lon": -47.119711,
+    "cnes": "2023318"
+  },
+  {
+    "nome": "CENTRO DE SAUDE JOAQUIM EGIDIO",
+    "cidade": "Campinas",
+    "bairro": "JOAQUIM EGIDIO",
+    "logradouro": "ROD HEITOR PENTEADO",
+    "lat": -22.887271,
+    "lon": -46.943041,
+    "cnes": "2023210"
+  },
+  {
+    "nome": "CENTRO DE SAUDE LISA",
+    "cidade": "Campinas",
+    "bairro": "JD LISA",
+    "logradouro": "RUA RIO SAO FRANCISCO",
+    "lat": -22.953281,
+    "lon": -47.179411,
+    "cnes": "6032362"
+  },
+  {
+    "nome": "CENTRO DE SAUDE NOVA AMERICA",
+    "cidade": "Campinas",
+    "bairro": "JD NOVA AMERICA",
+    "logradouro": "RUA ANTONIO FIDELIS",
+    "lat": -23.002471,
+    "lon": -47.106801,
+    "cnes": "6032397"
+  },
+  {
+    "nome": "CENTRO DE SAUDE OROSIMBO MAIA",
+    "cidade": "Campinas",
+    "bairro": "VL OROZIMBO MAIA",
+    "logradouro": "R DOUTOR LAERTE DE MORAES",
+    "lat": -22.921591,
+    "lon": -47.030601,
+    "cnes": "2023180"
+  },
+  {
+    "nome": "CENTRO DE SAUDE OZIEL",
+    "cidade": "Campinas",
+    "bairro": "PARQUE OZIEL",
+    "logradouro": "RUA CABO RUBENS ZIMMERMANN",
+    "lat": -22.940141,
+    "lon": -47.085971,
+    "cnes": "6032419"
+  },
+  {
+    "nome": "CENTRO DE SAUDE PARANAPANEMA",
+    "cidade": "Campinas",
+    "bairro": "JD GUARANI",
+    "logradouro": "R BOAVENTURA LEMOS",
+    "lat": -22.914951,
+    "lon": -47.037781,
+    "cnes": "2022869"
+  },
+  {
+    "nome": "CENTRO DE SAUDE PARQUE DA FIGUEIRA",
+    "cidade": "Campinas",
+    "bairro": "PARQUE DA FIGUEIRA",
+    "logradouro": "R JERONIMO TOGNOLLO",
+    "lat": -22.945981,
+    "lon": -47.059801,
+    "cnes": "2022818"
+  },
+  {
+    "nome": "CENTRO DE SAUDE PARQUE FLORESTA",
+    "cidade": "Campinas",
+    "bairro": "CJ HABITACIONAL PARQ",
+    "logradouro": "R FLAVIO MARINHO MENDES",
+    "lat": -22.956151,
+    "lon": -47.196741,
+    "cnes": "2023369"
+  },
+  {
+    "nome": "CENTRO DE SAUDE PARQUE ITAJAI",
+    "cidade": "Campinas",
+    "bairro": "PARQUE ITAJAI II",
+    "logradouro": "RUA PAULO GLIWKOFF",
+    "lat": -22.958211,
+    "lon": -47.192251,
+    "cnes": "3190188"
+  },
+  {
+    "nome": "CENTRO DE SAUDE PARQUE SANTA BARBARA",
+    "cidade": "Campinas",
+    "bairro": "PQ SANTA BARBARA",
+    "logradouro": "R PEDRO GIMENEZ VILLAR",
+    "lat": -22.894941,
+    "lon": -47.148061,
+    "cnes": "2023377"
+  },
+  {
+    "nome": "CENTRO DE SAUDE PARQUE VALENCA",
+    "cidade": "Campinas",
+    "bairro": "PQ VALENCA I",
+    "logradouro": "R NATALE BERTUCCI",
+    "lat": -22.948321,
+    "lon": -47.187471,
+    "cnes": "2023598"
+  },
+  {
+    "nome": "CENTRO DE SAUDE PEDRO DE AQUINO NETO",
+    "cidade": "Campinas",
+    "bairro": "JD CAMPOS ELISEOS",
+    "logradouro": "AV PAULO PROVENZA SOBRINHO",
+    "lat": -22.929751,
+    "lon": -47.101021,
+    "cnes": "2022931"
+  },
+  {
+    "nome": "CENTRO DE SAUDE PERSEU LEITE DE BARROS",
+    "cidade": "Campinas",
+    "bairro": "VL PERSEU LEITE DE B",
+    "logradouro": "RUA BOA VISTA",
+    "lat": -22.927211,
+    "lon": -47.113051,
+    "cnes": "2022788"
+  },
+  {
+    "nome": "CENTRO DE SAUDE ROSALIA",
+    "cidade": "Campinas",
+    "bairro": "JD ROSALIA",
+    "logradouro": "R LUAN CARLOS DOMINGOS DA GLORIA",
+    "lat": -22.870541,
+    "lon": -47.140041,
+    "cnes": "6032427"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SAN DIEGO",
+    "cidade": "Campinas",
+    "bairro": "JARDIM SAN DIEGO",
+    "logradouro": "R ANTONIO CARLOS FOLEGATTI",
+    "lat": -22.986131,
+    "lon": -47.101961,
+    "cnes": "9294481"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SAN MARTIN",
+    "cidade": "Campinas",
+    "bairro": "VL SAN MARTIN",
+    "logradouro": "RUA SAO FRANCISCO XAVIER",
+    "lat": -22.840321,
+    "lon": -47.156571,
+    "cnes": "7520433"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SANTA LUCIA",
+    "cidade": "Campinas",
+    "bairro": "JARDIM STA LUCIA",
+    "logradouro": "RUA SAO BENEDITO",
+    "lat": -22.939731,
+    "lon": -47.115051,
+    "cnes": "2033941"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SANTA ODILA",
+    "cidade": "Campinas",
+    "bairro": "VILA JOAQUIM INACIO",
+    "logradouro": "RUA BEATO MARCELINO CHAMPAGNAT",
+    "lat": -22.934381,
+    "lon": -47.036431,
+    "cnes": "2022680"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SANTA ROSA",
+    "cidade": "Campinas",
+    "bairro": "JARDIM SANTA ROSA",
+    "logradouro": "RUA GERALDO ROBIM",
+    "lat": -22.932701,
+    "lon": -47.184031,
+    "cnes": "6865321"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SANTO ANTONIO",
+    "cidade": "Campinas",
+    "bairro": "PARQUE VISTA ALEGRE",
+    "logradouro": "AV PASTOR JOAO PRATA VIEIRA",
+    "lat": -22.988881,
+    "lon": -47.119521,
+    "cnes": "3956296"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SANTOS DUMONT",
+    "cidade": "Campinas",
+    "bairro": "PQ INDUSTRIAL LISBOA",
+    "logradouro": "RUA JOSE PINTO DA SILVA",
+    "lat": -22.978241,
+    "lon": -47.105131,
+    "cnes": "2037270"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SAO BERNARDO",
+    "cidade": "Campinas",
+    "bairro": "SAO BERNARDO",
+    "logradouro": "AV JOAO BATISTA MORATO DO CANTO",
+    "lat": -22.915471,
+    "lon": -47.077381,
+    "cnes": "2022656"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SAO CRISTOVAO",
+    "cidade": "Campinas",
+    "bairro": "JAD ADEMAR DE BARROS",
+    "logradouro": "AV MARTINHO LUTERO",
+    "lat": -22.988261,
+    "lon": -47.149531,
+    "cnes": "2034263"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SAO DOMINGOS",
+    "cidade": "Campinas",
+    "bairro": "JD SAO DOMINGOS",
+    "logradouro": "RUA JUVENAL DE OLIVEIRA",
+    "lat": -23.039141,
+    "lon": -47.104681,
+    "cnes": "2023458"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SAO JOSE",
+    "cidade": "Campinas",
+    "bairro": "JD SAO JOSE",
+    "logradouro": "AV JOSE CARLOS DO AMARAL GALVAO",
+    "lat": -22.9598681,
+    "lon": -47.0959701,
+    "cnes": "2023628"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SAO QUIRINO",
+    "cidade": "Campinas",
+    "bairro": "SAO QUIRINO",
+    "logradouro": "AV DIOGO ALVARES",
+    "lat": -22.862321,
+    "lon": -47.037151,
+    "cnes": "2040670"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SAO VICENTE",
+    "cidade": "Campinas",
+    "bairro": "JD SAO GABRIEL",
+    "logradouro": "R REGINA NOGUEIRA",
+    "lat": -22.940991,
+    "lon": -47.022971,
+    "cnes": "2022915"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SATELITE IRIS I",
+    "cidade": "Campinas",
+    "bairro": "CIDADE SATELITE IRIS",
+    "logradouro": "RUA REVERENDO JOSE COELHO FERRAZ",
+    "lat": -22.935641,
+    "lon": -47.138181,
+    "cnes": "6032478"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SIRIUS COSMOS",
+    "cidade": "Campinas",
+    "bairro": "RESIDENCIAL COSMOS",
+    "logradouro": "R GUILHERMINA GOMES LUNDI",
+    "lat": -22.947651,
+    "lon": -47.160541,
+    "cnes": "4478576"
+  },
+  {
+    "nome": "CENTRO DE SAUDE SOUSAS",
+    "cidade": "Campinas",
+    "bairro": "SOUSAS",
+    "logradouro": "RUA ANTONIO PRADO",
+    "lat": -22.876861,
+    "lon": -46.969551,
+    "cnes": "2022702"
+  },
+  {
+    "nome": "CENTRO DE SAUDE TAQUARAL",
+    "cidade": "Campinas",
+    "bairro": "TAQUARAL",
+    "logradouro": "RUA HENRIQUE SCHROEDER",
+    "lat": -22.881381,
+    "lon": -47.046861,
+    "cnes": "2022699"
+  },
+  {
+    "nome": "CENTRO DE SAUDE UNIAO DOS BAIRROS",
+    "cidade": "Campinas",
+    "bairro": "VILA VITORIA",
+    "logradouro": "RUA MARGARIDA OCCHIENA",
+    "lat": -22.977401,
+    "lon": -47.171351,
+    "cnes": "2040719"
+  },
+  {
+    "nome": "CENTRO DE SAUDE VICENTE PISANI NETO",
+    "cidade": "Campinas",
+    "bairro": "SATELITE IRIS II",
+    "logradouro": "R ANA MONTEIRO ERBETTA",
+    "lat": -22.936411,
+    "lon": -47.150401,
+    "cnes": "9725407"
+  },
+  {
+    "nome": "CENTRO DE SAUDE VILA 31 DE MARCO",
+    "cidade": "Campinas",
+    "bairro": "JARDIM CONCEICAO",
+    "logradouro": "RUA ANTONIO PAVIN",
+    "lat": -22.871791,
+    "lon": -47.028281,
+    "cnes": "2022907"
+  },
+  {
+    "nome": "CENTRO DE SAUDE VILA IPE",
+    "cidade": "Campinas",
+    "bairro": "JD DAS OLIVEIRAS",
+    "logradouro": "R SYNIRA DE ARRUDA VALENTE",
+    "lat": -22.939631,
+    "lon": -47.040241,
+    "cnes": "2023202"
+  },
+  {
+    "nome": "CENTRO DE SAUDE VILA PADRE ANCHIETA",
+    "cidade": "Campinas",
+    "bairro": "VILA PADRE ANCHIETA",
+    "logradouro": "AV PAPA JOAO PAULO II",
+    "lat": -22.863141,
+    "lon": -47.153401,
+    "cnes": "2023091"
+  },
+  {
+    "nome": "CENTRO DE SAUDE VILA RICA",
+    "cidade": "Campinas",
+    "bairro": "VILA RICA",
+    "logradouro": "R MANGANES",
+    "lat": -22.932711,
+    "lon": -47.095721,
+    "cnes": "2022834"
+  },
+  {
+    "nome": "CENTRO DE SAUDE VILA UNIAO",
+    "cidade": "Campinas",
+    "bairro": "VILA UNIAO",
+    "logradouro": "R JOSE LOURENCO DE SA",
+    "lat": -22.940851,
+    "lon": -47.122021,
+    "cnes": "3385116"
+  },
+  {
+    "nome": "CENTRO DE SAUDE VILLAGE",
+    "cidade": "Campinas",
+    "bairro": "VILLAGE",
+    "logradouro": "AV FRANCISCO CANDIDO XAVIER",
+    "lat": -22.755841,
+    "lon": -47.055731,
+    "cnes": "6032443"
+  },
+  {
+    "nome": "CENTRO DE SAUDE VISTA ALEGRE",
+    "cidade": "Campinas",
+    "bairro": "PQ UNIVERSITARIO",
+    "logradouro": "AV SINIMBU",
+    "lat": -22.968861,
+    "lon": -47.149751,
+    "cnes": "2039656"
+  },
+  {
+    "nome": "UBS ALLAN KARDEC",
+    "cidade": "Guarulhos",
+    "bairro": "JD PRESIDENTE DUTRA",
+    "logradouro": "RUA IPACAETA",
+    "lat": -23.41942798,
+    "lon": -46.44073599,
+    "cnes": "3004031"
+  },
+  {
+    "nome": "UBS ARACILIA",
+    "cidade": "Guarulhos",
+    "bairro": "CIDADE ARACILIA",
+    "logradouro": "RUA URUCUI",
+    "lat": -23.41985403,
+    "lon": -46.37116799,
+    "cnes": "2054523"
+  },
+  {
+    "nome": "UBS BAMBI",
+    "cidade": "Guarulhos",
+    "bairro": "PQ RESIDENCIAL BAMBI",
+    "logradouro": "RUA HIBISCO",
+    "lat": -23.38505791,
+    "lon": -46.4032701,
+    "cnes": "2090570"
+  },
+  {
+    "nome": "UBS BANANAL",
+    "cidade": "Guarulhos",
+    "bairro": "PQ SANTOS DUMONT",
+    "logradouro": "RUA MARTINICA",
+    "lat": -23.40225898,
+    "lon": -46.46953598,
+    "cnes": "3338525"
+  },
+  {
+    "nome": "UBS BELVEDERE",
+    "cidade": "Guarulhos",
+    "bairro": "JD BELVEDERE",
+    "logradouro": "ESTRADA MUNICIPAL",
+    "lat": -23.41241805,
+    "lon": -46.49836092,
+    "cnes": "2066939"
+  },
+  {
+    "nome": "UBS CAMBARA",
+    "cidade": "Guarulhos",
+    "bairro": "PQ CONTINENTAL III",
+    "logradouro": "RUA ADOLFO VASCONCELOS NORONHA",
+    "lat": -23.42108702,
+    "lon": -46.55605704,
+    "cnes": "5501083"
+  },
+  {
+    "nome": "UBS CAVADAS",
+    "cidade": "Guarulhos",
+    "bairro": "VILA SAO JOAO",
+    "logradouro": "RUA CAVADAS",
+    "lat": -23.479196,
+    "lon": -46.55202002,
+    "cnes": "2084597"
+  },
+  {
+    "nome": "UBS CIDADE MARTINS",
+    "cidade": "Guarulhos",
+    "bairro": "JD BELA VISTA",
+    "logradouro": "RUA JAU",
+    "lat": -23.43403405,
+    "lon": -46.51514805,
+    "cnes": "2052296"
+  },
+  {
+    "nome": "UBS CIDADE SERODIO",
+    "cidade": "Guarulhos",
+    "bairro": "CIDADE SERODIO",
+    "logradouro": "AVENIDA COQUEIRAL",
+    "lat": -23.41698493,
+    "lon": -46.45719605,
+    "cnes": "2054493"
+  },
+  {
+    "nome": "UBS CONTINENTAL",
+    "cidade": "Guarulhos",
+    "bairro": "PQ CONTINENTAL B",
+    "logradouro": "RUA PESSEGUEIRO",
+    "lat": -23.43272504,
+    "lon": -46.54977298,
+    "cnes": "3179613"
+  },
+  {
+    "nome": "UBS CUMBICA",
+    "cidade": "Guarulhos",
+    "bairro": "CIDADE JD CUMBICA",
+    "logradouro": "RUA SEGUNDO TENENTE AVIADOR MARIO LUIZ FIGUEIROA",
+    "lat": -23.448875,
+    "lon": -46.46859801,
+    "cnes": "2084635"
+  },
+  {
+    "nome": "UBS CUMMINS",
+    "cidade": "Guarulhos",
+    "bairro": "CIDADE JD CUMBICA",
+    "logradouro": "RUA PLACIDO IVO DE MELLO",
+    "lat": -23.45275892,
+    "lon": -46.47904506,
+    "cnes": "2040077"
+  },
+  {
+    "nome": "UBS DINAMARCA",
+    "cidade": "Guarulhos",
+    "bairro": "VILA DINAMARCA",
+    "logradouro": "RUA ARAUCARIA",
+    "lat": -23.42878903,
+    "lon": -46.40234192,
+    "cnes": "6305660"
+  },
+  {
+    "nome": "UBS DONA LUIZA",
+    "cidade": "Guarulhos",
+    "bairro": "JD GIOVANA",
+    "logradouro": "RUA JOSE MIGUEL ACKEL",
+    "lat": -23.4533016,
+    "lon": -46.42394095,
+    "cnes": "9130756"
+  },
+  {
+    "nome": "UBS HAROLDO VELOSO",
+    "cidade": "Guarulhos",
+    "bairro": "CJ HAROLDO VELOSO",
+    "logradouro": "RUA POCRANE",
+    "lat": -23.41575304,
+    "lon": -46.470453,
+    "cnes": "2090554"
+  },
+  {
+    "nome": "UBS INOCOOP",
+    "cidade": "Guarulhos",
+    "bairro": "PQ RESID CUMBICA",
+    "logradouro": "RUA ELIAS DABARIAN",
+    "lat": -23.42332697,
+    "lon": -46.41742204,
+    "cnes": "2064383"
+  },
+  {
+    "nome": "UBS ITAPEGICA",
+    "cidade": "Guarulhos",
+    "bairro": "VILA HERMINIA",
+    "logradouro": "AVENIDA ROTARY",
+    "lat": -23.49129601,
+    "lon": -46.55205799,
+    "cnes": "3449947"
+  },
+  {
+    "nome": "UBS JARDIM ACACIO",
+    "cidade": "Guarulhos",
+    "bairro": "JD ACACIO",
+    "logradouro": "AVENIDA SILVESTRE PIRES DE FREITAS",
+    "lat": -23.41429493,
+    "lon": -46.50868098,
+    "cnes": "5275792"
+  },
+  {
+    "nome": "UBS JARDIM ALAMO",
+    "cidade": "Guarulhos",
+    "bairro": "JD ALAMO",
+    "logradouro": "RUA NICOLINA LAPENNA TURRI",
+    "lat": -23.41054608,
+    "lon": -46.37611398,
+    "cnes": "3226921"
+  },
+  {
+    "nome": "UBS JARDIM CABUCU",
+    "cidade": "Guarulhos",
+    "bairro": "CABUCU",
+    "logradouro": "RUA EXISTENTE",
+    "lat": -23.40536898,
+    "lon": -46.53612205,
+    "cnes": "2073994"
+  },
+  {
+    "nome": "UBS JARDIM CUMBICA I",
+    "cidade": "Guarulhos",
+    "bairro": "JD CUMBICA",
+    "logradouro": "AVENIDA VENTUROSA",
+    "lat": -23.45294198,
+    "lon": -46.43647196,
+    "cnes": "3491137"
+  },
+  {
+    "nome": "UBS JARDIM CUMBICA II",
+    "cidade": "Guarulhos",
+    "bairro": "JD CUMBICA",
+    "logradouro": "RUA SENA MADUREIRA",
+    "lat": -23.44406604,
+    "lon": -46.437455,
+    "cnes": "5275806"
+  },
+  {
+    "nome": "UBS JARDIM FLOR DA MONTANHA",
+    "cidade": "Guarulhos",
+    "bairro": "JD FLOR DA MONTANHA",
+    "logradouro": "RUA EDUARDO",
+    "lat": -23.44733494,
+    "lon": -46.53984105,
+    "cnes": "2036002"
+  },
+  {
+    "nome": "UBS JARDIM FORTALEZA",
+    "cidade": "Guarulhos",
+    "bairro": "JD FORTALEZA",
+    "logradouro": "RUA HILARIO PIRES DE FREITAS",
+    "lat": -23.378215,
+    "lon": -46.44909405,
+    "cnes": "2044188"
+  },
+  {
+    "nome": "UBS JARDIM JACY",
+    "cidade": "Guarulhos",
+    "bairro": "JD GUARACY",
+    "logradouro": "RUA SAO GERALDO DA PIEDADE",
+    "lat": -23.47497298,
+    "lon": -46.39490601,
+    "cnes": "2040093"
+  },
+  {
+    "nome": "UBS JARDIM MUNHOZ",
+    "cidade": "Guarulhos",
+    "bairro": "JD MUNHOZ",
+    "logradouro": "RUA PROFESSOR JOSE MUNHOZ",
+    "lat": -23.49732296,
+    "lon": -46.55484497,
+    "cnes": "2044218"
+  },
+  {
+    "nome": "UBS JARDIM NOVA CUMBICA",
+    "cidade": "Guarulhos",
+    "bairro": "VILA NOVA CUMBICA",
+    "logradouro": "RUA BAIXIO",
+    "lat": -23.46280396,
+    "lon": -46.46632296,
+    "cnes": "2049570"
+  },
+  {
+    "nome": "UBS JARDIM PALMIRA",
+    "cidade": "Guarulhos",
+    "bairro": "JARDIM PALMIRA",
+    "logradouro": "RUA JAIME DOS SANTOS AUGUSTO FILHO",
+    "lat": -23.43549598,
+    "lon": -46.56164597,
+    "cnes": "2062097"
+  },
+  {
+    "nome": "UBS JARDIM PARAVENTI",
+    "cidade": "Guarulhos",
+    "bairro": "JD PINHAL",
+    "logradouro": "RUA MONTE DAS OLIVEIRAS",
+    "lat": -23.45699448,
+    "lon": -46.52319788,
+    "cnes": "2030276"
+  },
+  {
+    "nome": "UBS JARDIM PAULISTA",
+    "cidade": "Guarulhos",
+    "bairro": "JD MOREIRA",
+    "logradouro": "RUA ITAGUAI",
+    "lat": -23.43697695,
+    "lon": -46.54828999,
+    "cnes": "4048296"
+  },
+  {
+    "nome": "UBS JARDIM PRIMAVERA",
+    "cidade": "Guarulhos",
+    "bairro": "PQ PRIMAVERA",
+    "logradouro": "RUA GAMA",
+    "lat": -23.40482902,
+    "lon": -46.48855799,
+    "cnes": "3188965"
+  },
+  {
+    "nome": "UBS JARDIM ROSA DE FRANCA",
+    "cidade": "Guarulhos",
+    "bairro": "JD ROSA DE FRANCA",
+    "logradouro": "RUA WILSON SOUZA",
+    "lat": -23.44375402,
+    "lon": -46.55650497,
+    "cnes": "2035995"
+  },
+  {
+    "nome": "UBS JARDIM VILA GALVAO",
+    "cidade": "Guarulhos",
+    "bairro": "JD VILA GALVAO",
+    "logradouro": "RUA MARTIM AFONSO",
+    "lat": -23.46370302,
+    "lon": -46.56043904,
+    "cnes": "2061090"
+  },
+  {
+    "nome": "UBS JD PRESIDENTE DUTRA",
+    "cidade": "Guarulhos",
+    "bairro": "JD PRESIDENTE DUTRA",
+    "logradouro": "RUA NOVA YORQUE",
+    "lat": -23.43165698,
+    "lon": -46.43830193,
+    "cnes": "4048326"
+  },
+  {
+    "nome": "UBS JOVAIA",
+    "cidade": "Guarulhos",
+    "bairro": "JD ROSSI",
+    "logradouro": "AVENIDA BRIGADEIRO FARIA LIMA",
+    "lat": -23.44324003,
+    "lon": -46.521189,
+    "cnes": "2061082"
+  },
+  {
+    "nome": "UBS JUREMA",
+    "cidade": "Guarulhos",
+    "bairro": "PQ DAS NACOES",
+    "logradouro": "RUA PRIMEIRA CRUZ",
+    "lat": -23.44336798,
+    "lon": -46.41475202,
+    "cnes": "2036010"
+  },
+  {
+    "nome": "UBS LAVRAS",
+    "cidade": "Guarulhos",
+    "bairro": "JD IV CENTENARIO",
+    "logradouro": "RUA SOUTO SOARES",
+    "lat": -23.39814396,
+    "lon": -46.43217803,
+    "cnes": "2718804"
+  },
+  {
+    "nome": "UBS MARCOS FREIRE",
+    "cidade": "Guarulhos",
+    "bairro": "CJ HAB MARCOS FREIRE",
+    "logradouro": "RUA DO POENTE",
+    "lat": -23.46170501,
+    "lon": -46.40532497,
+    "cnes": "2062100"
+  },
+  {
+    "nome": "UBS MARINOPOLIS",
+    "cidade": "Guarulhos",
+    "bairro": "JD PRESIDENTE DUTRA",
+    "logradouro": "RUA MARINOPOLIS",
+    "lat": -23.420532,
+    "lon": -46.429337,
+    "cnes": "5997399"
+  },
+  {
+    "nome": "UBS NORMANDIA",
+    "cidade": "Guarulhos",
+    "bairro": "JD NORMANDIA",
+    "logradouro": "ESTRADA AGUA CHATA",
+    "lat": -23.44749404,
+    "lon": -46.39997692,
+    "cnes": "3338533"
+  },
+  {
+    "nome": "UBS NOVA BONSUCESSO",
+    "cidade": "Guarulhos",
+    "bairro": "VILA NOVA BONSUCESSO",
+    "logradouro": "RUA TAPIRAMUTA",
+    "lat": -23.40859204,
+    "lon": -46.403128,
+    "cnes": "7587198"
+  },
+  {
+    "nome": "UBS NOVA CIDADE",
+    "cidade": "Guarulhos",
+    "bairro": "JD NOVA CIDADE",
+    "logradouro": "RUA ANGELO ROBERTO ORSOMARSO",
+    "lat": -23.44487504,
+    "lon": -46.40743495,
+    "cnes": "5275814"
+  },
+  {
+    "nome": "UBS NOVO RECREIO",
+    "cidade": "Guarulhos",
+    "bairro": "RECREIO SAO JORGE",
+    "logradouro": "RUA SANTINA",
+    "lat": -23.40001004,
+    "lon": -46.51021696,
+    "cnes": "2055171"
+  },
+  {
+    "nome": "UBS PARQUE ALVORADA",
+    "cidade": "Guarulhos",
+    "bairro": "CIDADE PQ ALVORADA",
+    "logradouro": "AVENIDA SANTANA DO MUNDAU",
+    "lat": -23.44015084,
+    "lon": -46.4225722,
+    "cnes": "2069822"
+  },
+  {
+    "nome": "UBS PARQUE JANDAIA",
+    "cidade": "Guarulhos",
+    "bairro": "PQ JANDAIA",
+    "logradouro": "RUA PORTO ALEGRE",
+    "lat": -23.45292601,
+    "lon": -46.40384096,
+    "cnes": "2064391"
+  },
+  {
+    "nome": "UBS PIMENTAS",
+    "cidade": "Guarulhos",
+    "bairro": "PIMENTAS",
+    "logradouro": "RUA JABOATAO",
+    "lat": -23.46676901,
+    "lon": -46.41988796,
+    "cnes": "2062119"
+  },
+  {
+    "nome": "UBS PIRATININGA",
+    "cidade": "Guarulhos",
+    "bairro": "AGUA CHATA",
+    "logradouro": "ESTRADA AGUA CHATA",
+    "lat": -23.44078496,
+    "lon": -46.394184,
+    "cnes": "3130711"
+  },
+  {
+    "nome": "UBS PONTE ALTA",
+    "cidade": "Guarulhos",
+    "bairro": "JD NOVA PONTE ALTA",
+    "logradouro": "RUA SAO PAULO",
+    "lat": -23.39850004,
+    "lon": -46.42215202,
+    "cnes": "3323005"
+  },
+  {
+    "nome": "UBS PONTE GRANDE",
+    "cidade": "Guarulhos",
+    "bairro": "VILA FANGANIELLO",
+    "logradouro": "RUA OSWALDO AGOSTINHO",
+    "lat": -23.50224397,
+    "lon": -46.55007302,
+    "cnes": "2084619"
+  },
+  {
+    "nome": "UBS RECREIO SAO JORGE",
+    "cidade": "Guarulhos",
+    "bairro": "RECREIO SAO JORGE",
+    "logradouro": "ESTRADA DAVID CORREA",
+    "lat": -23.39959202,
+    "lon": -46.522538,
+    "cnes": "3413411"
+  },
+  {
+    "nome": "UBS SANTA LIDIA",
+    "cidade": "Guarulhos",
+    "bairro": "JD SANTA LIDIA",
+    "logradouro": "RUA MARIO BEZERRA DE ESPINDOLA",
+    "lat": -23.41991797,
+    "lon": -46.49506402,
+    "cnes": "3376826"
+  },
+  {
+    "nome": "UBS SANTA PAULA",
+    "cidade": "Guarulhos",
+    "bairro": "JD SANTA PAULA",
+    "logradouro": "RUA MARIA ROZA DE CAMPOS",
+    "lat": -23.40942093,
+    "lon": -46.42204404,
+    "cnes": "7645279"
+  },
+  {
+    "nome": "UBS SANTO AFONSO",
+    "cidade": "Guarulhos",
+    "bairro": "JD SANTO AFONSO",
+    "logradouro": "RUA RONDONOPOLIS",
+    "lat": -23.47221396,
+    "lon": -46.43817707,
+    "cnes": "2044196"
+  },
+  {
+    "nome": "UBS SANTOS DUMONT",
+    "cidade": "Guarulhos",
+    "bairro": "PQ SANTOS DUMONT",
+    "logradouro": "RUA RAFAEL FERNANDES",
+    "lat": -23.40513604,
+    "lon": -46.46530702,
+    "cnes": "5259991"
+  },
+  {
+    "nome": "UBS SAO RAFAEL",
+    "cidade": "Guarulhos",
+    "bairro": "JD VILA GALVAO",
+    "logradouro": "RUA DOMINGOS DE ABREU",
+    "lat": -23.469373,
+    "lon": -46.55776405,
+    "cnes": "3413403"
+  },
+  {
+    "nome": "UBS SAO RICARDO",
+    "cidade": "Guarulhos",
+    "bairro": "VILA SAO RICARDO",
+    "logradouro": "RUA SOLDADO JAIR DA SILVA TAVARES",
+    "lat": -23.45388096,
+    "lon": -46.54590005,
+    "cnes": "2084627"
+  },
+  {
+    "nome": "UBS SOBERANA",
+    "cidade": "Guarulhos",
+    "bairro": "CIDADE SOBERANA",
+    "logradouro": "RUA JABOTICABAL",
+    "lat": -23.40060902,
+    "lon": -46.43829103,
+    "cnes": "3011542"
+  },
+  {
+    "nome": "UBS SOIMCO",
+    "cidade": "Guarulhos",
+    "bairro": "CIDADE SOIMCO",
+    "logradouro": "RUA BARAO DE MELGACO",
+    "lat": -23.44301502,
+    "lon": -46.45913606,
+    "cnes": "2062070"
+  },
+  {
+    "nome": "UBS TABOAO",
+    "cidade": "Guarulhos",
+    "bairro": "PQ SANTO AGOSTINHO",
+    "logradouro": "RUA MARIA ELISA",
+    "lat": -23.43097399,
+    "lon": -46.50075699,
+    "cnes": "2062089"
+  },
+  {
+    "nome": "UBS TRANQUILIDADE",
+    "cidade": "Guarulhos",
+    "bairro": "JD TRANQUILIDADE",
+    "logradouro": "AVENIDA EMILIO RIBAS",
+    "lat": -23.46467497,
+    "lon": -46.55100808,
+    "cnes": "2072327"
+  },
+  {
+    "nome": "UBS UIRAPURU",
+    "cidade": "Guarulhos",
+    "bairro": "JD SANTA HELENA",
+    "logradouro": "ESTRADA VELHA GUARULHOS SAO MIGUEL",
+    "lat": -23.45381502,
+    "lon": -46.45263098,
+    "cnes": "2074648"
+  },
+  {
+    "nome": "UBS VILA BARROS",
+    "cidade": "Guarulhos",
+    "bairro": "VILA BARROS",
+    "logradouro": "RUA CARLOS KORKISCHKO",
+    "lat": -23.44840103,
+    "lon": -46.50496494,
+    "cnes": "2055198"
+  },
+  {
+    "nome": "UBS VILA CARMELA",
+    "cidade": "Guarulhos",
+    "bairro": "VILA CARMELA I",
+    "logradouro": "AVENIDA SERRA DA MANTIQUEIRA",
+    "lat": -23.39855396,
+    "lon": -46.39314295,
+    "cnes": "2064405"
+  },
+  {
+    "nome": "UBS VILA FATIMA",
+    "cidade": "Guarulhos",
+    "bairro": "FATIMA",
+    "logradouro": "RUA ESMERALDA",
+    "lat": -23.45947899,
+    "lon": -46.509442,
+    "cnes": "2054531"
+  },
+  {
+    "nome": "UBS VILA GALVAO",
+    "cidade": "Guarulhos",
+    "bairro": "VILA GALVAO",
+    "logradouro": "AVENIDA DONA EUGENIA MACHADO DA SILVA",
+    "lat": -23.45457993,
+    "lon": -46.568794,
+    "cnes": "2062062"
+  },
+  {
+    "nome": "UBS VILA RIO DE JANEIRO",
+    "cidade": "Guarulhos",
+    "bairro": "VILA RIO DE JANEIRO",
+    "logradouro": "RUA LIONS",
+    "lat": -23.44066601,
+    "lon": -46.53650001,
+    "cnes": "2049961"
+  },
+  {
+    "nome": "UBS ADALGIZA CORREIA SOARES",
+    "cidade": "Osasco",
+    "bairro": "JARDIM SANTA MARIA",
+    "logradouro": "RUA EUGENIO PACELLI",
+    "lat": -23.58499131,
+    "lon": -46.81439638,
+    "cnes": "3581683"
+  },
+  {
+    "nome": "UBS ANUNCIATA DE LUCIA",
+    "cidade": "Osasco",
+    "bairro": "VIL ISABEL",
+    "logradouro": "RUA SAO JORGE",
+    "lat": -23.5359327,
+    "lon": -46.8038582,
+    "cnes": "0008249"
+  },
+  {
+    "nome": "UBS CARMENO NAGGHY",
+    "cidade": "Osasco",
+    "bairro": "JARDIM D AVILA",
+    "logradouro": "RUA GUILHERME LUIZ DE CARVALHO",
+    "lat": -23.50213511,
+    "lon": -46.77377701,
+    "cnes": "3591042"
+  },
+  {
+    "nome": "UBS CAROLINA MARIA DE JESUS",
+    "cidade": "Osasco",
+    "bairro": "JAGUARIBE",
+    "logradouro": "RUA JOSE DE ALMEIDA VARGAS",
+    "lat": -23.55696532,
+    "lon": -46.78976297,
+    "cnes": "0008184"
+  },
+  {
+    "nome": "UBS DARCY ALVES E ROBALINHO",
+    "cidade": "Osasco",
+    "bairro": "VIL SAO JOSE",
+    "logradouro": "AVENIDA SAO JOSE",
+    "lat": -23.51367,
+    "lon": -46.76427,
+    "cnes": "0008095"
+  },
+  {
+    "nome": "UBS DR ADAUTO RIBEIRO",
+    "cidade": "Osasco",
+    "bairro": "JAD TRES MONTANHAS",
+    "logradouro": "RUA SERRA DO RONCADOR",
+    "lat": -23.47970068,
+    "lon": -46.78317547,
+    "cnes": "0008400"
+  },
+  {
+    "nome": "UBS ELIOMAR REIS DE OLIVEIRA",
+    "cidade": "Osasco",
+    "bairro": "JD BONANCA",
+    "logradouro": "RUA GILSON NARDONI RODRIGUES",
+    "lat": -23.49579876,
+    "lon": -46.79064274,
+    "cnes": "4106083"
+  },
+  {
+    "nome": "UBS EMILIA COSME CERQUEIRA",
+    "cidade": "Osasco",
+    "bairro": "MUNHOZ JUNIOR",
+    "logradouro": "RUA AILTON DE OLIVEIRA",
+    "lat": -23.50221382,
+    "lon": -46.80828094,
+    "cnes": "3184765"
+  },
+  {
+    "nome": "UBS FRANCISCA LIMA DE LIRA",
+    "cidade": "Osasco",
+    "bairro": "PORTAL DOESTE",
+    "logradouro": "RUA JUSCELINO KUBITSCHEK DE OLIVEIRA",
+    "lat": -23.4917458,
+    "lon": -46.790777,
+    "cnes": "0008265"
+  },
+  {
+    "nome": "UBS FRANCISCO DIAS DA SILVA",
+    "cidade": "Osasco",
+    "bairro": "VIL QUITAUNA",
+    "logradouro": "RUA MAL EDGAR DE OLIVEIRA",
+    "lat": -23.5311713,
+    "lon": -46.81022393,
+    "cnes": "0008346"
+  },
+  {
+    "nome": "UBS GETULINO JOSE DIAS",
+    "cidade": "Osasco",
+    "bairro": "PADROEIRA II",
+    "logradouro": "RUA JOANA PEREIRA DIAS",
+    "lat": -23.55175281,
+    "lon": -46.80953622,
+    "cnes": "0008230"
+  },
+  {
+    "nome": "UBS GUILHERMINA DE NOBREGA ABREU",
+    "cidade": "Osasco",
+    "bairro": "CJ DOS METALURGICOS",
+    "logradouro": "AV ESPEDITO IZIDIO ANDRADE",
+    "lat": -23.56596,
+    "lon": -46.81227,
+    "cnes": "0008427"
+  },
+  {
+    "nome": "UBS HELENA MARREY",
+    "cidade": "Osasco",
+    "bairro": "ROCHDALE",
+    "logradouro": "RUA ALVILANDIA",
+    "lat": -23.51872233,
+    "lon": -46.78160906,
+    "cnes": "0008338"
+  },
+  {
+    "nome": "UBS IRMA AGUEDA MARIA JAIME",
+    "cidade": "Osasco",
+    "bairro": "JAD CONCEICAO",
+    "logradouro": "R ALAGOANA",
+    "lat": -23.57822628,
+    "lon": -46.80087805,
+    "cnes": "0008354"
+  },
+  {
+    "nome": "UBS JOSE FRANCISCO REZENDE",
+    "cidade": "Osasco",
+    "bairro": "VIL YOLANDA",
+    "logradouro": "RUA CONCEICAO SCIGLIANO",
+    "lat": -23.547668,
+    "lon": -46.793337,
+    "cnes": "0008303"
+  },
+  {
+    "nome": "UBS JOSE GROFF",
+    "cidade": "Osasco",
+    "bairro": "JARDIM ALIANCA",
+    "logradouro": "AV BANDEIRANTES",
+    "lat": -23.50677896,
+    "lon": -46.78708076,
+    "cnes": "6451713"
+  },
+  {
+    "nome": "UBS JOSE GUIMARAES DE ABREU",
+    "cidade": "Osasco",
+    "bairro": "JD CIPAVA",
+    "logradouro": "RUA ARTELINDA RUGGERI DADDATO",
+    "lat": -23.5479985,
+    "lon": -46.7878428,
+    "cnes": "0026131"
+  },
+  {
+    "nome": "UBS JOSE HILARIO DOS SANTOS",
+    "cidade": "Osasco",
+    "bairro": "JD PIRATININGA",
+    "logradouro": "RUA AMADOR BUENO",
+    "lat": -23.51844688,
+    "lon": -46.79452658,
+    "cnes": "0008214"
+  },
+  {
+    "nome": "UBS JOSE SABINO FERREIRA",
+    "cidade": "Osasco",
+    "bairro": "JD BARONESA",
+    "logradouro": "RUA LUIS GATTI",
+    "lat": -23.49920311,
+    "lon": -46.78384066,
+    "cnes": "0008370"
+  },
+  {
+    "nome": "UBS LAURINDA RODOLFO RUBO",
+    "cidade": "Osasco",
+    "bairro": "JARDIM D ABRIL",
+    "logradouro": "AVENIDA PRESTES MAIA",
+    "lat": -23.538741,
+    "lon": -46.79206,
+    "cnes": "3552454"
+  },
+  {
+    "nome": "UBS LIA BUARQUE DE MACEDO GASPARINE",
+    "cidade": "Osasco",
+    "bairro": "VILA DA CONQUISTA",
+    "logradouro": "AVENIDA CLOVIS ASSAF",
+    "lat": -23.58021256,
+    "lon": -46.80317402,
+    "cnes": "0008419"
+  },
+  {
+    "nome": "UBS LUCIANO RODRIGUES COSTA",
+    "cidade": "Osasco",
+    "bairro": "JAD ROBERTO",
+    "logradouro": "PRACA MARIA JOSE DA SILVEIRA",
+    "lat": -23.54164192,
+    "lon": -46.80119991,
+    "cnes": "0008125"
+  },
+  {
+    "nome": "UBS MARIA DO SOCORRO BEZERRA PATRICIO",
+    "cidade": "Osasco",
+    "bairro": "PARQUE PALMARES",
+    "logradouro": "RUA PADRE BATISTA",
+    "lat": -23.5547115,
+    "lon": -46.8157232,
+    "cnes": "6983855"
+  },
+  {
+    "nome": "UBS MARIA GATTI GIGLIO",
+    "cidade": "Osasco",
+    "bairro": "JD DAS FLORES",
+    "logradouro": "AV DAS FLORES",
+    "lat": -23.5369536,
+    "lon": -46.7940497,
+    "cnes": "0008168"
+  },
+  {
+    "nome": "UBS MARIA GIRADE CURY",
+    "cidade": "Osasco",
+    "bairro": "JD NOVO OSASCO",
+    "logradouro": "RUA THEOFILO MUNHOZ VAQUEIRO",
+    "lat": -23.5716691,
+    "lon": -46.796133,
+    "cnes": "0008117"
+  },
+  {
+    "nome": "UBS MARIA PIA DE OLIVEIRA",
+    "cidade": "Osasco",
+    "bairro": "JD SANTO ANTONIO",
+    "logradouro": "RUA SATURNO",
+    "lat": -23.5611574,
+    "lon": -46.7979467,
+    "cnes": "0008281"
+  },
+  {
+    "nome": "UBS NEYDE ALVES DA SILVA",
+    "cidade": "Osasco",
+    "bairro": "CIDADE DAS FLORES",
+    "logradouro": "RUA AMEIXEIRA",
+    "lat": -23.53188437,
+    "lon": -46.80686474,
+    "cnes": "0008176"
+  },
+  {
+    "nome": "UBS ODUVALDO MAGLIO",
+    "cidade": "Osasco",
+    "bairro": "CAMPESINA",
+    "logradouro": "RUA ANSELMO PEDRO DE MEDEIROS",
+    "lat": -23.54492706,
+    "lon": -46.76345587,
+    "cnes": "0008397"
+  },
+  {
+    "nome": "UBS OTACILIO FIRMINO LOPES",
+    "cidade": "Osasco",
+    "bairro": "VIL NOVA AYROSA",
+    "logradouro": "RUA GRANADA",
+    "lat": -23.5073016,
+    "lon": -46.7667952,
+    "cnes": "0008257"
+  },
+  {
+    "nome": "UBS RAIMUNDA CAVALCANTE DE SOUZA",
+    "cidade": "Osasco",
+    "bairro": "MUNHOZ JR",
+    "logradouro": "RUA PROFESSORA ADELAIDE ESCOBAR BUENO",
+    "lat": -23.49827726,
+    "lon": -46.80388888,
+    "cnes": "0008362"
+  },
+  {
+    "nome": "UBS SANTA GEMA GALGANI",
+    "cidade": "Osasco",
+    "bairro": "PRES ALTINO",
+    "logradouro": "RUA ALBINO JOSE FREIXEDA",
+    "lat": -23.5277726,
+    "lon": -46.76645994,
+    "cnes": "0008311"
+  },
+  {
+    "nome": "UBS SANTA MARIA GORETTI",
+    "cidade": "Osasco",
+    "bairro": "VIL ALIANCA",
+    "logradouro": "AV ANALICE SAKATAUSKAS",
+    "lat": -23.54813344,
+    "lon": -46.77650213,
+    "cnes": "0008206"
+  },
+  {
+    "nome": "UBS SYLVIO JOAO L DE LUCIA",
+    "cidade": "Osasco",
+    "bairro": "JARDIM ELVIRA",
+    "logradouro": "RUA JOAO FLORENCIO FONTES",
+    "lat": -23.500969,
+    "lon": -46.7976014,
+    "cnes": "0008109"
+  },
+  {
+    "nome": "UBS VASCO DA ROCHA LEAO",
+    "cidade": "Osasco",
+    "bairro": "JAD VELOSO",
+    "logradouro": "RUA JOSE PATROCINIO",
+    "lat": -23.5650961,
+    "lon": -46.8058156,
+    "cnes": "0008222"
+  },
+  {
+    "nome": "UBS BAIRRO PARAISO",
+    "cidade": "Santo André",
+    "bairro": "JARDIM JAMAICA",
+    "logradouro": "RUA JUQUIA",
+    "lat": -23.6832752,
+    "lon": -46.5266267,
+    "cnes": "0008605"
+  },
+  {
+    "nome": "UBS CAMPESTRE",
+    "cidade": "Santo André",
+    "bairro": "CAMPESTRE",
+    "logradouro": "RUA DAS FIGUEIRAS",
+    "lat": -23.6438944,
+    "lon": -46.5479456,
+    "cnes": "0008591"
+  },
+  {
+    "nome": "UBS CENTRO",
+    "cidade": "Santo André",
+    "bairro": "CENTRO",
+    "logradouro": "RUA XAVIER DE TOLEDO",
+    "lat": -23.6619761,
+    "lon": -46.5226713,
+    "cnes": "0008958"
+  },
+  {
+    "nome": "UBS CENTRO DE SAUDE ESCOLA",
+    "cidade": "Santo André",
+    "bairro": "PARQUE NOVO ORATORIO",
+    "logradouro": "RUA IRLANDA",
+    "lat": -23.639892,
+    "lon": -46.4953984,
+    "cnes": "0008710"
+  },
+  {
+    "nome": "UBS CIDADE SAO JORGE",
+    "cidade": "Santo André",
+    "bairro": "PARQUE MARAJOARA",
+    "logradouro": "AVENIDA SAO PAULO",
+    "lat": -23.6700815,
+    "lon": -46.4864658,
+    "cnes": "0008664"
+  },
+  {
+    "nome": "UBS CRUZADO SYLVIA AUGUSTA DOS SANTOS",
+    "cidade": "Santo André",
+    "bairro": "JARDIM SANTO ANDRE",
+    "logradouro": "RUA DOS VICENTINOS",
+    "lat": -23.7089613,
+    "lon": -46.4981211,
+    "cnes": "3054063"
+  },
+  {
+    "nome": "UBS DR MOYSES FUCS",
+    "cidade": "Santo André",
+    "bairro": "JARDIM SANTO ANTONIO",
+    "logradouro": "RUA ALEXANDRETA",
+    "lat": -23.6282563,
+    "lon": -46.5223628,
+    "cnes": "0008508"
+  },
+  {
+    "nome": "UBS ESPIRITO SANTO",
+    "cidade": "Santo André",
+    "bairro": "CIDADE SAO JORGE",
+    "logradouro": "AVENIDA SAO PAULO",
+    "lat": -23.6697093,
+    "lon": -46.4872596,
+    "cnes": "3344703"
+  },
+  {
+    "nome": "UBS JARDIM ALVORADA",
+    "cidade": "Santo André",
+    "bairro": "JARDIM ALVORADA",
+    "logradouro": "RUA DOUTOR ALMENOR JARDIM SILVEIRA",
+    "lat": -23.6962433,
+    "lon": -46.5214274,
+    "cnes": "0008826"
+  },
+  {
+    "nome": "UBS JARDIM ALZIRA FRANCO",
+    "cidade": "Santo André",
+    "bairro": "JARDIM ALZIRA FRANCO",
+    "logradouro": "RUA ASA BRANCA",
+    "lat": -23.6516628,
+    "lon": -46.4952793,
+    "cnes": "2914190"
+  },
+  {
+    "nome": "UBS JARDIM BOM PASTOR",
+    "cidade": "Santo André",
+    "bairro": "JARDIM BOM PASTOR",
+    "logradouro": "RUA JOSE DANGELO",
+    "lat": -23.6745374,
+    "lon": -46.5528171,
+    "cnes": "0008567"
+  },
+  {
+    "nome": "UBS JARDIM CARLA",
+    "cidade": "Santo André",
+    "bairro": "CONDOMINIO MARACANA",
+    "logradouro": "RUA JOSE DE ALENCAR",
+    "lat": -23.6932498,
+    "lon": -46.4943301,
+    "cnes": "0008702"
+  },
+  {
+    "nome": "UBS JARDIM CIPRESTE",
+    "cidade": "Santo André",
+    "bairro": "JARDIM CIPRESTE",
+    "logradouro": "RUA CAMINHO DOS VIANAS",
+    "lat": -23.7143806,
+    "lon": -46.5145913,
+    "cnes": "0029181"
+  },
+  {
+    "nome": "UBS JARDIM IRENE",
+    "cidade": "Santo André",
+    "bairro": "VILA JOAO RAMALHO",
+    "logradouro": "ESTRADA DA CATA PRETA",
+    "lat": -23.7132064,
+    "lon": -46.5096129,
+    "cnes": "0008699"
+  },
+  {
+    "nome": "UBS JARDIM ITAPOAN ANA MARIA",
+    "cidade": "Santo André",
+    "bairro": "JARDIM ANA MARIA",
+    "logradouro": "PRACA VENANCIO NETO",
+    "lat": -23.6288963,
+    "lon": -46.4886401,
+    "cnes": "0008931"
+  },
+  {
+    "nome": "UBS JARDIM MAREK MARIA APARECIDA CESARIO DE OLIVEIRA",
+    "cidade": "Santo André",
+    "bairro": "JARDIM MAREK",
+    "logradouro": "RUA ENGENHEIRO ALFREDO HEITZMANN JUNIOR",
+    "lat": -23.67641144,
+    "lon": -46.48889515,
+    "cnes": "0008761"
+  },
+  {
+    "nome": "UBS JARDIM SANTO ALBERTO",
+    "cidade": "Santo André",
+    "bairro": "JARDIM SANTO ALBERTO",
+    "logradouro": "RUA ALMADA",
+    "lat": -23.6328219,
+    "lon": -46.49479937,
+    "cnes": "5380278"
+  },
+  {
+    "nome": "UBS JARDIM SANTO ANDRE",
+    "cidade": "Santo André",
+    "bairro": "JARDIM SANTO ANDRE C",
+    "logradouro": "RUA TOM JOBIM",
+    "lat": -23.65197374,
+    "lon": -46.52353764,
+    "cnes": "5085462"
+  },
+  {
+    "nome": "UBS JDIM SOROCABA JOSE BARBOSA DA SILVA SEU ZEZINHO",
+    "cidade": "Santo André",
+    "bairro": "PARQUE JOAO RAMALHO",
+    "logradouro": "AVENIDA SOROCABA",
+    "lat": -23.64953,
+    "lon": -46.4987999,
+    "cnes": "3043584"
+  },
+  {
+    "nome": "UBS PARANAPIACABA",
+    "cidade": "Santo André",
+    "bairro": "PARANAPIACABA",
+    "logradouro": "AVENIDA FFORD",
+    "lat": -23.776998,
+    "lon": -46.2989579,
+    "cnes": "0008524"
+  },
+  {
+    "nome": "UBS PARQUE ANDREENSE",
+    "cidade": "Santo André",
+    "bairro": "PARQUE REPRESA BILLI",
+    "logradouro": "RUA IBERTIOGA",
+    "lat": -23.7569096,
+    "lon": -46.4629149,
+    "cnes": "0008850"
+  },
+  {
+    "nome": "UBS PARQUE DAS NACOES",
+    "cidade": "Santo André",
+    "bairro": "PARQUE DAS NACOES",
+    "logradouro": "PRACA WALDEMAR SOARES",
+    "lat": -23.642147,
+    "lon": -46.5272251,
+    "cnes": "0008621"
+  },
+  {
+    "nome": "UBS PARQUE JOAO RAMALHO",
+    "cidade": "Santo André",
+    "bairro": "PARQUE JOAO RAMALHO",
+    "logradouro": "RUA MARAGOGIPE",
+    "lat": -23.6463128,
+    "lon": -46.5095294,
+    "cnes": "0008672"
+  },
+  {
+    "nome": "UBS PARQUE MIAMI",
+    "cidade": "Santo André",
+    "bairro": "MIAMI RIVIERA",
+    "logradouro": "ESTRADA DO PEDROSO",
+    "lat": -23.68752518,
+    "lon": -46.50426865,
+    "cnes": "2065126"
+  },
+  {
+    "nome": "UBS PARQUE NOVO ORATORIO",
+    "cidade": "Santo André",
+    "bairro": "PARQUE ORATORIO",
+    "logradouro": "RUA TUNISIA",
+    "lat": -23.6300782,
+    "lon": -46.5089896,
+    "cnes": "0008656"
+  },
+  {
+    "nome": "UBS RECREIO DA BORDA DO CAMPO",
+    "cidade": "Santo André",
+    "bairro": "RECREIO BORDA CAMPO",
+    "logradouro": "AVENIDA MICO LEAO DOURADO",
+    "lat": -23.7318181,
+    "lon": -46.4813199,
+    "cnes": "0008885"
+  },
+  {
+    "nome": "UBS UTINGA",
+    "cidade": "Santo André",
+    "bairro": "VILA METALURGICA",
+    "logradouro": "ALAMEDA MEXICO",
+    "lat": -23.6263482,
+    "lon": -46.5334471,
+    "cnes": "0008532"
+  },
+  {
+    "nome": "UBS VALPARAISO",
+    "cidade": "Santo André",
+    "bairro": "VILA VALPARAISO",
+    "logradouro": "RUA ANDRADINA",
+    "lat": -23.6673924,
+    "lon": -46.5530094,
+    "cnes": "3554570"
+  },
+  {
+    "nome": "UBS VILA GUIOMAR",
+    "cidade": "Santo André",
+    "bairro": "VILA GUIOMAR",
+    "logradouro": "RUA DAS SILVEIRAS",
+    "lat": -23.6517043,
+    "lon": -46.546184,
+    "cnes": "2025329"
+  },
+  {
+    "nome": "UBS VILA HELENA DR WADI NASSER",
+    "cidade": "Santo André",
+    "bairro": "VILA HELENA",
+    "logradouro": "AV ANDRADE NEVES",
+    "lat": -23.6783213,
+    "lon": -46.515417,
+    "cnes": "0008680"
+  },
+  {
+    "nome": "UBS VILA HUMAITA",
+    "cidade": "Santo André",
+    "bairro": "VILA HUMAITA",
+    "logradouro": "RUA FERNANDO DE MASCARENHAS",
+    "lat": -23.6729902,
+    "lon": -46.5019869,
+    "cnes": "0008648"
+  },
+  {
+    "nome": "UBS VILA LINDA",
+    "cidade": "Santo André",
+    "bairro": "VILA LINDA",
+    "logradouro": "RUA INGA",
+    "lat": -23.6921924,
+    "lon": -46.5202207,
+    "cnes": "0008575"
+  },
+  {
+    "nome": "UBS VILA LUCINDA",
+    "cidade": "Santo André",
+    "bairro": "VILA LUCINDA",
+    "logradouro": "RUA CACONDE",
+    "lat": -23.6252448,
+    "lon": -46.5155031,
+    "cnes": "0008583"
+  },
+  {
+    "nome": "UBS VILA LUZITA",
+    "cidade": "Santo André",
+    "bairro": "VILA LUZITA",
+    "logradouro": "AVN DOM PEDRO I",
+    "lat": -23.6890675,
+    "lon": -46.5067671,
+    "cnes": "0008788"
+  },
+  {
+    "nome": "UBS VILA PALMARES",
+    "cidade": "Santo André",
+    "bairro": "VILA PALMARES",
+    "logradouro": "PRACA AUREA",
+    "lat": -23.65180667,
+    "lon": -46.56061113,
+    "cnes": "0008613"
+  },
+  {
+    "nome": "UBS ALVARENGA",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "ASSUNCAO",
+    "logradouro": "ESTRADA DOS ALVARENGAS",
+    "lat": -23.73437115,
+    "lon": -46.579078,
+    "cnes": "2045176"
+  },
+  {
+    "nome": "UBS ALVES DIAS",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "ALVES DIAS",
+    "logradouro": "RUA ALEXANDRE BONICIO",
+    "lat": -23.72145854,
+    "lon": -46.58319265,
+    "cnes": "2045346"
+  },
+  {
+    "nome": "UBS AREIAO",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "AREIAO",
+    "logradouro": "PASSAGEM AYRTON SENNA",
+    "lat": -23.75452384,
+    "lon": -46.5310961,
+    "cnes": "7709188"
+  },
+  {
+    "nome": "UBS BAETA NEVES",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "BAETA NEVES",
+    "logradouro": "RUA GIACINTO TOGNATO",
+    "lat": -23.69742373,
+    "lon": -46.54041612,
+    "cnes": "2037750"
+  },
+  {
+    "nome": "UBS BATISTINI",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "BATISTINI",
+    "logradouro": "RUA MANOEL CARNEIRO",
+    "lat": -23.75405248,
+    "lon": -46.58205271,
+    "cnes": "2045397"
+  },
+  {
+    "nome": "UBS CALUX",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "PLANALTO",
+    "logradouro": "RUA ANDRE ROSA COPPINI",
+    "lat": -23.70621071,
+    "lon": -46.56704078,
+    "cnes": "4938895"
+  },
+  {
+    "nome": "UBS CAMINHO DO MAR",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "RUDGE RAMOS",
+    "logradouro": "RUA AURA",
+    "lat": -23.66803351,
+    "lon": -46.56654418,
+    "cnes": "2045311"
+  },
+  {
+    "nome": "UBS DEMARCHI",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "DEMARCHI",
+    "logradouro": "RUA ALBINO DEMARCHI",
+    "lat": -23.73814324,
+    "lon": -46.55229092,
+    "cnes": "2045354"
+  },
+  {
+    "nome": "UBS FARINA",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "BAETA NEVES",
+    "logradouro": "RUA MARIA JOSEFA MENDES",
+    "lat": -23.70470785,
+    "lon": -46.53542519,
+    "cnes": "2045427"
+  },
+  {
+    "nome": "UBS FERRAZOPOLIS",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "FERRAZOPOLIS",
+    "logradouro": "AV FERNANDO FERRARI",
+    "lat": -23.7264691,
+    "lon": -46.5436534,
+    "cnes": "2037394"
+  },
+  {
+    "nome": "UBS FINCO",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "FINCO",
+    "logradouro": "RUA FORTUNATO BENEVONUTO FINCO",
+    "lat": -23.78911469,
+    "lon": -46.53495312,
+    "cnes": "2037505"
+  },
+  {
+    "nome": "UBS IPE",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "DOS CASA",
+    "logradouro": "RUA LAGO DA MANGUEIRA",
+    "lat": -23.74149711,
+    "lon": -46.57708257,
+    "cnes": "2045338"
+  },
+  {
+    "nome": "UBS JORDANOPOLIS",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "JORDANOPOLIS",
+    "logradouro": "RUA OSWALDO CRUZ",
+    "lat": -23.68307441,
+    "lon": -46.57588363,
+    "cnes": "2045362"
+  },
+  {
+    "nome": "UBS LEBLON",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "JARDIM LEBLON",
+    "logradouro": "RUA ABRAMO LUCHESI",
+    "lat": -23.72369802,
+    "lon": -46.53896302,
+    "cnes": "2037521"
+  },
+  {
+    "nome": "UBS MONTANHAO",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "MONTANHAO",
+    "logradouro": "ESTRADA DO MONTANHAO",
+    "lat": -23.73874478,
+    "lon": -46.52772188,
+    "cnes": "7489390"
+  },
+  {
+    "nome": "UBS NAZARETH",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "JARDIM NAZARETH",
+    "logradouro": "RUA JOAO XXIII",
+    "lat": -23.71579582,
+    "lon": -46.59427017,
+    "cnes": "2045370"
+  },
+  {
+    "nome": "UBS ORQUIDEAS",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "ALVARENGA",
+    "logradouro": "ESTRADA DO PONEY CLUB",
+    "lat": -23.75153365,
+    "lon": -46.60117686,
+    "cnes": "2045419"
+  },
+  {
+    "nome": "UBS PARQUE SAO BERNARDO",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "PARQUE SAO BERNARDO",
+    "logradouro": "RUA DOS VIANAS",
+    "lat": -23.70744616,
+    "lon": -46.52163863,
+    "cnes": "2037734"
+  },
+  {
+    "nome": "UBS PARQUE SAO BERNARDO II",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "MONTANHAO",
+    "logradouro": "ALAMEDA MINAS GERAIS",
+    "lat": -23.71023192,
+    "lon": -46.52395416,
+    "cnes": "4938917"
+  },
+  {
+    "nome": "UBS PAULICEIA",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "PAULICEIA",
+    "logradouro": "RUA MIRAGAIA",
+    "lat": -23.67123442,
+    "lon": -46.59203589,
+    "cnes": "2045435"
+  },
+  {
+    "nome": "UBS PLANALTO",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "PLANALTO",
+    "logradouro": "RUA ORAGNOF",
+    "lat": -23.69582944,
+    "lon": -46.56789064,
+    "cnes": "2037556"
+  },
+  {
+    "nome": "UBS REPRESA",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "JARDIM DA REPRESA",
+    "logradouro": "RUA IRATI",
+    "lat": -23.7753796,
+    "lon": -46.59931004,
+    "cnes": "2037513"
+  },
+  {
+    "nome": "UBS RIACHO GRANDE",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "RIACHO GRANDE",
+    "logradouro": "RUA SANTA MARIA",
+    "lat": -23.77978304,
+    "lon": -46.52962625,
+    "cnes": "2045389"
+  },
+  {
+    "nome": "UBS RUDGE RAMOS",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "RUDGE RAMOS",
+    "logradouro": "RUA ANGELA TOME",
+    "lat": -23.65562464,
+    "lon": -46.57402754,
+    "cnes": "2037386"
+  },
+  {
+    "nome": "UBS SANTA CRUZ",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "SANTA CRUZ",
+    "logradouro": "RUA HUGO VIEIRA PINTO",
+    "lat": -23.84327757,
+    "lon": -46.59691751,
+    "cnes": "2037602"
+  },
+  {
+    "nome": "UBS SANTA TEREZINHA",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "SANTA TEREZINHA",
+    "logradouro": "RUA GUERRA JUNQUEIRO",
+    "lat": -23.71551624,
+    "lon": -46.53699096,
+    "cnes": "2025531"
+  },
+  {
+    "nome": "UBS SAO PEDRO",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "VILA SAO PEDRO",
+    "logradouro": "RUA DA COMUNIDADE",
+    "lat": -23.71717346,
+    "lon": -46.52699232,
+    "cnes": "2037378"
+  },
+  {
+    "nome": "UBS SAO PEDRO II",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "SANTA TEREZINHA",
+    "logradouro": "RUA TIRADENTES",
+    "lat": -23.72614521,
+    "lon": -46.53208165,
+    "cnes": "4086473"
+  },
+  {
+    "nome": "UBS SELECTA",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "PARQUE SELECTA",
+    "logradouro": "RUA OSWALDO STUCHI",
+    "lat": -23.7459999,
+    "lon": -46.52832806,
+    "cnes": "5998271"
+  },
+  {
+    "nome": "UBS SILVINA",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "JARDIM SILVINA",
+    "logradouro": "RUA MARQUES DE BARBACENA",
+    "lat": -23.73790507,
+    "lon": -46.53610915,
+    "cnes": "2045303"
+  },
+  {
+    "nome": "UBS TABOAO",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "TABOAO",
+    "logradouro": "PRACA DA BIBLIA",
+    "lat": -23.66649813,
+    "lon": -46.60897136,
+    "cnes": "2045168"
+  },
+  {
+    "nome": "UBS UNIAO",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "VILA UNIAO",
+    "logradouro": "RUA DOS INDUSTRIARIOS",
+    "lat": -23.74427638,
+    "lon": -46.60578758,
+    "cnes": "2037742"
+  },
+  {
+    "nome": "UBS VILA DAYSE",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "VILA DAYSE",
+    "logradouro": "RUA VICENTE DE CARVALHO",
+    "lat": -23.68178975,
+    "lon": -46.55798793,
+    "cnes": "2045400"
+  },
+  {
+    "nome": "UBS VILA EUCLIDES",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "VILA EUCLIDES",
+    "logradouro": "RUA ANUNCIATA GOBBI",
+    "lat": -23.69770095,
+    "lon": -46.55978501,
+    "cnes": "2037351"
+  },
+  {
+    "nome": "UBS VILA MARCHI",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "VILA MARCHI",
+    "logradouro": "RUA NESTOR MOREIRA",
+    "lat": -23.72130629,
+    "lon": -46.56093568,
+    "cnes": "2037548"
+  },
+  {
+    "nome": "UBS VILA ROSA",
+    "cidade": "São Bernardo do Campo",
+    "bairro": "VILA ROSA",
+    "logradouro": "AV ROSA AIZEMBERG",
+    "lat": -23.70137023,
+    "lon": -46.58325166,
+    "cnes": "2037343"
+  },
+  {
+    "nome": "AMA UBS AGUIA DE HAIA",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE A E CARVALHO",
+    "logradouro": "RUA TANTAS PALAVRAS",
+    "lat": -23.5217615,
+    "lon": -46.4688481,
+    "cnes": "6408168"
+  },
+  {
+    "nome": "AMA UBS AMERICANOPOLIS",
+    "cidade": "São Paulo",
+    "bairro": "AMERICANOPOLIS",
+    "logradouro": "RUA CIDADE DE SANTOS",
+    "lat": -23.665081,
+    "lon": -46.6435197,
+    "cnes": "2030969"
+  },
+  {
+    "nome": "AMA UBS ANHANGUERA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM JARAGUA",
+    "logradouro": "RUA MARCELA ALVES DE CASSIA",
+    "lat": -23.4889805,
+    "lon": -46.7618777,
+    "cnes": "2788241"
+  },
+  {
+    "nome": "AMA UBS CANGAIBA DR CARLOS GENTILE DE MELLO",
+    "cidade": "São Paulo",
+    "bairro": "CANGAIBA",
+    "logradouro": "AVENIDA CANGAIBA",
+    "lat": -23.5177877,
+    "lon": -46.5461367,
+    "cnes": "2752204"
+  },
+  {
+    "nome": "AMA UBS CHACARA CRUZEIRO DO SUL ZELIA L M DORO",
+    "cidade": "São Paulo",
+    "bairro": "VILA SANTANA",
+    "logradouro": "RUA MERCEDES LOPES",
+    "lat": -23.513148,
+    "lon": -46.5317103,
+    "cnes": "6194990"
+  },
+  {
+    "nome": "AMA UBS DR GERALDO DA SILVA FERREIRA",
+    "cidade": "São Paulo",
+    "bairro": "VILA DO ENCONTRO",
+    "logradouro": "AVENIDA ENGENHEIRO ARMANDO DE ARRUDA PEREIRA",
+    "lat": -23.65184598,
+    "lon": -46.63755298,
+    "cnes": "2042991"
+  },
+  {
+    "nome": "AMA UBS ELISIO TEIXEIRA LEITE",
+    "cidade": "São Paulo",
+    "bairro": "JARAGUA",
+    "logradouro": "RUA JOAO AMADO COUTINHO",
+    "lat": -23.4464276,
+    "lon": -46.7171214,
+    "cnes": "2787024"
+  },
+  {
+    "nome": "AMA UBS FAZENDA DO CARMO",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "RUA FRANCISCO CARDOSO JUNIOR",
+    "lat": -23.56499,
+    "lon": -46.41833,
+    "cnes": "3738663"
+  },
+  {
+    "nome": "AMA UBS INTEGRADA AGUA RASA DR MARCOS ANDRADE CORSATO",
+    "cidade": "São Paulo",
+    "bairro": "AGUA RASA",
+    "logradouro": "RUA SERRA DE JAIRE",
+    "lat": -23.5537985,
+    "lon": -46.57999545,
+    "cnes": "2752166"
+  },
+  {
+    "nome": "AMA UBS JARDIM ALFREDO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM ALFREDO",
+    "logradouro": "RUA DINAR",
+    "lat": -23.68120759,
+    "lon": -46.73843622,
+    "cnes": "4050185"
+  },
+  {
+    "nome": "AMA UBS JARDIM BRASIL",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM BRASIL",
+    "logradouro": "R FRANCISCO PEIXOTO BIZERRA",
+    "lat": -23.486098,
+    "lon": -46.576656,
+    "cnes": "2075202"
+  },
+  {
+    "nome": "AMA UBS JARDIM BRASILIA",
+    "cidade": "São Paulo",
+    "bairro": "JD BRASILIA",
+    "logradouro": "AV OSVALDO DO VALLE CORDEIRO",
+    "lat": -23.55447,
+    "lon": -46.49206,
+    "cnes": "4050088"
+  },
+  {
+    "nome": "AMA UBS JARDIM CAPELA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM CAPELA",
+    "logradouro": "RUA BARAO DE PAIVA MANSO",
+    "lat": -23.729836,
+    "lon": -46.788807,
+    "cnes": "2787245"
+  },
+  {
+    "nome": "AMA UBS JARDIM CASTRO ALVES DRA MARIA CRISTINA F",
+    "cidade": "São Paulo",
+    "bairro": "JD CASTRO ALVES",
+    "logradouro": "JOAO PAULO BARRETO",
+    "lat": -23.74257255,
+    "lon": -46.6863801,
+    "cnes": "2787253"
+  },
+  {
+    "nome": "AMA UBS JARDIM DA CONQUISTA III",
+    "cidade": "São Paulo",
+    "bairro": "JD DA CONQUISTA",
+    "logradouro": "TV AV SOMOS TODOS IGUAIS",
+    "lat": -23.6077733,
+    "lon": -46.447845,
+    "cnes": "3738647"
+  },
+  {
+    "nome": "AMA UBS JARDIM ELBA HUMBERTO GASTAO BODRA",
+    "cidade": "São Paulo",
+    "bairro": "V CARDOSO FRANCO",
+    "logradouro": "R BATISTA FERGUZIO",
+    "lat": -23.6212831,
+    "lon": -46.5091024,
+    "cnes": "2043009"
+  },
+  {
+    "nome": "AMA UBS JARDIM GRIMALDI",
+    "cidade": "São Paulo",
+    "bairro": "VILA BANCARIA",
+    "logradouro": "RUA PEDRO DE CASTRO VELHO",
+    "lat": -23.5918624,
+    "lon": -46.5165224,
+    "cnes": "2042932"
+  },
+  {
+    "nome": "AMA UBS JARDIM INDEPENDENCIA HERMENEGILDO MORBIM JR",
+    "cidade": "São Paulo",
+    "bairro": "JD INDEPENDENCIA",
+    "logradouro": "RUA PLANALTO DE CONQUISTA",
+    "lat": -23.5885061,
+    "lon": -46.5604958,
+    "cnes": "2752239"
+  },
+  {
+    "nome": "AMA UBS JARDIM IPANEMA",
+    "cidade": "São Paulo",
+    "bairro": "JARAGUA",
+    "logradouro": "RUA PEDRO RAVARA",
+    "lat": -23.4463961,
+    "lon": -46.7516839,
+    "cnes": "2774801"
+  },
+  {
+    "nome": "AMA UBS JARDIM JOAMAR",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM JOAMAR",
+    "logradouro": "RUA ADAUTO BEZERRA DELGADO",
+    "lat": -23.4499239,
+    "lon": -46.5967625,
+    "cnes": "2787520"
+  },
+  {
+    "nome": "AMA UBS JARDIM MIRIAM MANOEL SOARES DE OLIVEIRA",
+    "cidade": "São Paulo",
+    "bairro": "AMERICANOPOLIS",
+    "logradouro": "AV SANTO AFONSO",
+    "lat": -23.6764713,
+    "lon": -46.6431497,
+    "cnes": "2787601"
+  },
+  {
+    "nome": "AMA UBS JARDIM MIRNA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM MIRNA",
+    "logradouro": "RUA DR JUVENAL HUDSON FERREIRA",
+    "lat": -23.771287,
+    "lon": -46.69640462,
+    "cnes": "2787628"
+  },
+  {
+    "nome": "AMA UBS JARDIM PAULISTANO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM PAULISTANO",
+    "logradouro": "RUA ENCRUZILHADA DO SUL",
+    "lat": -23.3305,
+    "lon": -46.3793,
+    "cnes": "2787679"
+  },
+  {
+    "nome": "AMA UBS JARDIM SANTO ANDRE",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SANTO ANDRE",
+    "logradouro": "MIGUEL FERREIRA DE MELO",
+    "lat": -23.63051831,
+    "lon": -46.44308209,
+    "cnes": "2787873"
+  },
+  {
+    "nome": "AMA UBS JARDIM SAO FRANCISCO II",
+    "cidade": "São Paulo",
+    "bairro": "J RODOLFO PIRANI",
+    "logradouro": "BANDEIRA DE ARACAMBI",
+    "lat": -23.63128499,
+    "lon": -46.45792007,
+    "cnes": "2788527"
+  },
+  {
+    "nome": "AMA UBS JARDIM SAO JORGE DR PAULO EDUARDO ELIAS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SAO JORGE",
+    "logradouro": "AV ANGELO APARECIDO DOS SANTOS DIAS",
+    "lat": -23.592,
+    "lon": -46.783,
+    "cnes": "2787784"
+  },
+  {
+    "nome": "AMA UBS JARDIM TIETE I OSCAR PEREIRA DA SILVA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM TIETE",
+    "logradouro": "AVENIDA ENGENHO NOVO",
+    "lat": -23.59869728,
+    "lon": -46.49508476,
+    "cnes": "2787881"
+  },
+  {
+    "nome": "AMA UBS JARDIM TRES MARIAS DR MAURICIO ZAMIJOVSKY",
+    "cidade": "São Paulo",
+    "bairro": "VILA SAO FRANCISCO",
+    "logradouro": "RUA BRENO ACCIOLI",
+    "lat": -23.51850235,
+    "lon": -46.49224588,
+    "cnes": "2774828"
+  },
+  {
+    "nome": "AMA UBS JOSE BONIFACIO I",
+    "cidade": "São Paulo",
+    "bairro": "JD HELENA",
+    "logradouro": "AV PROF OSVALDO DE OLIVEIRA",
+    "lat": -23.54255,
+    "lon": -46.43121,
+    "cnes": "2026996"
+  },
+  {
+    "nome": "AMA UBS LAUZANE PAULISTA",
+    "cidade": "São Paulo",
+    "bairro": "LAUZANE PAULISTA",
+    "logradouro": "RUA VALORBE",
+    "lat": -23.47506,
+    "lon": -46.64184,
+    "cnes": "2788047"
+  },
+  {
+    "nome": "AMA UBS MASSAGISTA MARIO AMERICO",
+    "cidade": "São Paulo",
+    "bairro": "SITIO DO MANDAQUI",
+    "logradouro": "RUA OSCAR DE MOURA LACERDA",
+    "lat": -23.48649,
+    "lon": -46.6555,
+    "cnes": "2788594"
+  },
+  {
+    "nome": "AMA UBS PADRE MANOEL DA NOBREGA",
+    "cidade": "São Paulo",
+    "bairro": "CJ HAB PADRE MANOEL",
+    "logradouro": "AV PADRE FRANCISCO DE TOLEDO",
+    "lat": -23.5460582,
+    "lon": -46.4847007,
+    "cnes": "2027070"
+  },
+  {
+    "nome": "AMA UBS PARI",
+    "cidade": "São Paulo",
+    "bairro": "CANINDE",
+    "logradouro": "RUA DAS OLARIAS",
+    "lat": -23.52597085,
+    "lon": -46.62100253,
+    "cnes": "2788195"
+  },
+  {
+    "nome": "AMA UBS PARQUE ANHANGUERA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM BRITANIA",
+    "logradouro": "AVENIDA PIERRE RENOIR",
+    "lat": -23.43111,
+    "lon": -46.78768,
+    "cnes": "2788233"
+  },
+  {
+    "nome": "AMA UBS PARQUE BOTURUSSU PROF DR HUMBERTO CERRUTI",
+    "cidade": "São Paulo",
+    "bairro": "VILA CISPER",
+    "logradouro": "AV OLAVO EGIDIO DE SOUZA ARANHA",
+    "lat": -23.5070154,
+    "lon": -46.4942462,
+    "cnes": "2752247"
+  },
+  {
+    "nome": "AMA UBS PARQUE BRISTOL",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE BRISTOL",
+    "logradouro": "RUA FRANCOIS BUNEL",
+    "lat": -23.64911633,
+    "lon": -46.61029369,
+    "cnes": "2788284"
+  },
+  {
+    "nome": "AMA UBS PARQUE FERNANDA",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE FERNANDA",
+    "logradouro": "RUA ERNESTO SOARES FILHO",
+    "lat": -23.6753635,
+    "lon": -46.7925356,
+    "cnes": "2788322"
+  },
+  {
+    "nome": "AMA UBS PARQUE SANTO ANTONIO",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE SANTO ANTONIO",
+    "logradouro": "RUA MANOEL BORDALO PINHEIRO",
+    "lat": -23.65700775,
+    "lon": -46.75613249,
+    "cnes": "2788454"
+  },
+  {
+    "nome": "AMA UBS PAULO VI",
+    "cidade": "São Paulo",
+    "bairro": "JD JOAO XXIII",
+    "logradouro": "AV VATICANO",
+    "lat": -23.601,
+    "lon": -46.795,
+    "cnes": "2788217"
+  },
+  {
+    "nome": "AMA UBS PERUS",
+    "cidade": "São Paulo",
+    "bairro": "PERUS",
+    "logradouro": "PRACA VIGARIO JOAO GONCALVES LIMA",
+    "lat": -23.40925,
+    "lon": -46.75718,
+    "cnes": "2788225"
+  },
+  {
+    "nome": "AMA UBS SAO VICENTE DE PAULA",
+    "cidade": "São Paulo",
+    "bairro": "IPIRANGA",
+    "logradouro": "RUA VICENTE DA COSTA",
+    "lat": -23.59100382,
+    "lon": -46.60901159,
+    "cnes": "2788543"
+  },
+  {
+    "nome": "AMA UBS SITIO DA CASA PINTADA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM CASA PINTADA",
+    "logradouro": "AV MARIA SANTANA",
+    "lat": -23.510491,
+    "lon": -46.446368,
+    "cnes": "2091798"
+  },
+  {
+    "nome": "AMA UBS VILA ANTONIETA",
+    "cidade": "São Paulo",
+    "bairro": "VILA ANTONIETA",
+    "logradouro": "RUA CORONEL JOAO OLIVEIRA MELO",
+    "lat": -23.57342271,
+    "lon": -46.51587456,
+    "cnes": "2788691"
+  },
+  {
+    "nome": "AMA UBS VILA BARBOSA",
+    "cidade": "São Paulo",
+    "bairro": "LIMAO",
+    "logradouro": "AVENIDA MANDAQUI",
+    "lat": -23.50516,
+    "lon": -46.67058,
+    "cnes": "2788756"
+  },
+  {
+    "nome": "AMA UBS VILA CALIFORNIA ZEILIVAL BRUSCAGIN",
+    "cidade": "São Paulo",
+    "bairro": "VILA CALIFORNIA",
+    "logradouro": "PRACA CONDE DE JANUARIO",
+    "lat": -23.60512699,
+    "lon": -46.55521989,
+    "cnes": "2026988"
+  },
+  {
+    "nome": "AMA UBS VILA CLARA",
+    "cidade": "São Paulo",
+    "bairro": "VILA CLARA",
+    "logradouro": "RUA ROLANDO CURTI",
+    "lat": -23.6714393,
+    "lon": -46.6428808,
+    "cnes": "3708411"
+  },
+  {
+    "nome": "AMA UBS VILA IMPERIO",
+    "cidade": "São Paulo",
+    "bairro": "AMERICANOPOLIS",
+    "logradouro": "RUA CATARINA GABRIELLI",
+    "lat": -23.6736186,
+    "lon": -46.6495417,
+    "cnes": "5731143"
+  },
+  {
+    "nome": "AMA UBS VILA MEDEIROS",
+    "cidade": "São Paulo",
+    "bairro": "VILA MEDEIROS",
+    "logradouro": "R EURICO SODRE",
+    "lat": -23.4925246,
+    "lon": -46.5851422,
+    "cnes": "2789051"
+  },
+  {
+    "nome": "AMA UBS VILA MISSIONARIA",
+    "cidade": "São Paulo",
+    "bairro": "VILA MISSIONARIA",
+    "logradouro": "RUA RAINHA DAS MISSOES",
+    "lat": -23.6888556,
+    "lon": -46.649516,
+    "cnes": "2789078"
+  },
+  {
+    "nome": "AMA UBS VILA NOVA JAGUARE",
+    "cidade": "São Paulo",
+    "bairro": "JAGUARE",
+    "logradouro": "RUA SALATIEL DE CAMPOS",
+    "lat": -23.543753,
+    "lon": -46.744817,
+    "cnes": "2789116"
+  },
+  {
+    "nome": "AMA UBS VILA ORATORIO DR TITO PEDRO MASCELLANI",
+    "cidade": "São Paulo",
+    "bairro": "VILA DIVA",
+    "logradouro": "RUA JOAO FIALHO DE CARVALHO",
+    "lat": -23.57380621,
+    "lon": -46.55925393,
+    "cnes": "2752379"
+  },
+  {
+    "nome": "AMA UBS VILA PALMEIRAS",
+    "cidade": "São Paulo",
+    "bairro": "VILA PALMEIRAS",
+    "logradouro": "RUA FRANCISCO LOTUFO",
+    "lat": -23.343,
+    "lon": -46.3413,
+    "cnes": "2789140"
+  },
+  {
+    "nome": "AMA UBS VILA PEREIRA BARRETO",
+    "cidade": "São Paulo",
+    "bairro": "VILA PEREIRA CERCA",
+    "logradouro": "RUA DOM MANUEL D ELBOUX",
+    "lat": -23.4878348,
+    "lon": -46.7158854,
+    "cnes": "2789167"
+  },
+  {
+    "nome": "AMA UBS VILA PIAUI",
+    "cidade": "São Paulo",
+    "bairro": "VILA PIAUI",
+    "logradouro": "PCA CAMILO CASTELO BRANCO",
+    "lat": -23.50244,
+    "lon": -46.761153,
+    "cnes": "2789175"
+  },
+  {
+    "nome": "AMA UBS VILA PREL ANTONIO BERNARDES DE OLIVEIRA",
+    "cidade": "São Paulo",
+    "bairro": "VILA PREL",
+    "logradouro": "RUA THEREZA MAIA PINTO",
+    "lat": -23.648175,
+    "lon": -46.753906,
+    "cnes": "2789205"
+  },
+  {
+    "nome": "AMA UBS VILA SILVIA",
+    "cidade": "São Paulo",
+    "bairro": "VILA SILVIA",
+    "logradouro": "RUA BELEM SANTOS",
+    "lat": -23.4926077,
+    "lon": -46.5060128,
+    "cnes": "6592899"
+  },
+  {
+    "nome": "AMA UBS VILA SONIA",
+    "cidade": "São Paulo",
+    "bairro": "VILA SONIA",
+    "logradouro": "RUA ABRAO CALIL REZEK",
+    "lat": -23.598,
+    "lon": -46.734,
+    "cnes": "2789256"
+  },
+  {
+    "nome": "AMA UBS WAMBERTO DIAS DA COSTA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM TREMEMBE",
+    "logradouro": "RUA PAULO CESAR",
+    "lat": -23.467429,
+    "lon": -46.601378,
+    "cnes": "4049985"
+  },
+  {
+    "nome": "CS ESCOLA BARRA FUNDA ALEXANDRE VRANJAC",
+    "cidade": "São Paulo",
+    "bairro": "BARRA FUNDA",
+    "logradouro": "AV DR ABRAAO RIBEIRO",
+    "lat": -23.52203756,
+    "lon": -46.65950954,
+    "cnes": "3913007"
+  },
+  {
+    "nome": "CS ESCOLA SAMUEL B PESSOA",
+    "cidade": "São Paulo",
+    "bairro": "BUTANTAN",
+    "logradouro": "AV VITAL BRASIL",
+    "lat": -23.56832005,
+    "lon": -46.71661304,
+    "cnes": "2091348"
+  },
+  {
+    "nome": "CSE GERALDO DE PAULA SOUZA",
+    "cidade": "São Paulo",
+    "bairro": "PACAEMBU",
+    "logradouro": "AV DR ARNALDO",
+    "lat": -23.55316,
+    "lon": -46.67359,
+    "cnes": "2091321"
+  },
+  {
+    "nome": "UBS AGUA FUNDA",
+    "cidade": "São Paulo",
+    "bairro": "AGUA FUNDA",
+    "logradouro": "RUA ROSA DE MORAES",
+    "lat": -23.63019886,
+    "lon": -46.62594706,
+    "cnes": "2064855"
+  },
+  {
+    "nome": "UBS ALCINA PIMENTEL PIZA",
+    "cidade": "São Paulo",
+    "bairro": "ILHA DO BORORE",
+    "logradouro": "ESTRADA ITAQUAQUECETUBA",
+    "lat": -23.7691298,
+    "lon": -46.6493528,
+    "cnes": "4049896"
+  },
+  {
+    "nome": "UBS ALMIRANTE DELAMARE",
+    "cidade": "São Paulo",
+    "bairro": "HELIOPOLIS",
+    "logradouro": "RUA ALMIRANTE MARIATH",
+    "lat": -23.60381453,
+    "lon": -46.59609407,
+    "cnes": "3385264"
+  },
+  {
+    "nome": "UBS ALPES DO JARAGUA",
+    "cidade": "São Paulo",
+    "bairro": "ALPES DO JARAGUA",
+    "logradouro": "ALAMEDA DAS LIMEIRAS",
+    "lat": -23.4468922,
+    "lon": -46.756338,
+    "cnes": "2091747"
+  },
+  {
+    "nome": "UBS ALTO DA RIVIERA",
+    "cidade": "São Paulo",
+    "bairro": "ALTO DA RIVIERA",
+    "logradouro": "AVENIDA PROFESSOR MARIO MAZAGAO",
+    "lat": -23.70004,
+    "lon": -46.7643479,
+    "cnes": "2786737"
+  },
+  {
+    "nome": "UBS ALTO DE PINHEIROS DR SUEL ABUJAMRA",
+    "cidade": "São Paulo",
+    "bairro": "V LE0POLDINA",
+    "logradouro": "AV QUEIROZ FILHO",
+    "lat": -23.537682,
+    "lon": -46.722548,
+    "cnes": "3503488"
+  },
+  {
+    "nome": "UBS ALTO DO UMUARAMA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM UMUARAMA",
+    "logradouro": "RUA ODEMIS",
+    "lat": -23.645933,
+    "lon": -46.772282,
+    "cnes": "2786745"
+  },
+  {
+    "nome": "UBS ANCHIETA",
+    "cidade": "São Paulo",
+    "bairro": "PQ SAO MIGUEL",
+    "logradouro": "RUA ALZIRO PINHEIRO MAGALHAES",
+    "lat": -23.7541838,
+    "lon": -46.6875453,
+    "cnes": "9788409"
+  },
+  {
+    "nome": "UBS ANTONIO ESTEVAO DE CARVALHO",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE AE CARVALHO",
+    "logradouro": "RUA JAPANI",
+    "lat": -23.539328,
+    "lon": -46.4766383,
+    "cnes": "2786729"
+  },
+  {
+    "nome": "UBS ARRASTAO FRANCISCO SCALAMANDRE SOBRINHO",
+    "cidade": "São Paulo",
+    "bairro": "CAMPO LIMPO",
+    "logradouro": "RUA DOUTOR JOVIANO PACHECO AGUIRRE",
+    "lat": -23.63442004,
+    "lon": -46.77697981,
+    "cnes": "2774763"
+  },
+  {
+    "nome": "UBS ATUALPA GIRAO RABELO",
+    "cidade": "São Paulo",
+    "bairro": "ITAIM PAULISTA",
+    "logradouro": "RUA AMBARE",
+    "lat": -23.508804,
+    "lon": -46.397268,
+    "cnes": "6269567"
+  },
+  {
+    "nome": "UBS AUGUSTO LEOPOLDO AYROSA GALVAO",
+    "cidade": "São Paulo",
+    "bairro": "VILA RICA",
+    "logradouro": "RUA JOAQUINA MARIA DOS SANTOS",
+    "lat": -23.548,
+    "lon": -46.381,
+    "cnes": "2786761"
+  },
+  {
+    "nome": "UBS AUTODROMO DR FAUZER SIMAO ABRAO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SATELITE",
+    "logradouro": "RUA OSWALDO DINIZ",
+    "lat": -23.7007359,
+    "lon": -46.6922733,
+    "cnes": "9072349"
+  },
+  {
+    "nome": "UBS BARRO BRANCO",
+    "cidade": "São Paulo",
+    "bairro": "COHAB BARRO BRANCO I",
+    "logradouro": "RUA EDUARDO REUTER",
+    "lat": -23.58375,
+    "lon": -46.39314,
+    "cnes": "2786788"
+  },
+  {
+    "nome": "UBS BELENZINHO MARCUS WOLOSKER",
+    "cidade": "São Paulo",
+    "bairro": "BELENZINHO",
+    "logradouro": "AVENIDA CELSO GARCIA",
+    "lat": -23.53728456,
+    "lon": -46.59547126,
+    "cnes": "2752174"
+  },
+  {
+    "nome": "UBS BOM RETIRO OCTAVIO AUGUSTO RODOVALHO",
+    "cidade": "São Paulo",
+    "bairro": "BOM RETIRO",
+    "logradouro": "R TENENTE PENA",
+    "lat": -23.5264056,
+    "lon": -46.6420155,
+    "cnes": "2029618"
+  },
+  {
+    "nome": "UBS BORACEA",
+    "cidade": "São Paulo",
+    "bairro": "BARRA FUNDA",
+    "logradouro": "RUA BORACEA",
+    "lat": -23.5484296,
+    "lon": -46.3947173,
+    "cnes": "6048633"
+  },
+  {
+    "nome": "UBS BRAS DR MANOEL SALDIVA NETO",
+    "cidade": "São Paulo",
+    "bairro": "BRAS",
+    "logradouro": "RUA JOAQUIM NABUCO",
+    "lat": -23.54357711,
+    "lon": -46.61477566,
+    "cnes": "2752182"
+  },
+  {
+    "nome": "UBS BRASILANDIA",
+    "cidade": "São Paulo",
+    "bairro": "BRASILANDIA",
+    "logradouro": "RUA PARAPUA",
+    "lat": -23.477078,
+    "lon": -46.6909965,
+    "cnes": "2786818"
+  },
+  {
+    "nome": "UBS BRASILIA M BOI MIRIM",
+    "cidade": "São Paulo",
+    "bairro": "J BRASILIA",
+    "logradouro": "RUA MAPORE",
+    "lat": -23.653851,
+    "lon": -46.7450212,
+    "cnes": "5313902"
+  },
+  {
+    "nome": "UBS BURGO PAULISTA",
+    "cidade": "São Paulo",
+    "bairro": "BURGO PAULISTA",
+    "logradouro": "RUA JOSE SILVA ALCANTARA FILHO",
+    "lat": -23.5234756,
+    "lon": -46.4911108,
+    "cnes": "2752190"
+  },
+  {
+    "nome": "UBS BUTANTA",
+    "cidade": "São Paulo",
+    "bairro": "VILA GOMES",
+    "logradouro": "R CABRAL DE MENEZES",
+    "lat": -23.577,
+    "lon": -46.734,
+    "cnes": "2786826"
+  },
+  {
+    "nome": "UBS CAJU",
+    "cidade": "São Paulo",
+    "bairro": "JAGUARE",
+    "logradouro": "RUA FLORESTO BANDECCHI",
+    "lat": -23.544693,
+    "lon": -46.753543,
+    "cnes": "4493532"
+  },
+  {
+    "nome": "UBS CAMBUCI",
+    "cidade": "São Paulo",
+    "bairro": "CAMBUCI",
+    "logradouro": "AV LACERDA FRANCO",
+    "lat": -23.5681417,
+    "lon": -46.6233934,
+    "cnes": "2786834"
+  },
+  {
+    "nome": "UBS CAMPO GRANDE",
+    "cidade": "São Paulo",
+    "bairro": "VILA ROMANO",
+    "logradouro": "RUA MONLEVADE",
+    "lat": -23.673601,
+    "lon": -46.685272,
+    "cnes": "3452689"
+  },
+  {
+    "nome": "UBS CAMPO LIMPO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM CATANDUVA",
+    "logradouro": "RUA JORGE OZI",
+    "lat": -23.636504,
+    "lon": -46.763948,
+    "cnes": "2786842"
+  },
+  {
+    "nome": "UBS CANTINHO DO CEU",
+    "cidade": "São Paulo",
+    "bairro": "CANTINHO DO CEU",
+    "logradouro": "RUA DOS ACORDES",
+    "lat": -23.7440252,
+    "lon": -46.6617619,
+    "cnes": "7884192"
+  },
+  {
+    "nome": "UBS CARANDIRU",
+    "cidade": "São Paulo",
+    "bairro": "CARANDIRU",
+    "logradouro": "R JOSE PEREIRA JORGE",
+    "lat": -23.504565,
+    "lon": -46.610676,
+    "cnes": "2068079"
+  },
+  {
+    "nome": "UBS CARLOS GENTILE DE MELO",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "AV DOS TEXTEIS",
+    "lat": -23.58866,
+    "lon": -46.39656,
+    "cnes": "4050347"
+  },
+  {
+    "nome": "UBS CASA VERDE",
+    "cidade": "São Paulo",
+    "bairro": "CASA VERDE",
+    "logradouro": "RUA VICHY",
+    "lat": -23.50429,
+    "lon": -46.65988,
+    "cnes": "2027682"
+  },
+  {
+    "nome": "UBS CASA VERDE ALTA",
+    "cidade": "São Paulo",
+    "bairro": "CASA VERDE ALTA",
+    "logradouro": "RUA LAVINIO SALES ARCURI",
+    "lat": -23.48901,
+    "lon": -46.66468,
+    "cnes": "2786869"
+  },
+  {
+    "nome": "UBS CASTRO ALVES",
+    "cidade": "São Paulo",
+    "bairro": "CASTRO ALVES",
+    "logradouro": "RUA CADERNO DE VIAGEM",
+    "lat": -23.58011,
+    "lon": -46.40416,
+    "cnes": "4050177"
+  },
+  {
+    "nome": "UBS CAXINGUI NANCI ABRANCHES",
+    "cidade": "São Paulo",
+    "bairro": "CAXINGUI",
+    "logradouro": "RUA LADISLAU ROMAN",
+    "lat": -23.579,
+    "lon": -46.714,
+    "cnes": "2786877"
+  },
+  {
+    "nome": "UBS CDHU PALANQUE",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM MARILU",
+    "logradouro": "AV PONTE DA AMIZADE",
+    "lat": -23.59495628,
+    "lon": -46.42176532,
+    "cnes": "3219887"
+  },
+  {
+    "nome": "UBS CHACARA DO CONDE",
+    "cidade": "São Paulo",
+    "bairro": "J CAMPINAS",
+    "logradouro": "RUA CONSTELACAO DO ESQUADRO",
+    "lat": -23.7708852,
+    "lon": -46.7056194,
+    "cnes": "3992101"
+  },
+  {
+    "nome": "UBS CHACARA DO SOL",
+    "cidade": "São Paulo",
+    "bairro": "CHACARA DO SOL",
+    "logradouro": "RUA JOAO CARLOS DE OLIVEIRA",
+    "lat": -23.77405481,
+    "lon": -46.6733814,
+    "cnes": "6280188"
+  },
+  {
+    "nome": "UBS CHACARA INGLESA",
+    "cidade": "São Paulo",
+    "bairro": "CHACARA INGLESA",
+    "logradouro": "RUA VALDIR PADOVAN",
+    "lat": -23.4938301,
+    "lon": -46.7300903,
+    "cnes": "2786885"
+  },
+  {
+    "nome": "UBS CHACARA SANTA MARIA",
+    "cidade": "São Paulo",
+    "bairro": "CHACARA SANTA MARIA",
+    "logradouro": "RUA CICLADES",
+    "lat": -23.7004847,
+    "lon": -46.7910858,
+    "cnes": "3049213"
+  },
+  {
+    "nome": "UBS CHACARA SANTANA",
+    "cidade": "São Paulo",
+    "bairro": "CHACARA SANTANA",
+    "logradouro": "RUA BALTAZAR DE SA",
+    "lat": -23.671296,
+    "lon": -46.747038,
+    "cnes": "4050053"
+  },
+  {
+    "nome": "UBS CHACARA SANTO AMARO",
+    "cidade": "São Paulo",
+    "bairro": "CHACARA SANTO AMARO",
+    "logradouro": "RUA LUIZ CARLOS DE ALMEIDA",
+    "lat": -23.8145959,
+    "lon": -46.67297857,
+    "cnes": "6090591"
+  },
+  {
+    "nome": "UBS CHACARA SANTO ANTONIO DR MARCILIO DE ARRUDA PENTEADO F",
+    "cidade": "São Paulo",
+    "bairro": "CHACARA STO ANTONIO",
+    "logradouro": "RUA ALEXANDRE DUMAS",
+    "lat": -23.63527026,
+    "lon": -46.6991294,
+    "cnes": "2765993"
+  },
+  {
+    "nome": "UBS CHORA MENINO",
+    "cidade": "São Paulo",
+    "bairro": "SANTA TEREZINHA",
+    "logradouro": "RUA COPACABANA",
+    "lat": -23.49437947,
+    "lon": -46.63737027,
+    "cnes": "2027666"
+  },
+  {
+    "nome": "UBS CIDADE DUTRA BENEDITA DE FATIMA DA SILVA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM REGIS",
+    "logradouro": "AVENIDA RUBENS MONTANARO DE BORBA",
+    "lat": -23.714482,
+    "lon": -46.6917067,
+    "cnes": "8101655"
+  },
+  {
+    "nome": "UBS CIDADE IPAVA",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE IPAVA",
+    "logradouro": "AVENIDA TAQUANDAVA",
+    "lat": -23.7232173,
+    "lon": -46.7644417,
+    "cnes": "5743583"
+  },
+  {
+    "nome": "UBS CIDADE JULIA",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE JULIA",
+    "logradouro": "RUA PASCOAL GRIECO",
+    "lat": -23.6909861,
+    "lon": -46.6405756,
+    "cnes": "2786893"
+  },
+  {
+    "nome": "UBS CIDADE KEMEL",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE KEMEL",
+    "logradouro": "KEMEL ADDAS",
+    "lat": -23.504262,
+    "lon": -46.366897,
+    "cnes": "2057131"
+  },
+  {
+    "nome": "UBS CIDADE LIDER",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE LIDER",
+    "logradouro": "AV DR FRANCISCO MUNHOZ FILHO",
+    "lat": -23.55403,
+    "lon": -46.46504,
+    "cnes": "2786907"
+  },
+  {
+    "nome": "UBS CIDADE NOVA SAO MIGUEL",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE NOVA SAO MIGU",
+    "logradouro": "RUA MOHAMED IBRAHIN SALEH",
+    "lat": -23.5038661,
+    "lon": -46.4345028,
+    "cnes": "2786915"
+  },
+  {
+    "nome": "UBS CIDADE PATRIARCA DR HERMENEGILDO MORBIN JUNIOR",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE PATRIARCA",
+    "logradouro": "RUA FREDERICO BROTERO",
+    "lat": -23.5369665,
+    "lon": -46.5043131,
+    "cnes": "2786923"
+  },
+  {
+    "nome": "UBS CIDADE PEDRO JOSE NUNES",
+    "cidade": "São Paulo",
+    "bairro": "JD PEDRO JOSE NUNES",
+    "logradouro": "RUA JOSE BARGAS",
+    "lat": -23.5009537,
+    "lon": -46.4619253,
+    "cnes": "2046962"
+  },
+  {
+    "nome": "UBS CIDADE SATELITE SANTA BARBARA",
+    "cidade": "São Paulo",
+    "bairro": "CID SAT STA BARBARA",
+    "logradouro": "SOL R",
+    "lat": -23.61173964,
+    "lon": -46.46362947,
+    "cnes": "2027038"
+  },
+  {
+    "nome": "UBS CIDADE TIRADENTES LUIS MARANHAO",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "RUA DOS TEXTEIS",
+    "lat": -23.58669,
+    "lon": -46.4068,
+    "cnes": "2774771"
+  },
+  {
+    "nome": "UBS CITY JARAGUA",
+    "cidade": "São Paulo",
+    "bairro": "JARAGUA",
+    "logradouro": "ESTRADA DE TAIPAS",
+    "lat": -23.4417411,
+    "lon": -46.7367958,
+    "cnes": "3738582"
+  },
+  {
+    "nome": "UBS COLONIA",
+    "cidade": "São Paulo",
+    "bairro": "COLONIA PAULISTA",
+    "logradouro": "RUA NOSSA SENHORA APARECIDA",
+    "lat": -23.85027,
+    "lon": -46.697,
+    "cnes": "6018939"
+  },
+  {
+    "nome": "UBS COMENDADOR JOSE GONZALEZ",
+    "cidade": "São Paulo",
+    "bairro": "VILA FORMOSA",
+    "logradouro": "RUA NOSSA SENHORA DAS DORES",
+    "lat": -23.57005223,
+    "lon": -46.53461516,
+    "cnes": "4049799"
+  },
+  {
+    "nome": "UBS CONJUNTO AE CARVALHO FRANCISCO MOREIRA GUEDIS",
+    "cidade": "São Paulo",
+    "bairro": "ITAQUERA",
+    "logradouro": "RUA CORRE CORRE",
+    "lat": -23.52596,
+    "lon": -46.45967,
+    "cnes": "9460551"
+  },
+  {
+    "nome": "UBS CONJUNTO DO IPESP",
+    "cidade": "São Paulo",
+    "bairro": "JD LEONOR M BARROS",
+    "logradouro": "AVN VIRGILIA RODRIGUES A C PINTO",
+    "lat": -23.465005,
+    "lon": -46.605034,
+    "cnes": "2788012"
+  },
+  {
+    "nome": "UBS COSTA MELO",
+    "cidade": "São Paulo",
+    "bairro": "V MONTEVIDEO",
+    "logradouro": "RUA LUIS ASSON",
+    "lat": -23.5151088,
+    "lon": -46.5165263,
+    "cnes": "2786958"
+  },
+  {
+    "nome": "UBS CRUZ DAS ALMAS",
+    "cidade": "São Paulo",
+    "bairro": "FREGUESIA DO O",
+    "logradouro": "RUA PADRE FELICIANO DOMINGUES",
+    "lat": -23.4838226,
+    "lon": -46.7053846,
+    "cnes": "4049977"
+  },
+  {
+    "nome": "UBS CUPECE DR WALDOMIRO PREGNOLATTO",
+    "cidade": "São Paulo",
+    "bairro": "VILA SANTA CATARINA",
+    "logradouro": "AV SANTA CATARINA",
+    "lat": -23.64816245,
+    "lon": -46.66211367,
+    "cnes": "2786966"
+  },
+  {
+    "nome": "UBS DOM ANGELICO",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "EST MANOEL DE OLIVEIRA RAMOS",
+    "lat": -23.5803,
+    "lon": -46.38318,
+    "cnes": "2786974"
+  },
+  {
+    "nome": "UBS DOM JOAO NERY",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM NAZARE",
+    "logradouro": "EST DOM JOAO NERY",
+    "lat": -23.521991,
+    "lon": -46.399346,
+    "cnes": "2786982"
+  },
+  {
+    "nome": "UBS DOM LUCIANO BERGAMIN",
+    "cidade": "São Paulo",
+    "bairro": "PONTE SECA",
+    "logradouro": "ESTRADA DA LIGACAO",
+    "lat": -23.7550762,
+    "lon": -46.6609713,
+    "cnes": "2786990"
+  },
+  {
+    "nome": "UBS DOMINGOS MANTELLI",
+    "cidade": "São Paulo",
+    "bairro": "PIRITUBA",
+    "logradouro": "RUA POVOADO DO RIO NOVO",
+    "lat": -23.4703115,
+    "lon": -46.7239223,
+    "cnes": "2787008"
+  },
+  {
+    "nome": "UBS DONA ADELAIDE LOPES",
+    "cidade": "São Paulo",
+    "bairro": "LIMAO",
+    "logradouro": "AVENIDA CLAVASIO ALVES DA SILVA",
+    "lat": -23.49733,
+    "lon": -46.6775,
+    "cnes": "2786710"
+  },
+  {
+    "nome": "UBS DONA MARIQUINHA SCIASCIA",
+    "cidade": "São Paulo",
+    "bairro": "TREMEMBE",
+    "logradouro": "RUA DR JOSE VICENTE",
+    "lat": -23.4616814,
+    "lon": -46.6230511,
+    "cnes": "2027690"
+  },
+  {
+    "nome": "UBS DR ANTONIO PIRES FERREIRA VILLALOBO",
+    "cidade": "São Paulo",
+    "bairro": "VILA NHOCUNE",
+    "logradouro": "RUA COELHO DE CASTRO",
+    "lat": -23.5469488,
+    "lon": -46.5003549,
+    "cnes": "2786753"
+  },
+  {
+    "nome": "UBS DR EDUARDO ROMANO RESCHILIAN",
+    "cidade": "São Paulo",
+    "bairro": "JD CLIMAX",
+    "logradouro": "RUA DR LAFAIETE DE SOUZA CAMARGO",
+    "lat": -23.63864928,
+    "lon": -46.60631329,
+    "cnes": "2042983"
+  },
+  {
+    "nome": "UBS DR HUMBERTO PASCALE SANTA CECILIA",
+    "cidade": "São Paulo",
+    "bairro": "BARRA FUNDA",
+    "logradouro": "RUA VITORINO CARMILO",
+    "lat": -23.5320747,
+    "lon": -46.65249816,
+    "cnes": "2752336"
+  },
+  {
+    "nome": "UBS DR ILZA WELTMAN HUTZLER",
+    "cidade": "São Paulo",
+    "bairro": "VILA NOVA CACHOEIRIN",
+    "logradouro": "RUA CEL WALFRIDO DE CARVALHO",
+    "lat": -23.47646,
+    "lon": -46.65919,
+    "cnes": "2787148"
+  },
+  {
+    "nome": "UBS DR JOSE TOLEDO PIZA",
+    "cidade": "São Paulo",
+    "bairro": "JACANA",
+    "logradouro": "RUA DR ANTONIO CESAR NETO",
+    "lat": -23.4621538,
+    "lon": -46.5829853,
+    "cnes": "2042541"
+  },
+  {
+    "nome": "UBS DR OSWALDO MARASCA JUNIOR",
+    "cidade": "São Paulo",
+    "bairro": "IPIRANGA",
+    "logradouro": "AV D PEDRO I",
+    "lat": -23.57052425,
+    "lon": -46.61148727,
+    "cnes": "2042975"
+  },
+  {
+    "nome": "UBS DR SERGIO CHADDAD",
+    "cidade": "São Paulo",
+    "bairro": "VILA SAO JOSE",
+    "logradouro": "AVENIDA CARLOS OBERHUBER",
+    "lat": -23.7411928,
+    "lon": -46.708233,
+    "cnes": "2788551"
+  },
+  {
+    "nome": "UBS DR WALTER ELIAS",
+    "cidade": "São Paulo",
+    "bairro": "CASA VERDE",
+    "logradouro": "RUA MOURAO VIEIRA",
+    "lat": -23.50929,
+    "lon": -46.66409,
+    "cnes": "2091712"
+  },
+  {
+    "nome": "UBS ELISA MARIA II DR CAMILO CRISTOFARO MARTINS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM DOS FRANCOS",
+    "logradouro": "AVENIDA GENERAL PENHA BRASIL",
+    "lat": -23.3282,
+    "lon": -46.3801,
+    "cnes": "9986898"
+  },
+  {
+    "nome": "UBS ENCOSTA NORTE LUIZ JOSE SANTOS",
+    "cidade": "São Paulo",
+    "bairro": "ITAIM PAULISTA",
+    "logradouro": "RUA RENATA AGONDI",
+    "lat": -23.5025216,
+    "lon": -46.3829224,
+    "cnes": "9488413"
+  },
+  {
+    "nome": "UBS ENGENHEIRO GOULART DR JOSE PIRES",
+    "cidade": "São Paulo",
+    "bairro": "ENGENHEIRO GOULART",
+    "logradouro": "RUA AUGUSTO CORREA LEITE",
+    "lat": -23.5003425,
+    "lon": -46.5175558,
+    "cnes": "2752220"
+  },
+  {
+    "nome": "UBS ENGENHEIRO TRINDADE",
+    "cidade": "São Paulo",
+    "bairro": "PENHA DE FRANCA",
+    "logradouro": "AV GABRIELA MISTRAL",
+    "lat": -23.508706,
+    "lon": -46.549762,
+    "cnes": "2787032"
+  },
+  {
+    "nome": "UBS ERMELINO MATARAZZO",
+    "cidade": "São Paulo",
+    "bairro": "ERMELINO MATARAZZO",
+    "logradouro": "RUA ANTONIO FREITAS DE TOLEDO",
+    "lat": -23.4897721,
+    "lon": -46.4773149,
+    "cnes": "2065266"
+  },
+  {
+    "nome": "UBS FAZENDA DA JUTA I",
+    "cidade": "São Paulo",
+    "bairro": "FAZENDA DA JUTA",
+    "logradouro": "TRAVESSA LEV LANDAU",
+    "lat": -23.62488605,
+    "lon": -46.49346739,
+    "cnes": "2787040"
+  },
+  {
+    "nome": "UBS FAZENDA DA JUTA II",
+    "cidade": "São Paulo",
+    "bairro": "FAZENDA DA JUTA",
+    "logradouro": "AVENIDA AUGUSTIN LUBERT",
+    "lat": -23.62249989,
+    "lon": -46.48750484,
+    "cnes": "2788020"
+  },
+  {
+    "nome": "UBS FERROVIARIOS",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "RUA GONCALVES NINA",
+    "lat": -23.5976,
+    "lon": -46.39186,
+    "cnes": "2787059"
+  },
+  {
+    "nome": "UBS GAIVOTAS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM GAIVOTAS",
+    "logradouro": "PASSAGEM D",
+    "lat": -23.73214296,
+    "lon": -46.66691696,
+    "cnes": "2787067"
+  },
+  {
+    "nome": "UBS GLEBA DO PESSEGO",
+    "cidade": "São Paulo",
+    "bairro": "GLEBA DO PESSEGO",
+    "logradouro": "RUA CONFISSAO",
+    "lat": -23.58391,
+    "lon": -46.44892,
+    "cnes": "2787075"
+  },
+  {
+    "nome": "UBS GRAFICOS",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "RUA FRANCISCO JOSE VIANA",
+    "lat": -23.60863,
+    "lon": -46.39888,
+    "cnes": "3121135"
+  },
+  {
+    "nome": "UBS GUAIANASES II",
+    "cidade": "São Paulo",
+    "bairro": "GUAIANASES",
+    "logradouro": "RUA COMANDANTE CARLOS RUHL",
+    "lat": -23.5459106,
+    "lon": -46.416889,
+    "cnes": "4050010"
+  },
+  {
+    "nome": "UBS GUAIANAZES",
+    "cidade": "São Paulo",
+    "bairro": "GUAIANASES",
+    "logradouro": "RUA PROFESSOR COSME DEODATO TADEU",
+    "lat": -23.5459186,
+    "lon": -46.4020906,
+    "cnes": "2787083"
+  },
+  {
+    "nome": "UBS GUARANI VARGAS",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE VARGAS",
+    "logradouro": "AV DIEDERICHSEN",
+    "lat": -23.63369803,
+    "lon": -46.63673222,
+    "cnes": "2030934"
+  },
+  {
+    "nome": "UBS HELENA MIGUEL REZEK",
+    "cidade": "São Paulo",
+    "bairro": "LOTEAMENTO RESERVA R",
+    "logradouro": "RUA GERMAN LORCA",
+    "lat": -23.5846183,
+    "lon": -46.7998072,
+    "cnes": "8147159"
+  },
+  {
+    "nome": "UBS HELIOPOLIS",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE NOVA HELIOPOL",
+    "logradouro": "AVENIDA ALMIRANTE DELAMARE",
+    "lat": -23.6108296,
+    "lon": -46.5823193,
+    "cnes": "9188177"
+  },
+  {
+    "nome": "UBS HORIZONTE AZUL",
+    "cidade": "São Paulo",
+    "bairro": "HORIZONTE AZUL",
+    "logradouro": "RUA ALBERGATI CAPACELLI",
+    "lat": -23.7468546,
+    "lon": -46.7778416,
+    "cnes": "2787105"
+  },
+  {
+    "nome": "UBS HORTO FLORESTAL",
+    "cidade": "São Paulo",
+    "bairro": "HORTO FLORESTAL",
+    "logradouro": "RUA LUIS CARLOS GENTILE DE LAET",
+    "lat": -23.459829,
+    "lon": -46.626106,
+    "cnes": "2068044"
+  },
+  {
+    "nome": "UBS HUMAITA DR JOAO DE AZEVEDO LAGE",
+    "cidade": "São Paulo",
+    "bairro": "BELA VISTA",
+    "logradouro": "RUA HUMAITA",
+    "lat": -23.5569312,
+    "lon": -46.6419632,
+    "cnes": "2787113"
+  },
+  {
+    "nome": "UBS IACAPE JARDIM PLANALTO",
+    "cidade": "São Paulo",
+    "bairro": "PQ STA MADALENA",
+    "logradouro": "RUA IACAPE",
+    "lat": -23.6099902,
+    "lon": -46.5103107,
+    "cnes": "2788438"
+  },
+  {
+    "nome": "UBS IGUACU MARIA JOSE MARIANO DA SILVA",
+    "cidade": "São Paulo",
+    "bairro": "VILA INDUSTRIAL",
+    "logradouro": "AV DO ORATORIO",
+    "lat": -23.5827528,
+    "lon": -46.5597749,
+    "cnes": "2787121"
+  },
+  {
+    "nome": "UBS INACIO MONTEIRO",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "RUA INACIO MONTEIRO",
+    "lat": -23.57616,
+    "lon": -46.39206,
+    "cnes": "3661660"
+  },
+  {
+    "nome": "UBS INDIANOPOLIS SIGMUND FREUD",
+    "cidade": "São Paulo",
+    "bairro": "MOEMA",
+    "logradouro": "AV DOS CARINAS",
+    "lat": -23.61405826,
+    "lon": -46.66527092,
+    "cnes": "2788578"
+  },
+  {
+    "nome": "UBS INTERATIVA",
+    "cidade": "São Paulo",
+    "bairro": "VILA BRASILANDIA",
+    "logradouro": "RUA INTERATIVA",
+    "lat": -23.4465505,
+    "lon": -46.7123172,
+    "cnes": "9343121"
+  },
+  {
+    "nome": "UBS ITAIM PAULISTA JULIO DE GOUVEIA",
+    "cidade": "São Paulo",
+    "bairro": "ITAIM PAULISTA",
+    "logradouro": "PRC MAJOR JOSE LEVY SOBRINHO",
+    "lat": -23.494312,
+    "lon": -46.400446,
+    "cnes": "2046261"
+  },
+  {
+    "nome": "UBS ITAQUERA",
+    "cidade": "São Paulo",
+    "bairro": "ITAQUERA",
+    "logradouro": "RUA AMERICO SALVADOR NOVELLI",
+    "lat": -23.539465,
+    "lon": -46.455197,
+    "cnes": "2752255"
+  },
+  {
+    "nome": "UBS JACANA DR SEBASTIAO GABRIEL SAYAGO DE LAET",
+    "cidade": "São Paulo",
+    "bairro": "V CONSTANCIA",
+    "logradouro": "RUA SAO GERALDINO",
+    "lat": -23.4747861,
+    "lon": -46.5805599,
+    "cnes": "2787962"
+  },
+  {
+    "nome": "UBS JARAGUA",
+    "cidade": "São Paulo",
+    "bairro": "CURUCA",
+    "logradouro": "RUA DOMINGUES VIDIGAL",
+    "lat": -23.5046534,
+    "lon": -46.4127406,
+    "cnes": "2787970"
+  },
+  {
+    "nome": "UBS JARDIM AEROPORTO DR MASSAKI UDIHARA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM AEROPORTO",
+    "logradouro": "RUA VIAZA",
+    "lat": -23.626201,
+    "lon": -46.666708,
+    "cnes": "2787156"
+  },
+  {
+    "nome": "UBS JARDIM ANTARTICA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM PERI",
+    "logradouro": "RUA SOLAR",
+    "lat": -23.45551,
+    "lon": -46.65657,
+    "cnes": "4410750"
+  },
+  {
+    "nome": "UBS JARDIM APUANA JOAO KOCH",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM APUANA",
+    "logradouro": "RUA UM",
+    "lat": -23.4524735,
+    "lon": -46.5856689,
+    "cnes": "2787172"
+  },
+  {
+    "nome": "UBS JARDIM APURA",
+    "cidade": "São Paulo",
+    "bairro": "JD APURA",
+    "logradouro": "RUA DR DARI BARCELOS",
+    "lat": -23.710664,
+    "lon": -46.653112,
+    "cnes": "2787180"
+  },
+  {
+    "nome": "UBS JARDIM ARACATI",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM ARACATI",
+    "logradouro": "RUA FRANCISCO HOMEM DEL REI",
+    "lat": -23.7190799,
+    "lon": -46.7693837,
+    "cnes": "2787199"
+  },
+  {
+    "nome": "UBS JARDIM AURORA",
+    "cidade": "São Paulo",
+    "bairro": "GUAIANASES",
+    "logradouro": "RUA CLAUDIO DA COSTA",
+    "lat": -23.5369615,
+    "lon": -46.4182282,
+    "cnes": "2787202"
+  },
+  {
+    "nome": "UBS JARDIM BANDEIRANTES",
+    "cidade": "São Paulo",
+    "bairro": "GUAIANASES",
+    "logradouro": "RUA PACHECO ARANHA",
+    "lat": -23.5432236,
+    "lon": -46.3925071,
+    "cnes": "3016935"
+  },
+  {
+    "nome": "UBS JARDIM BOA VISTA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM BOA VISTA",
+    "logradouro": "RUA CANDIDO FONTOURA",
+    "lat": -23.584,
+    "lon": -46.79,
+    "cnes": "2787210"
+  },
+  {
+    "nome": "UBS JARDIM BRASILIA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM BRASILIA",
+    "logradouro": "RUA MANOEL FERNANDES LEAO",
+    "lat": -23.441516,
+    "lon": -46.710283,
+    "cnes": "8459258"
+  },
+  {
+    "nome": "UBS JARDIM CAICARA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SAO BENTO NOV",
+    "logradouro": "RUA SERAFIM ALVARES",
+    "lat": -23.68618,
+    "lon": -46.77461,
+    "cnes": "2086743"
+  },
+  {
+    "nome": "UBS JARDIM CAMARGO NOVO",
+    "cidade": "São Paulo",
+    "bairro": "JAD CAMARGO NOVO",
+    "logradouro": "RUA BOIGUACU",
+    "lat": -23.502369,
+    "lon": -46.385512,
+    "cnes": "2057271"
+  },
+  {
+    "nome": "UBS JARDIM CAMPINAS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM MARIA AMALIA",
+    "logradouro": "RUA DAS PLEIADES",
+    "lat": -23.7712087,
+    "lon": -46.7125696,
+    "cnes": "2787229"
+  },
+  {
+    "nome": "UBS JARDIM CAMPOS",
+    "cidade": "São Paulo",
+    "bairro": "ITAIM PAULISTA",
+    "logradouro": "RUA CRESCENTE",
+    "lat": -23.512319,
+    "lon": -46.408997,
+    "cnes": "2787237"
+  },
+  {
+    "nome": "UBS JARDIM CARRAOZINHO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM VILA CARRAO",
+    "logradouro": "RUA MARCOS GONCALVES CORREA",
+    "lat": -23.6168255,
+    "lon": -46.45693302,
+    "cnes": "2027011"
+  },
+  {
+    "nome": "UBS JARDIM CELESTE",
+    "cidade": "São Paulo",
+    "bairro": "J CELESTE",
+    "logradouro": "RUA JOAO FERNANDES CAMISA NOVA JUNIOR",
+    "lat": -23.65673021,
+    "lon": -46.74156904,
+    "cnes": "5079454"
+  },
+  {
+    "nome": "UBS JARDIM CIDADE PIRITUBA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM CIDADE PIRITU",
+    "logradouro": "RUA COMENDADOR FEIZ ZARZUR",
+    "lat": -23.4776412,
+    "lon": -46.7236236,
+    "cnes": "2787261"
+  },
+  {
+    "nome": "UBS JARDIM CLIPER ROCILDA SOARES ALVES SILVA",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE ESMERALDA",
+    "logradouro": "RUA DR CARLOS PEZZOLO",
+    "lat": -23.7238205,
+    "lon": -46.7061645,
+    "cnes": "2751887"
+  },
+  {
+    "nome": "UBS JARDIM COIMBRA",
+    "cidade": "São Paulo",
+    "bairro": "J COIMBRA",
+    "logradouro": "ESTRADA DO MBOI MIRIM",
+    "lat": -23.6759101,
+    "lon": -46.7515556,
+    "cnes": "2787288"
+  },
+  {
+    "nome": "UBS JARDIM COLOMBO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM COLOMBO",
+    "logradouro": "RUA FREI BONIFACIO DUX",
+    "lat": -23.601,
+    "lon": -46.727,
+    "cnes": "9186492"
+  },
+  {
+    "nome": "UBS JARDIM COLONIAL",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM COLONIAL",
+    "logradouro": "JOSE RODRIGUES SANTAREN AV",
+    "lat": -23.60177972,
+    "lon": -46.47211174,
+    "cnes": "2787296"
+  },
+  {
+    "nome": "UBS JARDIM COLORADO DR JOSE PIRES",
+    "cidade": "São Paulo",
+    "bairro": "JD RODOLFO PIRANI",
+    "logradouro": "JOSE DE ARAUJO VIEIRA R",
+    "lat": -23.62653742,
+    "lon": -46.46374583,
+    "cnes": "4050037"
+  },
+  {
+    "nome": "UBS JARDIM COMERCIAL",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM COMERCIAL",
+    "logradouro": "RUA COSTA NOVA DO PRADO",
+    "lat": -23.6719876,
+    "lon": -46.7791474,
+    "cnes": "2787318"
+  },
+  {
+    "nome": "UBS JARDIM COPA MATHILDE DE AQUINO DINIZ",
+    "cidade": "São Paulo",
+    "bairro": "ITAQUERA",
+    "logradouro": "RUA PONTA DE LUCENA",
+    "lat": -23.5622742,
+    "lon": -46.4572481,
+    "cnes": "2774798"
+  },
+  {
+    "nome": "UBS JARDIM D ABRIL",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM DABRIL",
+    "logradouro": "RUA PAULO MARANHAO",
+    "lat": -23.575,
+    "lon": -46.775,
+    "cnes": "2787326"
+  },
+  {
+    "nome": "UBS JARDIM DA CONQUISTA I",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM DA CONQUISTA",
+    "logradouro": "PERAMIRIM",
+    "lat": -23.61287368,
+    "lon": -46.45319402,
+    "cnes": "2786931"
+  },
+  {
+    "nome": "UBS JARDIM DA CONQUISTA II",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM DA CONQUISTA",
+    "logradouro": "TRAV SOMOS TODOS IGUAIS",
+    "lat": -23.60552076,
+    "lon": -46.44048201,
+    "cnes": "3219771"
+  },
+  {
+    "nome": "UBS JARDIM DA SAUDE NEUSA ROSALIA MORALES",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM DA SAUDE",
+    "logradouro": "RUA DOMINGOS DE ROGATIS",
+    "lat": -23.61283928,
+    "lon": -46.61621332,
+    "cnes": "2042967"
+  },
+  {
+    "nome": "UBS JARDIM DAMASCENO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM DAMASCENO",
+    "logradouro": "RUA GRUMIXA",
+    "lat": -23.5703,
+    "lon": -46.5634,
+    "cnes": "4677358"
+  },
+  {
+    "nome": "UBS JARDIM DAS CAMELIAS",
+    "cidade": "São Paulo",
+    "bairro": "SAO MIGUEL PAULISTA",
+    "logradouro": "RUA TREVO DE SANTA MARIA",
+    "lat": -23.5127856,
+    "lon": -46.4011742,
+    "cnes": "2787334"
+  },
+  {
+    "nome": "UBS JARDIM DAS FONTES",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM DAS FONTES",
+    "logradouro": "RUA MABEL NORMANDO",
+    "lat": -23.86780734,
+    "lon": -46.75291717,
+    "cnes": "6332439"
+  },
+  {
+    "nome": "UBS JARDIM DAS LARANJEIRAS",
+    "cidade": "São Paulo",
+    "bairro": "JD MARIA LIDIA",
+    "logradouro": "RUA ISIDORO DE SA",
+    "lat": -23.59474745,
+    "lon": -46.43709085,
+    "cnes": "2787342"
+  },
+  {
+    "nome": "UBS JARDIM DAS OLIVEIRAS",
+    "cidade": "São Paulo",
+    "bairro": "ITAIM PAULISTA",
+    "logradouro": "RUA JOSE DA CRUZ CAMARGO",
+    "lat": -23.4950758,
+    "lon": -46.3828372,
+    "cnes": "2787350"
+  },
+  {
+    "nome": "UBS JARDIM DAS PALMAS",
+    "cidade": "São Paulo",
+    "bairro": "VILA ANDRADE",
+    "logradouro": "RUA CELSO RAMOS",
+    "lat": -23.62547985,
+    "lon": -46.74633294,
+    "cnes": "6329527"
+  },
+  {
+    "nome": "UBS JARDIM DAS PEDRAS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM DAS PEDRAS",
+    "logradouro": "RUA CLOVIS SALGADO",
+    "lat": -23.4191863,
+    "lon": -46.5904032,
+    "cnes": "3323331"
+  },
+  {
+    "nome": "UBS JARDIM DOS EUCALIPTOS HELIO MOREIRA SALLES",
+    "cidade": "São Paulo",
+    "bairro": "JD DOS EUCALIPTOS",
+    "logradouro": "RUA POEMA DAS AMERICAS",
+    "lat": -23.6007879,
+    "lon": -46.5080961,
+    "cnes": "2787091"
+  },
+  {
+    "nome": "UBS JARDIM EDITE GERONCIO HENRIQUE NETO",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE MONCOES",
+    "logradouro": "RUA CHARLES COULOMB",
+    "lat": -23.6133002,
+    "lon": -46.6943337,
+    "cnes": "7302541"
+  },
+  {
+    "nome": "UBS JARDIM ELEDY",
+    "cidade": "São Paulo",
+    "bairro": "JD ELEDY",
+    "logradouro": "RUA SEBASTIAO ADVINCULA CUNHA",
+    "lat": -23.6522507,
+    "lon": -46.7847403,
+    "cnes": "6365817"
+  },
+  {
+    "nome": "UBS JARDIM ELIANE",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM ELIANA",
+    "logradouro": "RUA HENRY ARTHUR JONES",
+    "lat": -23.7535296,
+    "lon": -46.6716892,
+    "cnes": "2787369"
+  },
+  {
+    "nome": "UBS JARDIM EMBURA",
+    "cidade": "São Paulo",
+    "bairro": "EMBURA",
+    "logradouro": "RUA BENEDITO SCHUNCK",
+    "lat": -23.88078935,
+    "lon": -46.74236526,
+    "cnes": "6018912"
+  },
+  {
+    "nome": "UBS JARDIM ETELVINA",
+    "cidade": "São Paulo",
+    "bairro": "GUAIANAZES",
+    "logradouro": "RUA MANOEL TEODORO XAVIER",
+    "lat": -23.5303514,
+    "lon": -46.4242182,
+    "cnes": "2787377"
+  },
+  {
+    "nome": "UBS JARDIM FANGANIELLO",
+    "cidade": "São Paulo",
+    "bairro": "LAJEADO",
+    "logradouro": "RUA FRANCISCO NUNES CUBAS",
+    "lat": -23.5472277,
+    "lon": -46.3911496,
+    "cnes": "2787385"
+  },
+  {
+    "nome": "UBS JARDIM FLOR DE MAIO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM FLOR DE MAIO",
+    "logradouro": "AVENIDA NOVA PAULISTA",
+    "lat": -23.4312229,
+    "lon": -46.57507575,
+    "cnes": "5621267"
+  },
+  {
+    "nome": "UBS JARDIM FONTALIS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM MARTINS SILVA",
+    "logradouro": "RUA MOTA",
+    "lat": -23.5703266,
+    "lon": -46.545903,
+    "cnes": "2091720"
+  },
+  {
+    "nome": "UBS JARDIM GERMANIA",
+    "cidade": "São Paulo",
+    "bairro": "VILA PREL",
+    "logradouro": "ESTRADA DE ITAPECERICA",
+    "lat": -23.53337952,
+    "lon": -46.6392374,
+    "cnes": "2787393"
+  },
+  {
+    "nome": "UBS JARDIM GUAIRACA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM GUAIRACA",
+    "logradouro": "RUA ERVA IMPERIAL",
+    "lat": -23.6008373,
+    "lon": -46.5408341,
+    "cnes": "2752263"
+  },
+  {
+    "nome": "UBS JARDIM GUARUJA",
+    "cidade": "São Paulo",
+    "bairro": "J GUARUJA",
+    "logradouro": "RUA JOAO DE ALMADA",
+    "lat": -23.6922484,
+    "lon": -46.7883615,
+    "cnes": "2787423"
+  },
+  {
+    "nome": "UBS JARDIM HELENA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM HELENA",
+    "logradouro": "AVENIDA KUMAKI AOKI",
+    "lat": -23.4794315,
+    "lon": -46.4156062,
+    "cnes": "4049934"
+  },
+  {
+    "nome": "UBS JARDIM HELGA",
+    "cidade": "São Paulo",
+    "bairro": "JD HELGA",
+    "logradouro": "RUA THOMAS DE ARAUJO",
+    "lat": -23.641256,
+    "lon": -46.771524,
+    "cnes": "6039111"
+  },
+  {
+    "nome": "UBS JARDIM HELIAN",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM HELIAN",
+    "logradouro": "RUA JOAO BARREIROS",
+    "lat": -23.5768338,
+    "lon": -46.453295,
+    "cnes": "2787431"
+  },
+  {
+    "nome": "UBS JARDIM HERCULANO",
+    "cidade": "São Paulo",
+    "bairro": "J HERCULANO",
+    "logradouro": "RUA IGNACIO LIMAS",
+    "lat": -23.6923636,
+    "lon": -46.7574733,
+    "cnes": "2787458"
+  },
+  {
+    "nome": "UBS JARDIM ICARAI QUINTANA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM ICARAI",
+    "logradouro": "RUA GERMANO DE MAGALHAES",
+    "lat": -23.7460874,
+    "lon": -46.70569325,
+    "cnes": "2787474"
+  },
+  {
+    "nome": "UBS JARDIM INDAIA",
+    "cidade": "São Paulo",
+    "bairro": "ITAIM PAULISTA",
+    "logradouro": "RUA ANTONIO LEME DA GUERRA",
+    "lat": -23.5157103,
+    "lon": -46.3977997,
+    "cnes": "2787989"
+  },
+  {
+    "nome": "UBS JARDIM IPORA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM IPORA",
+    "logradouro": "RUA FORTE DE VILA BELA",
+    "lat": -23.7848214,
+    "lon": -46.7129761,
+    "cnes": "3689247"
+  },
+  {
+    "nome": "UBS JARDIM IV CENTENARIO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM IV CENTENARIO",
+    "logradouro": "RUA CAMPO FLORIDO",
+    "lat": -23.590173,
+    "lon": -46.50010586,
+    "cnes": "2787482"
+  },
+  {
+    "nome": "UBS JARDIM IVA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM IVA",
+    "logradouro": "RUA MIGUEL BASTOS SOARES",
+    "lat": -23.58444805,
+    "lon": -46.51670873,
+    "cnes": "2787490"
+  },
+  {
+    "nome": "UBS JARDIM JAPAO",
+    "cidade": "São Paulo",
+    "bairro": "VILA MARIA ALTA",
+    "logradouro": "R SOBRAL JUNIOR",
+    "lat": -23.5060032,
+    "lon": -46.5883721,
+    "cnes": "2787504"
+  },
+  {
+    "nome": "UBS JARDIM JAQUELINE",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM JAQUELINE",
+    "logradouro": "RUA BONIFACIO VERONESE",
+    "lat": -23.355,
+    "lon": -46.451,
+    "cnes": "2787512"
+  },
+  {
+    "nome": "UBS JARDIM JOANA DARC",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE CASA DE PEDRA",
+    "logradouro": "RUA USHIKICHI KAMIYA",
+    "lat": -23.4385561,
+    "lon": -46.5863964,
+    "cnes": "8460841"
+  },
+  {
+    "nome": "UBS JARDIM JULIETA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM GUANCA",
+    "logradouro": "R BALTHAZAR FIDELIS",
+    "lat": -23.49623611,
+    "lon": -46.56835648,
+    "cnes": "7407629"
+  },
+  {
+    "nome": "UBS JARDIM KERALUX",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM KERALUX",
+    "logradouro": "RUA BATUIRA DO CAMPO",
+    "lat": -23.4842789,
+    "lon": -46.4975739,
+    "cnes": "2787547"
+  },
+  {
+    "nome": "UBS JARDIM KIOTO IGNES FONTANA TATTO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM KIOTO",
+    "logradouro": "RUA DUNKERQUE",
+    "lat": -23.734077,
+    "lon": -46.717193,
+    "cnes": "8033420"
+  },
+  {
+    "nome": "UBS JARDIM LAPENNA",
+    "cidade": "São Paulo",
+    "bairro": "SAO MIGUEL PAULISTA",
+    "logradouro": "RUA SERRA DA JURUOCA",
+    "lat": -23.4876409,
+    "lon": -46.4516332,
+    "cnes": "6873286"
+  },
+  {
+    "nome": "UBS JARDIM LIDIA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM LIDIA",
+    "logradouro": "RUA GUTEMBERG JOSE FERREIRA",
+    "lat": -23.6634,
+    "lon": -46.76809,
+    "cnes": "2787563"
+  },
+  {
+    "nome": "UBS JARDIM LOURDES",
+    "cidade": "São Paulo",
+    "bairro": "JABAQUARA",
+    "logradouro": "AV ENG ARMANDO DE ARRUDA PEREIRA",
+    "lat": -23.66019673,
+    "lon": -46.63690656,
+    "cnes": "5120780"
+  },
+  {
+    "nome": "UBS JARDIM LUCELIA SANDRA AP BARBOSA CORREIA LIMA",
+    "cidade": "São Paulo",
+    "bairro": "JD LUCELIA",
+    "logradouro": "AVENIDA CARLOS BARBOSA DOS SANTOS",
+    "lat": -23.75528095,
+    "lon": -46.67272287,
+    "cnes": "9794751"
+  },
+  {
+    "nome": "UBS JARDIM MACEDONIA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM MACEDONIA",
+    "logradouro": "RUA SORIANO DE ALBUQUERQUE",
+    "lat": -23.6536321,
+    "lon": -46.7882026,
+    "cnes": "6195008"
+  },
+  {
+    "nome": "UBS JARDIM MAGDALENA",
+    "cidade": "São Paulo",
+    "bairro": "J MAGDALENA",
+    "logradouro": "RUA VITORINO PALHARES",
+    "lat": -23.6673587,
+    "lon": -46.7923668,
+    "cnes": "5620341"
+  },
+  {
+    "nome": "UBS JARDIM MAIA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM MAIA",
+    "logradouro": "RUA MARFIM VEGETAL",
+    "lat": -23.491763,
+    "lon": -46.4159619,
+    "cnes": "2062658"
+  },
+  {
+    "nome": "UBS JARDIM MARACA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM MARACA",
+    "logradouro": "RUA FERES BECHARA",
+    "lat": -23.6716514,
+    "lon": -46.7708979,
+    "cnes": "5695813"
+  },
+  {
+    "nome": "UBS JARDIM MARILIA",
+    "cidade": "São Paulo",
+    "bairro": "JD MARILIA",
+    "logradouro": "RUA ELZA DOS ANJOS NEVES",
+    "lat": -23.56613,
+    "lon": -46.49519,
+    "cnes": "2027054"
+  },
+  {
+    "nome": "UBS JARDIM MARINGA VILA TALARICO",
+    "cidade": "São Paulo",
+    "bairro": "J MARINGA",
+    "logradouro": "RUA MUANA",
+    "lat": -23.5548398,
+    "lon": -46.5141606,
+    "cnes": "7270941"
+  },
+  {
+    "nome": "UBS JARDIM MIRIAM II",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM PRUDENCIA",
+    "logradouro": "AVENIDA CUPECE",
+    "lat": -23.6817245,
+    "lon": -46.6372407,
+    "cnes": "7128940"
+  },
+  {
+    "nome": "UBS JARDIM MITSUTANI",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM MITSUTANI",
+    "logradouro": "RUA FREI XISTO TEUBER",
+    "lat": -23.64416535,
+    "lon": -46.78083443,
+    "cnes": "2787636"
+  },
+  {
+    "nome": "UBS JARDIM NAKAMURA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM NAKAMURA",
+    "logradouro": "RUA MANOEL VITOR DE JESUS",
+    "lat": -23.6986037,
+    "lon": -46.7716253,
+    "cnes": "2787644"
+  },
+  {
+    "nome": "UBS JARDIM NELIA",
+    "cidade": "São Paulo",
+    "bairro": "ITAIM PAULISTA",
+    "logradouro": "RUA ITAJUIBE",
+    "lat": -23.5043625,
+    "lon": -46.3900915,
+    "cnes": "2027526"
+  },
+  {
+    "nome": "UBS JARDIM NITEROI",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM ORLY",
+    "logradouro": "RUA SAMUEL ARNOLD",
+    "lat": -23.68222323,
+    "lon": -46.66807382,
+    "cnes": "2787652"
+  },
+  {
+    "nome": "UBS JARDIM NOSSA SENHORA DO CARMO",
+    "cidade": "São Paulo",
+    "bairro": "JD N SRA DO CARMO",
+    "logradouro": "RUA VERISSIMO DA SILVA",
+    "lat": -23.5762415,
+    "lon": -46.4805207,
+    "cnes": "4050134"
+  },
+  {
+    "nome": "UBS JARDIM NOVE DE JULHO",
+    "cidade": "São Paulo",
+    "bairro": "SAO MATEUS",
+    "logradouro": "SIBALDO LINS",
+    "lat": -23.592201,
+    "lon": -46.484833,
+    "cnes": "2788152"
+  },
+  {
+    "nome": "UBS JARDIM NOVO HORIZONTE",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM NOVO HORIZONT",
+    "logradouro": "RUA CARUANENSE",
+    "lat": -23.7765038,
+    "lon": -46.7005567,
+    "cnes": "6822991"
+  },
+  {
+    "nome": "UBS JARDIM NOVO PANTANAL OTACILIO MADEIRA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SANTA TEREZIN",
+    "logradouro": "AVENIDA PROFESSOR CARDOZO DE MELLO NETO",
+    "lat": -23.69930275,
+    "lon": -46.64013522,
+    "cnes": "7357761"
+  },
+  {
+    "nome": "UBS JARDIM OLINDA ZELIA PEREIRA SANTOS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM OLINDA",
+    "logradouro": "RUA CANORI",
+    "lat": -23.629102,
+    "lon": -46.754748,
+    "cnes": "3956946"
+  },
+  {
+    "nome": "UBS JARDIM ORION GUANHEMBU",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM COLONIAL",
+    "logradouro": "RUA FERNANDO AMARO MIRANDA",
+    "lat": -23.72037961,
+    "lon": -46.6833995,
+    "cnes": "9059369"
+  },
+  {
+    "nome": "UBS JARDIM PANAMERICANO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM PANAMERICANO",
+    "logradouro": "RUA BARRA DA FORQUILHA",
+    "lat": -23.4506104,
+    "lon": -46.7322635,
+    "cnes": "2787660"
+  },
+  {
+    "nome": "UBS JARDIM PARAGUACU DR GONCALO FELICIANO ALVES",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM PARAGUACU",
+    "logradouro": "TAIOBEIRAS",
+    "lat": -23.59572318,
+    "lon": -46.50014341,
+    "cnes": "2027046"
+  },
+  {
+    "nome": "UBS JARDIM PARANAPANEMA",
+    "cidade": "São Paulo",
+    "bairro": "VILA SANTO AMARO",
+    "logradouro": "RUA PIETRO DA MILANO",
+    "lat": -23.6934185,
+    "lon": -46.7805846,
+    "cnes": "3002543"
+  },
+  {
+    "nome": "UBS JARDIM PENHA",
+    "cidade": "São Paulo",
+    "bairro": "PONTE RASA",
+    "logradouro": "AV SAO MIGUEL",
+    "lat": -23.4965613,
+    "lon": -46.4530747,
+    "cnes": "2787687"
+  },
+  {
+    "nome": "UBS JARDIM PERI",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM PERI",
+    "logradouro": "AVENIDA PERI RONCHETTI",
+    "lat": -23.45853,
+    "lon": -46.65558,
+    "cnes": "2787695"
+  },
+  {
+    "nome": "UBS JARDIM POPULAR DR MATHEUS SANTAMARIA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM POPULAR",
+    "logradouro": "RUA ILHA DE CASTILHOS",
+    "lat": -23.5170411,
+    "lon": -46.5077717,
+    "cnes": "4049993"
+  },
+  {
+    "nome": "UBS JARDIM REIMBERG NAIR NUNES DA SILVA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM REIMBERG",
+    "logradouro": "RUA ROGERIO FERNANDES",
+    "lat": -23.74949698,
+    "lon": -46.69783167,
+    "cnes": "4771311"
+  },
+  {
+    "nome": "UBS JARDIM REPUBLICA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM REPUBLICA",
+    "logradouro": "AVENIDA GONCALO DE PAIVA GOMES",
+    "lat": -23.7148034,
+    "lon": -46.6867569,
+    "cnes": "2787709"
+  },
+  {
+    "nome": "UBS JARDIM RINCAO",
+    "cidade": "São Paulo",
+    "bairro": "TAIPAS",
+    "logradouro": "RUA ARROIO DO PALMA",
+    "lat": -23.4351542,
+    "lon": -46.7304126,
+    "cnes": "7097778"
+  },
+  {
+    "nome": "UBS JARDIM ROBRU GUAIANAZES",
+    "cidade": "São Paulo",
+    "bairro": "GUAIANAZES",
+    "logradouro": "AV NORDESTINA",
+    "lat": -23.52443,
+    "lon": -46.418038,
+    "cnes": "2787717"
+  },
+  {
+    "nome": "UBS JARDIM ROBRU MESSIAS JOSE DA SILVA",
+    "cidade": "São Paulo",
+    "bairro": "SAO MIGUEL PAULISTA",
+    "logradouro": "RUA JOSE MARIA ALVES DE DEUS",
+    "lat": -23.52436,
+    "lon": -46.41476,
+    "cnes": "2787725"
+  },
+  {
+    "nome": "UBS JARDIM ROMANO VILA ITAIM",
+    "cidade": "São Paulo",
+    "bairro": "ITAIM PAULISTA",
+    "logradouro": "RUA RIO MANUEL ALVES",
+    "lat": -23.48594754,
+    "lon": -46.39258775,
+    "cnes": "2787733"
+  },
+  {
+    "nome": "UBS JARDIM ROSELI",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM ROSELI",
+    "logradouro": "SIMAO NUNES RUA",
+    "lat": -23.59723876,
+    "lon": -46.43953863,
+    "cnes": "2787741"
+  },
+  {
+    "nome": "UBS JARDIM ROSINHA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM ROSINHA",
+    "logradouro": "AV DALVA DE OLIVEIRA",
+    "lat": -23.4394992,
+    "lon": -46.8016049,
+    "cnes": "3651770"
+  },
+  {
+    "nome": "UBS JARDIM ROSINHA RESIDENCIAL DAS ORQUIDEAS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM JARAGUA",
+    "logradouro": "ESTRADA DE PIRAPORA",
+    "lat": -23.437114,
+    "lon": -46.806576,
+    "cnes": "8538719"
+  },
+  {
+    "nome": "UBS JARDIM SANTA FE",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SANTA FE",
+    "logradouro": "RUA CONDE DE LANCASTRE",
+    "lat": -23.8319474,
+    "lon": -46.711222,
+    "cnes": "6332447"
+  },
+  {
+    "nome": "UBS JARDIM SANTA MARGARIDA",
+    "cidade": "São Paulo",
+    "bairro": "J STA MARGARIDA",
+    "logradouro": "RUA CAPAO REDONDO",
+    "lat": -23.678302,
+    "lon": -46.75549,
+    "cnes": "2825767"
+  },
+  {
+    "nome": "UBS JARDIM SANTA MARIA",
+    "cidade": "São Paulo",
+    "bairro": "JD SANTA MARIA",
+    "logradouro": "RUA EMBIRATAI",
+    "lat": -23.5511028,
+    "lon": -46.5059337,
+    "cnes": "2086808"
+  },
+  {
+    "nome": "UBS JARDIM SANTA TEREZINHA",
+    "cidade": "São Paulo",
+    "bairro": "JD SANTA TEREZINHA",
+    "logradouro": "AVENIDA DOS LATINOS",
+    "lat": -23.57201,
+    "lon": -46.5037,
+    "cnes": "2787865"
+  },
+  {
+    "nome": "UBS JARDIM SAO BENTO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SAO BENTO",
+    "logradouro": "RUA JOAO ROBALO",
+    "lat": -23.6853729,
+    "lon": -46.7832211,
+    "cnes": "2787768"
+  },
+  {
+    "nome": "UBS JARDIM SAO BERNARDO",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE NOVO GRAJAU",
+    "logradouro": "AV ANTONIO CARLOS BENJAMIN DOS SANTOS",
+    "lat": -23.75394367,
+    "lon": -46.69815977,
+    "cnes": "4771273"
+  },
+  {
+    "nome": "UBS JARDIM SAO CARLOS",
+    "cidade": "São Paulo",
+    "bairro": "VILA NORMA",
+    "logradouro": "AVENIDA CESAR AUGUSTO ROMARO",
+    "lat": -23.50891749,
+    "lon": -46.47287062,
+    "cnes": "9632387"
+  },
+  {
+    "nome": "UBS JARDIM SAO CARLOS CIDADE ADEMAR",
+    "cidade": "São Paulo",
+    "bairro": "AMERICANOPOLIS",
+    "logradouro": "RUA CLAUDIA MUZIO",
+    "lat": -23.68210621,
+    "lon": -46.6587476,
+    "cnes": "3074544"
+  },
+  {
+    "nome": "UBS JARDIM SAO FRANCISCO I",
+    "cidade": "São Paulo",
+    "bairro": "CANGAIBA",
+    "logradouro": "RUA JURITI PIRANGA",
+    "lat": -23.4984918,
+    "lon": -46.5299406,
+    "cnes": "2787776"
+  },
+  {
+    "nome": "UBS JARDIM SAO NICOLAU",
+    "cidade": "São Paulo",
+    "bairro": "JD NORDESTE",
+    "logradouro": "RUA BROOK TAYLOR",
+    "lat": -23.5313744,
+    "lon": -46.4818108,
+    "cnes": "2787806"
+  },
+  {
+    "nome": "UBS JARDIM SAO NORBERTO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SANTA FE",
+    "logradouro": "RUA CONDE DE LANCASTRE",
+    "lat": -23.8327279,
+    "lon": -46.7142426,
+    "cnes": "2787814"
+  },
+  {
+    "nome": "UBS JARDIM SAO PEDRO FRANCISCO ANTONIO CESARONI",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SAO PEDRO",
+    "logradouro": "RUA SILVIANOPOLIS",
+    "lat": -23.54938,
+    "lon": -46.43294,
+    "cnes": "4049942"
+  },
+  {
+    "nome": "UBS JARDIM SAO SAVERIO AURELIO MELLONE",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM CELESTE",
+    "logradouro": "RUA ATILIO SELVA",
+    "lat": -23.65718472,
+    "lon": -46.61420703,
+    "cnes": "2047004"
+  },
+  {
+    "nome": "UBS JARDIM SAPOPEMBA PROF DR HUMBERTO DELBONI FILHO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SAPOPEMBA",
+    "logradouro": "RUA JOAO LOPES DE LIMA",
+    "lat": -23.61143842,
+    "lon": -46.49284244,
+    "cnes": "2787822"
+  },
+  {
+    "nome": "UBS JARDIM SECKLER",
+    "cidade": "São Paulo",
+    "bairro": "SAO JOAO CLIMACO",
+    "logradouro": "RUA CARLOS MAURO",
+    "lat": -23.61930516,
+    "lon": -46.586878,
+    "cnes": "2787830"
+  },
+  {
+    "nome": "UBS JARDIM SELMA CIDADE ADEMAR",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SELMA",
+    "logradouro": "RUA PEDRO FERNANDES ARAGAO",
+    "lat": -23.69028595,
+    "lon": -46.65720284,
+    "cnes": "6683991"
+  },
+  {
+    "nome": "UBS JARDIM SILVA TELLES",
+    "cidade": "São Paulo",
+    "bairro": "ITAIM PAULISTA",
+    "logradouro": "RUA JOSE ALEXANDRE MACHADO",
+    "lat": -23.499454,
+    "lon": -46.4090891,
+    "cnes": "2787849"
+  },
+  {
+    "nome": "UBS JARDIM SILVEIRA",
+    "cidade": "São Paulo",
+    "bairro": "SILVEIRA",
+    "logradouro": "RUA BONIFACIO ASIOLI",
+    "lat": -23.85023409,
+    "lon": -46.71257962,
+    "cnes": "6332463"
+  },
+  {
+    "nome": "UBS JARDIM SINHA",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE DOS BANCARIOS",
+    "logradouro": "RUA JIM CLARK",
+    "lat": -23.5936929,
+    "lon": -46.51162058,
+    "cnes": "2787857"
+  },
+  {
+    "nome": "UBS JARDIM SOARES",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SOARES",
+    "logradouro": "RUA FELICIANO DE MENDONCA",
+    "lat": -23.5536467,
+    "lon": -46.4012332,
+    "cnes": "4050045"
+  },
+  {
+    "nome": "UBS JARDIM SOUZA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SOUZA",
+    "logradouro": "RUA FRANCISCO DE ALMEIDA SOUZA",
+    "lat": -23.68715183,
+    "lon": -46.74807072,
+    "cnes": "4049861"
+  },
+  {
+    "nome": "UBS JARDIM THOMAS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM THOMAS",
+    "logradouro": "RUA AUDALIO GONCALVES DOS SANTOS",
+    "lat": -23.6738144,
+    "lon": -46.7561044,
+    "cnes": "4050118"
+  },
+  {
+    "nome": "UBS JARDIM TIETE II",
+    "cidade": "São Paulo",
+    "bairro": "JD TIETE",
+    "logradouro": "RUA SENADOR MAYNARDE GOMES",
+    "lat": -23.58729212,
+    "lon": -46.49209142,
+    "cnes": "2752298"
+  },
+  {
+    "nome": "UBS JARDIM TRES CORACOES",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM TRES CORACOES",
+    "logradouro": "RUA GENERAL JOSE DE OLIVEIRA RAMOS",
+    "lat": -23.7693602,
+    "lon": -46.683815,
+    "cnes": "2787903"
+  },
+  {
+    "nome": "UBS JARDIM UMUARAMA",
+    "cidade": "São Paulo",
+    "bairro": "VILA FILOMENA",
+    "logradouro": "RUA ANTONIO GIL",
+    "lat": -23.66207485,
+    "lon": -46.66966845,
+    "cnes": "2787911"
+  },
+  {
+    "nome": "UBS JARDIM VALQUIRIA",
+    "cidade": "São Paulo",
+    "bairro": "JD VALQUIRIA",
+    "logradouro": "AVENIDA CARLOS LACERDA",
+    "lat": -23.6471173,
+    "lon": -46.779052,
+    "cnes": "6380417"
+  },
+  {
+    "nome": "UBS JARDIM VERA CRUZ PERDIZES",
+    "cidade": "São Paulo",
+    "bairro": "PERDIZES",
+    "logradouro": "R SARAMENHA",
+    "lat": -23.538515,
+    "lon": -46.689105,
+    "cnes": "2787938"
+  },
+  {
+    "nome": "UBS JARDIM VITORIA",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "RUA LAGEDO",
+    "lat": -23.758725,
+    "lon": -46.38683,
+    "cnes": "2787954"
+  },
+  {
+    "nome": "UBS JOAQUIM ANTONIO EIRADO",
+    "cidade": "São Paulo",
+    "bairro": "SANTANA",
+    "logradouro": "AV BRAZ LEME",
+    "lat": -23.50374,
+    "lon": -46.631682,
+    "cnes": "2027631"
+  },
+  {
+    "nome": "UBS JOAQUIM ROSSINI VILA CARIOCA DR MOACIR PARRA",
+    "cidade": "São Paulo",
+    "bairro": "VILA CARIOCA",
+    "logradouro": "RUA ALVARO FRAGOSO",
+    "lat": -23.59670145,
+    "lon": -46.59248114,
+    "cnes": "5479517"
+  },
+  {
+    "nome": "UBS JORDANOPOLIS",
+    "cidade": "São Paulo",
+    "bairro": "JORDANOPOLIS",
+    "logradouro": "RUA JANGADA NOVA",
+    "lat": -23.7298581,
+    "lon": -46.70366129,
+    "cnes": "2787997"
+  },
+  {
+    "nome": "UBS JOSE BONIFACIO II CELINA MARIA JOSE DE OLIVEIRA",
+    "cidade": "São Paulo",
+    "bairro": "COHAB JOSE BONIFACIO",
+    "logradouro": "RUA MURMURIOS DA TARDE",
+    "lat": -23.55377,
+    "lon": -46.44471,
+    "cnes": "4049950"
+  },
+  {
+    "nome": "UBS JOSE BONIFACIO III DRA LUCY MAYUMI UDAKIRI",
+    "cidade": "São Paulo",
+    "bairro": "JOSE BONIFACIO",
+    "logradouro": "RUA SILVIO BARBINI",
+    "lat": -23.54053,
+    "lon": -46.43934,
+    "cnes": "4050142"
+  },
+  {
+    "nome": "UBS JOSE DE BARROS MAGALDI",
+    "cidade": "São Paulo",
+    "bairro": "ITAIM BIBI",
+    "logradouro": "RUA SALVADOR CARDOSO",
+    "lat": -23.587348,
+    "lon": -46.685281,
+    "cnes": "2752301"
+  },
+  {
+    "nome": "UBS JOSE MARCILIO MALTA CARDOSO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM TROPICAL",
+    "logradouro": "RUA DESEMBARGADOR HOMERO PINHO",
+    "lat": -23.57012,
+    "lon": -46.76087,
+    "cnes": "2788004"
+  },
+  {
+    "nome": "UBS JOVA RURAL",
+    "cidade": "São Paulo",
+    "bairro": "CONJUNTO HABITACIONA",
+    "logradouro": "ALFEU DE ALCANTARA MONTEIRO",
+    "lat": -23.454607,
+    "lon": -46.580084,
+    "cnes": "9339833"
+  },
+  {
+    "nome": "UBS LARANJEIRAS",
+    "cidade": "São Paulo",
+    "bairro": "LARANJEIRAS",
+    "logradouro": "RUA DENIS FURTEL",
+    "lat": -23.7044022,
+    "lon": -46.6294409,
+    "cnes": "2788039"
+  },
+  {
+    "nome": "UBS LUAR DO SERTAO",
+    "cidade": "São Paulo",
+    "bairro": "CHACARA STA MARIA",
+    "logradouro": "RUA LUAR DO SERTAO",
+    "lat": -23.6910878,
+    "lon": -46.7984373,
+    "cnes": "3614948"
+  },
+  {
+    "nome": "UBS LUIZ ERNESTO MAZZONI",
+    "cidade": "São Paulo",
+    "bairro": "VILA LIVIERO",
+    "logradouro": "AV CARLOS LIVIERO",
+    "lat": -23.64494189,
+    "lon": -46.59297466,
+    "cnes": "2788055"
+  },
+  {
+    "nome": "UBS MANOEL JOAQUIM PERA",
+    "cidade": "São Paulo",
+    "bairro": "VILA MADALENA",
+    "logradouro": "RUA PURPURINA",
+    "lat": -23.553688,
+    "lon": -46.691051,
+    "cnes": "2788063"
+  },
+  {
+    "nome": "UBS MAR PAULISTA",
+    "cidade": "São Paulo",
+    "bairro": "BALN MAR PAULISTA",
+    "logradouro": "MATSUISHI WADA",
+    "lat": -23.69659082,
+    "lon": -46.66260213,
+    "cnes": "2766000"
+  },
+  {
+    "nome": "UBS MARSILAC",
+    "cidade": "São Paulo",
+    "bairro": "MARSILAC",
+    "logradouro": "ESTRADA ENGENHEIRO MARSILAC",
+    "lat": -23.9067407,
+    "lon": -46.7082549,
+    "cnes": "6332471"
+  },
+  {
+    "nome": "UBS MASCARENHAS DE MORAES",
+    "cidade": "São Paulo",
+    "bairro": "C MASCARENHAS MORAES",
+    "logradouro": "RUA SARGENTO EDGAR LOURENCO PINTO",
+    "lat": -23.61670754,
+    "lon": -46.49573654,
+    "cnes": "2043017"
+  },
+  {
+    "nome": "UBS MATA VIRGEM",
+    "cidade": "São Paulo",
+    "bairro": "ELDORADO",
+    "logradouro": "RUA DA SAUDE",
+    "lat": -23.71451271,
+    "lon": -46.62755216,
+    "cnes": "2788098"
+  },
+  {
+    "nome": "UBS MENINOPOLIS MARIO FRANCISCO NAPOLITANO",
+    "cidade": "São Paulo",
+    "bairro": "VL CORDEIRO",
+    "logradouro": "RUA OSCAR GOMES CARDIM",
+    "lat": -23.620662,
+    "lon": -46.687894,
+    "cnes": "2027380"
+  },
+  {
+    "nome": "UBS MILTON SANTOS",
+    "cidade": "São Paulo",
+    "bairro": "PLANALTO PAULISTA",
+    "logradouro": "AV CECI",
+    "lat": -23.62882522,
+    "lon": -46.64635599,
+    "cnes": "2788101"
+  },
+  {
+    "nome": "UBS MOINHO VELHO",
+    "cidade": "São Paulo",
+    "bairro": "PIRITUBA",
+    "logradouro": "PRACA DOMINGOS COELHO",
+    "lat": -23.4948993,
+    "lon": -46.7156391,
+    "cnes": "2788136"
+  },
+  {
+    "nome": "UBS MOINHO VELHO II",
+    "cidade": "São Paulo",
+    "bairro": "MOINHO VELHO",
+    "logradouro": "RUA BELGRADO",
+    "lat": -23.61229122,
+    "lon": -46.60384834,
+    "cnes": "2788128"
+  },
+  {
+    "nome": "UBS MOOCA I",
+    "cidade": "São Paulo",
+    "bairro": "MOOCA",
+    "logradouro": "RUA TAQUARI",
+    "lat": -23.55128072,
+    "lon": -46.59825861,
+    "cnes": "2042258"
+  },
+  {
+    "nome": "UBS MORADA DO SOL",
+    "cidade": "São Paulo",
+    "bairro": "SOL NASCENTE",
+    "logradouro": "RUA ASSIS BRASIL",
+    "lat": -23.43161,
+    "lon": -46.78173,
+    "cnes": "2091739"
+  },
+  {
+    "nome": "UBS MORRO DOCE",
+    "cidade": "São Paulo",
+    "bairro": "MORRO DOCE",
+    "logradouro": "RUA DOM AGNELO ROSSI",
+    "lat": -23.43873,
+    "lon": -46.79352,
+    "cnes": "3651762"
+  },
+  {
+    "nome": "UBS NASCER DO SOL",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "RUA SENADOR NELSON CARNEIRO",
+    "lat": -23.59501,
+    "lon": -46.41241,
+    "cnes": "9618694"
+  },
+  {
+    "nome": "UBS NOSSA SENHORA DO BRASIL ARMANDO DARIENZO",
+    "cidade": "São Paulo",
+    "bairro": "BELA VISTA",
+    "logradouro": "RUA ALMIRANTE MARQUES DE LEAO",
+    "lat": -23.5628052,
+    "lon": -46.6491895,
+    "cnes": "2788144"
+  },
+  {
+    "nome": "UBS NOVA AMERICA",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE NOVA AMERICA",
+    "logradouro": "RUA EDUARDO COLLIER FILHO",
+    "lat": -23.8686301,
+    "lon": -46.6778462,
+    "cnes": "6332498"
+  },
+  {
+    "nome": "UBS NOVO CAMINHO",
+    "cidade": "São Paulo",
+    "bairro": "J SAO LUIS",
+    "logradouro": "RUA ANTONIO DA MATA JUNIOR",
+    "lat": -23.6561688,
+    "lon": -46.735608,
+    "cnes": "3661741"
+  },
+  {
+    "nome": "UBS NOVO JARDIM I",
+    "cidade": "São Paulo",
+    "bairro": "J STA JOSEFINA",
+    "logradouro": "RUA PHILIPPE DE VITRY",
+    "lat": -23.66636056,
+    "lon": -46.7364192,
+    "cnes": "2788160"
+  },
+  {
+    "nome": "UBS PADRE JOSE DE ANCHIETA",
+    "cidade": "São Paulo",
+    "bairro": "CJ HAB PADRE JOSE DE",
+    "logradouro": "RUA SYLVIO TORRES",
+    "lat": -23.55240802,
+    "lon": -46.487574,
+    "cnes": "4049926"
+  },
+  {
+    "nome": "UBS PARADA XV DE NOVEMBRO",
+    "cidade": "São Paulo",
+    "bairro": "XV DE NOVEMBRO",
+    "logradouro": "RUA IBIAJARA",
+    "lat": -23.52735,
+    "lon": -46.43556,
+    "cnes": "2788179"
+  },
+  {
+    "nome": "UBS PARAISOPOLIS",
+    "cidade": "São Paulo",
+    "bairro": "PARAISOPOLIS",
+    "logradouro": "RUA MELCHIOR GIOLA",
+    "lat": -23.616793,
+    "lon": -46.723003,
+    "cnes": "2788187"
+  },
+  {
+    "nome": "UBS PARAISOPOLIS II",
+    "cidade": "São Paulo",
+    "bairro": "PARAISOPOLIS",
+    "logradouro": "RUA PASQUALE GUALLUPI",
+    "lat": -23.612359,
+    "lon": -46.725901,
+    "cnes": "3956954"
+  },
+  {
+    "nome": "UBS PARAISOPOLIS III",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM MORUMBI",
+    "logradouro": "RUA SILVEIRA SAMPAIO",
+    "lat": -23.61704848,
+    "lon": -46.72038588,
+    "cnes": "6564410"
+  },
+  {
+    "nome": "UBS PARELHEIROS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM NOVO PARELHEI",
+    "logradouro": "RUA MARIO TRAPE",
+    "lat": -23.8304691,
+    "lon": -46.7266404,
+    "cnes": "4050150"
+  },
+  {
+    "nome": "UBS PARQUE ARARIBA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM INGA",
+    "logradouro": "RUA FRANCISCO SOARES",
+    "lat": -23.637729,
+    "lon": -46.749685,
+    "cnes": "2788268"
+  },
+  {
+    "nome": "UBS PARQUE ARTHUR ALVIM",
+    "cidade": "São Paulo",
+    "bairro": "ARTHUR ALVIM",
+    "logradouro": "RUA HENRIQUE JACOB",
+    "lat": -23.5705116,
+    "lon": -46.5921452,
+    "cnes": "2752328"
+  },
+  {
+    "nome": "UBS PARQUE BOA ESPERANCA",
+    "cidade": "São Paulo",
+    "bairro": "PQ BOA ESPERANCA",
+    "logradouro": "AV RAGUEB CHOHFI",
+    "lat": -23.5948629,
+    "lon": -46.44859672,
+    "cnes": "2788276"
+  },
+  {
+    "nome": "UBS PARQUE DA LAPA",
+    "cidade": "São Paulo",
+    "bairro": "VL LEOPOLDINA",
+    "logradouro": "RUA BERGSON",
+    "lat": -23.53156,
+    "lon": -46.72056,
+    "cnes": "2027461"
+  },
+  {
+    "nome": "UBS PARQUE DAS FLORES",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE DAS FLORES",
+    "logradouro": "RUA DAS PETUNIAS",
+    "lat": -23.640231,
+    "lon": -46.44586376,
+    "cnes": "4700449"
+  },
+  {
+    "nome": "UBS PARQUE DO ENGENHO II",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE DO ENGENHO",
+    "logradouro": "AVENIDA DOM RODRIGO SANCHES",
+    "lat": -23.6612615,
+    "lon": -46.7865556,
+    "cnes": "2788314"
+  },
+  {
+    "nome": "UBS PARQUE DO LAGO",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE DO LAGO",
+    "logradouro": "ESTRADA DA BARONESA",
+    "lat": -23.7077,
+    "lon": -46.7656,
+    "cnes": "4050223"
+  },
+  {
+    "nome": "UBS PARQUE DOROTEIA",
+    "cidade": "São Paulo",
+    "bairro": "JD SANTA TEREZINHA",
+    "logradouro": "RUA DOS ANIQUIS",
+    "lat": -23.6977416,
+    "lon": -46.6479497,
+    "cnes": "2788292"
+  },
+  {
+    "nome": "UBS PARQUE DOS BUFALOS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM APURA",
+    "logradouro": "RUA SANTO DOMINGOS DONATAO",
+    "lat": -23.708722,
+    "lon": -46.65471572,
+    "cnes": "4488326"
+  },
+  {
+    "nome": "UBS PARQUE EDU CHAVES",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE EDU CHAVES",
+    "logradouro": "AV EDU CHAVES",
+    "lat": -23.4775689,
+    "lon": -46.5686595,
+    "cnes": "2788306"
+  },
+  {
+    "nome": "UBS PARQUE FIGUEIRA GRANDE",
+    "cidade": "São Paulo",
+    "bairro": "PQ FIGUEIRA GRANDE",
+    "logradouro": "RUA DANIEL KLEIN",
+    "lat": -23.6793271,
+    "lon": -46.7492408,
+    "cnes": "2815451"
+  },
+  {
+    "nome": "UBS PARQUE IMPERIAL MANOEL ANTONIO DA SILVA SARAGOCA",
+    "cidade": "São Paulo",
+    "bairro": "VILA MONTE ALEGRE",
+    "logradouro": "RUA MAJOR FREIRE",
+    "lat": -23.62823546,
+    "lon": -46.63591951,
+    "cnes": "2788330"
+  },
+  {
+    "nome": "UBS PARQUE MARIA DOMITILA",
+    "cidade": "São Paulo",
+    "bairro": "CITY AMERICA",
+    "logradouro": "AV DO ANASTACIO",
+    "lat": -23.488607,
+    "lon": -46.7407893,
+    "cnes": "3738604"
+  },
+  {
+    "nome": "UBS PARQUE NOVO MUNDO I",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE NOVO MUNDO",
+    "logradouro": "R BENEDITA DORNELAS CLARO",
+    "lat": -23.5192795,
+    "lon": -46.577996,
+    "cnes": "2788349"
+  },
+  {
+    "nome": "UBS PARQUE NOVO MUNDO II",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE NOVO MUNDO",
+    "logradouro": "R SOLDADO ANTONIO MATIAS DE CAMARGO",
+    "lat": -23.511957,
+    "lon": -46.5657452,
+    "cnes": "2788357"
+  },
+  {
+    "nome": "UBS PARQUE NOVO SANTO AMARO",
+    "cidade": "São Paulo",
+    "bairro": "PQ NOVO STO AMARO",
+    "logradouro": "RUA PORTA DO PRADO",
+    "lat": -23.7001797,
+    "lon": -46.78231307,
+    "cnes": "2788365"
+  },
+  {
+    "nome": "UBS PARQUE PAULISTANO",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE PAULISTANO",
+    "logradouro": "RUA SILVEIRA PIRES",
+    "lat": -23.51514,
+    "lon": -46.4292951,
+    "cnes": "6283616"
+  },
+  {
+    "nome": "UBS PARQUE PERUCHE",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE PERUCHE",
+    "logradouro": "RUA ENG JOSE RANGEL CAMARGO",
+    "lat": -23.49711,
+    "lon": -46.65527,
+    "cnes": "2788373"
+  },
+  {
+    "nome": "UBS PARQUE REGINA PERINA ALVES TEIXEIRA",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE REGINA",
+    "logradouro": "RUA MELO COUTINHO",
+    "lat": -23.634587,
+    "lon": -46.755694,
+    "cnes": "2788381"
+  },
+  {
+    "nome": "UBS PARQUE RESIDENCIAL COCAIA INDEPENDENTE",
+    "cidade": "São Paulo",
+    "bairro": "PQ RESIDENCIAL COCAI",
+    "logradouro": "RUA FELINTO MILANEZ",
+    "lat": -23.7448003,
+    "lon": -46.6686869,
+    "cnes": "2788403"
+  },
+  {
+    "nome": "UBS PARQUE SANTA RITA",
+    "cidade": "São Paulo",
+    "bairro": "PRQ SANTA RITA",
+    "logradouro": "RUA JOSE PESSOTA",
+    "lat": -23.5129191,
+    "lon": -46.4134206,
+    "cnes": "2788446"
+  },
+  {
+    "nome": "UBS PARQUE SANTO ANTONIO II",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE SANTO ANTONIO",
+    "logradouro": "RUA ANTONIO RAMOS ROSA",
+    "lat": -23.661366,
+    "lon": -46.7490001,
+    "cnes": "4493516"
+  },
+  {
+    "nome": "UBS PARQUE SAO LUCAS",
+    "cidade": "São Paulo",
+    "bairro": "PQ SAO LUCAS",
+    "logradouro": "RUA DR NOGUEIRA DE NORONHA",
+    "lat": -23.59632538,
+    "lon": -46.54607087,
+    "cnes": "2057891"
+  },
+  {
+    "nome": "UBS PARQUE SAO RAFAEL DRA ORA ROSEN",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE SAO RAFAEL",
+    "logradouro": "RUA DOUTOR ARISTIDES RICARDO",
+    "lat": -23.62483199,
+    "lon": -46.46981835,
+    "cnes": "4049853"
+  },
+  {
+    "nome": "UBS PASTORAL",
+    "cidade": "São Paulo",
+    "bairro": "PQ STA MADALENA",
+    "logradouro": "RUA NOVA RESENDE",
+    "lat": -23.61396487,
+    "lon": -46.51702791,
+    "cnes": "4050398"
+  },
+  {
+    "nome": "UBS PAULO FELDMAN NITRO OPERARIA",
+    "cidade": "São Paulo",
+    "bairro": "SAO MIGUEL PAULISTA",
+    "logradouro": "RUA CUMARU",
+    "lat": -23.494213,
+    "lon": -46.4325221,
+    "cnes": "2788209"
+  },
+  {
+    "nome": "UBS PEDRO DE SOUZA CAMPOS",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE BUTURUSSU",
+    "logradouro": "RUA PAULO BIFANO ALVES",
+    "lat": -23.503142,
+    "lon": -46.4839706,
+    "cnes": "4050002"
+  },
+  {
+    "nome": "UBS PONTE RASA DR CARLOS OLIVALDO DE SOUZA LOPES MUNIZ",
+    "cidade": "São Paulo",
+    "bairro": "ALTO DA PONTE RASA",
+    "logradouro": "RUA JACO BERTILLON",
+    "lat": -23.51495158,
+    "lon": -46.48307295,
+    "cnes": "2064820"
+  },
+  {
+    "nome": "UBS PREFEITO CELSO AUGUSTO DANIEL",
+    "cidade": "São Paulo",
+    "bairro": "COHAB JUSCELINO",
+    "logradouro": "RUA JORGE MARACCINI PONFILIO",
+    "lat": -23.5634825,
+    "lon": -46.3992415,
+    "cnes": "3002926"
+  },
+  {
+    "nome": "UBS PREFEITO PRESTES MAIA",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "RUA INACIO PINTO LIMA",
+    "lat": -23.56608,
+    "lon": -46.40905,
+    "cnes": "4049969"
+  },
+  {
+    "nome": "UBS PRIMAVERA COLORADO",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM PORTEIRA GRAN",
+    "logradouro": "RUA ANTONIO RIBEIRO MACEDO",
+    "lat": -23.58657435,
+    "lon": -46.52299047,
+    "cnes": "8212058"
+  },
+  {
+    "nome": "UBS PRIMEIRO DE OUTUBRO",
+    "cidade": "São Paulo",
+    "bairro": "VILA LOURDES",
+    "logradouro": "TRAVESSA ACUCENA DO BREJO",
+    "lat": -23.5302122,
+    "lon": -46.3979238,
+    "cnes": "2766019"
+  },
+  {
+    "nome": "UBS PRO MORAR",
+    "cidade": "São Paulo",
+    "bairro": "CONJ HABITACIONAL TE",
+    "logradouro": "RUA GIOVANNI NASCO",
+    "lat": -23.59632538,
+    "lon": -46.49944335,
+    "cnes": "9423206"
+  },
+  {
+    "nome": "UBS PROFETA JEREMIAS",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE TIRADENTES",
+    "logradouro": "RUA LUIS BORDESE",
+    "lat": -23.60311,
+    "lon": -46.40356,
+    "cnes": "2027305"
+  },
+  {
+    "nome": "UBS REAL PARQUE PAULO MANGABEIRA ALBERNAZ FILHO",
+    "cidade": "São Paulo",
+    "bairro": "REAL PARQUE",
+    "logradouro": "RUA PAULO BOURROUL",
+    "lat": -23.6091947,
+    "lon": -46.7018991,
+    "cnes": "2788470"
+  },
+  {
+    "nome": "UBS RECANTO CAMPO BELO",
+    "cidade": "São Paulo",
+    "bairro": "RECANTO CAMPO BELO",
+    "logradouro": "RUA VIRGINIA MODESTO",
+    "lat": -23.7920672,
+    "lon": -46.7353524,
+    "cnes": "2027321"
+  },
+  {
+    "nome": "UBS RECANTO DOS HUMILDES",
+    "cidade": "São Paulo",
+    "bairro": "PERUS",
+    "logradouro": "AV PAVAO",
+    "lat": -23.414999,
+    "lon": -46.751725,
+    "cnes": "3105504"
+  },
+  {
+    "nome": "UBS RECANTO VERDE DO SOL",
+    "cidade": "São Paulo",
+    "bairro": "RECANTO VERDE SOL",
+    "logradouro": "ESTRADA DOS FIDELIS",
+    "lat": -23.61631924,
+    "lon": -46.42265975,
+    "cnes": "2788489"
+  },
+  {
+    "nome": "UBS REPUBLICA FERNANDA SANTE LIMEIRA",
+    "cidade": "São Paulo",
+    "bairro": "CENTRO",
+    "logradouro": "RUA LIBERO BADARO",
+    "lat": -23.54800558,
+    "lon": -46.63598388,
+    "cnes": "6090621"
+  },
+  {
+    "nome": "UBS REUNIDAS I",
+    "cidade": "São Paulo",
+    "bairro": "VILA IVG",
+    "logradouro": "RUA SAO JOSE DAS ESPINHARAS",
+    "lat": -23.6036914,
+    "lon": -46.533502,
+    "cnes": "4050401"
+  },
+  {
+    "nome": "UBS REUNIDAS II",
+    "cidade": "São Paulo",
+    "bairro": "VILA UNIAO",
+    "logradouro": "AVENIDA DA CASA GRANDE",
+    "lat": -23.60507046,
+    "lon": -46.52078301,
+    "cnes": "2788497"
+  },
+  {
+    "nome": "UBS RIO CLARO",
+    "cidade": "São Paulo",
+    "bairro": "JD RIO CLARO",
+    "logradouro": "CINIRA POLONIO RUA",
+    "lat": -23.62127003,
+    "lon": -46.45693123,
+    "cnes": "4050061"
+  },
+  {
+    "nome": "UBS RIO PEQUENO PAULO DE BARROS FRANCA",
+    "cidade": "São Paulo",
+    "bairro": "RIO PEQUENO",
+    "logradouro": "RUA PADRE FRANCISCO LIBERMANN",
+    "lat": -23.562,
+    "lon": -46.751,
+    "cnes": "2788500"
+  },
+  {
+    "nome": "UBS SACOMA EDMUNDO SUSSUMU FUJITA",
+    "cidade": "São Paulo",
+    "bairro": "SACOMA",
+    "logradouro": "ESTRADA DAS LAGRIMAS",
+    "lat": -23.61554265,
+    "lon": -46.59368545,
+    "cnes": "2788519"
+  },
+  {
+    "nome": "UBS SANTA CRUZ",
+    "cidade": "São Paulo",
+    "bairro": "VILA MARIANA",
+    "logradouro": "RUA SANTA CRUZ",
+    "lat": -23.59787879,
+    "lon": -46.62490368,
+    "cnes": "2091526"
+  },
+  {
+    "nome": "UBS SANTA INES",
+    "cidade": "São Paulo",
+    "bairro": "PRQ CRUZEIRO DO SUL",
+    "logradouro": "RUA FREI FIDELIS MOTA",
+    "lat": -23.4965502,
+    "lon": -46.4652143,
+    "cnes": "2788608"
+  },
+  {
+    "nome": "UBS SANTA LUCIA",
+    "cidade": "São Paulo",
+    "bairro": "VILA SANTA LUCIA",
+    "logradouro": "RUA CARMELO CALI",
+    "lat": -23.69117,
+    "lon": -46.76575,
+    "cnes": "2788616"
+  },
+  {
+    "nome": "UBS SANTA LUZIA",
+    "cidade": "São Paulo",
+    "bairro": "JD MIRIAM",
+    "logradouro": "RUA CONJUNTO DA PAZ",
+    "lat": -23.520846,
+    "lon": -46.388799,
+    "cnes": "2788624"
+  },
+  {
+    "nome": "UBS SANTA MADALENA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM ELBA",
+    "logradouro": "RUA PALMEIRA BACABA",
+    "lat": -23.61537553,
+    "lon": -46.51058257,
+    "cnes": "2788411"
+  },
+  {
+    "nome": "UBS SANTO AMARO DR SERGIO VILLACA BRAGA",
+    "cidade": "São Paulo",
+    "bairro": "SANTO AMARO",
+    "logradouro": "RUA CONDE DE ITU",
+    "lat": -23.64732046,
+    "lon": -46.70178122,
+    "cnes": "2788640"
+  },
+  {
+    "nome": "UBS SANTO DIAS",
+    "cidade": "São Paulo",
+    "bairro": "VILA NOVA ESPERANCA",
+    "logradouro": "RUA SANTO DIAS",
+    "lat": -23.3296,
+    "lon": -46.375,
+    "cnes": "4466713"
+  },
+  {
+    "nome": "UBS SANTO ELIAS",
+    "cidade": "São Paulo",
+    "bairro": "JD SANTO ELIAS",
+    "logradouro": "RUA FABIO DE ALMEIDA MAGALHAES",
+    "lat": -23.4959544,
+    "lon": -46.7526214,
+    "cnes": "3469042"
+  },
+  {
+    "nome": "UBS SANTO ESTEVAO",
+    "cidade": "São Paulo",
+    "bairro": "ITAQUERA",
+    "logradouro": "RUA CACHOEIRA DA ILHA",
+    "lat": -23.5583339,
+    "lon": -46.4602834,
+    "cnes": "3004341"
+  },
+  {
+    "nome": "UBS SAO CARLOS GUAIANASES",
+    "cidade": "São Paulo",
+    "bairro": "JD SAO CARLOS",
+    "logradouro": "R MACABU",
+    "lat": -23.5579207,
+    "lon": -46.4154871,
+    "cnes": "3044750"
+  },
+  {
+    "nome": "UBS SAO JORGE CIDADE ADEMAR",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SAO JORGE",
+    "logradouro": "AV EDUARDO PEREIRA RAMOS",
+    "lat": -23.685573,
+    "lon": -46.6615333,
+    "cnes": "3996115"
+  },
+  {
+    "nome": "UBS SAO MATEUS NAIR ALVES DE REZENDE NORIMBENI",
+    "cidade": "São Paulo",
+    "bairro": "SAO MATEUS",
+    "logradouro": "RUA ANGELO DE CANDIA",
+    "lat": -23.59980824,
+    "lon": -46.48270369,
+    "cnes": "2788535"
+  },
+  {
+    "nome": "UBS SAO REMO",
+    "cidade": "São Paulo",
+    "bairro": "RIO PEQUENO",
+    "logradouro": "RUA BALTAZAR RABELO",
+    "lat": -23.56364,
+    "lon": -46.74404,
+    "cnes": "7672578"
+  },
+  {
+    "nome": "UBS SE",
+    "cidade": "São Paulo",
+    "bairro": "SE",
+    "logradouro": "RUA FREDERICO ALVARENGA",
+    "lat": -23.5508397,
+    "lon": -46.628688,
+    "cnes": "5975220"
+  },
+  {
+    "nome": "UBS SEM TERRA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SANTA LUCRECI",
+    "logradouro": "RUA ARACY RONDON AMARANTE",
+    "lat": -23.4400114,
+    "lon": -46.7481334,
+    "cnes": "9343148"
+  },
+  {
+    "nome": "UBS SHANGRILA ELLUS",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM SHANGRILA",
+    "logradouro": "RUA RODRIGUES",
+    "lat": -23.7660568,
+    "lon": -46.66770098,
+    "cnes": "9129855"
+  },
+  {
+    "nome": "UBS SILMARYA REJANE MARCOLINO SOUZA",
+    "cidade": "São Paulo",
+    "bairro": "BRASILANDIA",
+    "logradouro": "RUA EUVALDO AUGUSTO FREIRE",
+    "lat": -23.4546049,
+    "lon": -46.7017226,
+    "cnes": "2788586"
+  },
+  {
+    "nome": "UBS TEOTONIO VILELA",
+    "cidade": "São Paulo",
+    "bairro": "LAR NACIONAL",
+    "logradouro": "AVENIDA ARQ VILANOVA ARTIGAS",
+    "lat": -23.60600687,
+    "lon": -46.50316358,
+    "cnes": "2074079"
+  },
+  {
+    "nome": "UBS THERSIO VENTURA",
+    "cidade": "São Paulo",
+    "bairro": "CID PEDRO JOSE NUNES",
+    "logradouro": "RUA ARRAIAL DE SANTA BARBARA",
+    "lat": -23.5064715,
+    "lon": -46.4681903,
+    "cnes": "2788659"
+  },
+  {
+    "nome": "UBS TRES PONTES SENHORA FLORISVALDA NASCIMENTO DE SOUZA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM CELIA",
+    "logradouro": "RUA CAPACHOS",
+    "lat": -23.4801191,
+    "lon": -46.381027,
+    "cnes": "9459065"
+  },
+  {
+    "nome": "UBS UNIAO DAS VILAS DE TAIPAS",
+    "cidade": "São Paulo",
+    "bairro": "PARADA DE TAIPAS",
+    "logradouro": "AV ELISIO TEIXEIRA LEITE",
+    "lat": -23.4356802,
+    "lon": -46.7206781,
+    "cnes": "2788667"
+  },
+  {
+    "nome": "UBS UNIAO DE VILA NOVA",
+    "cidade": "São Paulo",
+    "bairro": "SAO MIGUEL PAULISTA",
+    "logradouro": "RUA CATLEIAS",
+    "lat": -23.4838336,
+    "lon": -46.4593162,
+    "cnes": "2819856"
+  },
+  {
+    "nome": "UBS V PRAIA VITORIO ROLANDO BOCCALETTI",
+    "cidade": "São Paulo",
+    "bairro": "VILA PRAIA",
+    "logradouro": "RUA ANDRE DE ANDRADE",
+    "lat": -23.61743264,
+    "lon": -46.74575464,
+    "cnes": "2789191"
+  },
+  {
+    "nome": "UBS VARGEM GRANDE",
+    "cidade": "São Paulo",
+    "bairro": "VARGEM GRANDE",
+    "logradouro": "RUA DAS ARARAS",
+    "lat": -23.8552894,
+    "lon": -46.7047291,
+    "cnes": "2789280"
+  },
+  {
+    "nome": "UBS VARGINHA",
+    "cidade": "São Paulo",
+    "bairro": "VARGINHA",
+    "logradouro": "RUA HENRIQUE MUZZIO",
+    "lat": -23.7857584,
+    "lon": -46.6842972,
+    "cnes": "2789299"
+  },
+  {
+    "nome": "UBS VELEIROS",
+    "cidade": "São Paulo",
+    "bairro": "VELEIROS",
+    "logradouro": "AVENIDA CLARA MANTELLI",
+    "lat": -23.6815521,
+    "lon": -46.7114007,
+    "cnes": "2789302"
+  },
+  {
+    "nome": "UBS VERA CRUZ DR FERNANDO PROENCA DE GOUVEA",
+    "cidade": "São Paulo",
+    "bairro": "JD VERA CRUZ",
+    "logradouro": "AV DOS FUNCIONARIOS PUBLICOS",
+    "lat": -23.619,
+    "lon": -46.657,
+    "cnes": "2086816"
+  },
+  {
+    "nome": "UBS VILA ALBERTINA DR OSVALDO MARCAL",
+    "cidade": "São Paulo",
+    "bairro": "VILA ESMERALDA",
+    "logradouro": "RUA ANTONIO JOAQUIM DE OLIVEIRA",
+    "lat": -23.4490981,
+    "lon": -46.61015963,
+    "cnes": "2027275"
+  },
+  {
+    "nome": "UBS VILA ALPINA DR HERMINIO MOREIRA",
+    "cidade": "São Paulo",
+    "bairro": "VILA ALPINA",
+    "logradouro": "RUA PARAMU",
+    "lat": -23.596251,
+    "lon": -46.56762,
+    "cnes": "2045451"
+  },
+  {
+    "nome": "UBS VILA ANASTACIO",
+    "cidade": "São Paulo",
+    "bairro": "VILA ANASTACIO",
+    "logradouro": "RUA CONSELHEIRO OLEGARIO",
+    "lat": -23.513969,
+    "lon": -46.719964,
+    "cnes": "2788675"
+  },
+  {
+    "nome": "UBS VILA ANGLO JOSE SERRA RIBEIRO",
+    "cidade": "São Paulo",
+    "bairro": "PERDIZES",
+    "logradouro": "AVENIDA SUMARE",
+    "lat": -23.529362,
+    "lon": -46.678117,
+    "cnes": "2788683"
+  },
+  {
+    "nome": "UBS VILA APARECIDA",
+    "cidade": "São Paulo",
+    "bairro": "VILA PORTELA",
+    "logradouro": "AVENIDA BATISTA MACIEL",
+    "lat": -23.692385,
+    "lon": -46.6696326,
+    "cnes": "2788705"
+  },
+  {
+    "nome": "UBS VILA ARAPUA NELSON MORAES",
+    "cidade": "São Paulo",
+    "bairro": "VILA ARAPUA",
+    "logradouro": "RUA COLOMBO FLORENCE",
+    "lat": -23.63362185,
+    "lon": -46.58902645,
+    "cnes": "2788713"
+  },
+  {
+    "nome": "UBS VILA ARICANDUVA",
+    "cidade": "São Paulo",
+    "bairro": "VILA ARICANDUVA",
+    "logradouro": "RUA ANTONIO LINDORO DA SILVA",
+    "lat": -23.533671,
+    "lon": -46.5369526,
+    "cnes": "2788721"
+  },
+  {
+    "nome": "UBS VILA ARRIETE DECIO PACHECO PEDROSO",
+    "cidade": "São Paulo",
+    "bairro": "VILA EMIR",
+    "logradouro": "AVENIDA NOSSA SENHORA DO SABARA",
+    "lat": -23.68141115,
+    "lon": -46.68264292,
+    "cnes": "2788748"
+  },
+  {
+    "nome": "UBS VILA AURORA DOMINGOS MAZZONETO DE CILO",
+    "cidade": "São Paulo",
+    "bairro": "IMIRIM",
+    "logradouro": "ENGENHEIRO CAETANO ALVARES",
+    "lat": -23.47337683,
+    "lon": -46.62613041,
+    "cnes": "2752212"
+  },
+  {
+    "nome": "UBS VILA BERTIOGA DOMINGOS DELASCIO",
+    "cidade": "São Paulo",
+    "bairro": "VILA BERTIOGA",
+    "logradouro": "RUA FAROL PAULISTANO",
+    "lat": -23.57081189,
+    "lon": -46.57574415,
+    "cnes": "2752344"
+  },
+  {
+    "nome": "UBS VILA BORGES",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM CLAUDIA",
+    "logradouro": "RUA JACINTO DE MORAIS",
+    "lat": -23.587,
+    "lon": -46.77,
+    "cnes": "2788764"
+  },
+  {
+    "nome": "UBS VILA CAIUBA",
+    "cidade": "São Paulo",
+    "bairro": "PERUS",
+    "logradouro": "RUA PRESIDENTE VARGAS",
+    "lat": -23.39985,
+    "lon": -46.75041,
+    "cnes": "6377742"
+  },
+  {
+    "nome": "UBS VILA CALU",
+    "cidade": "São Paulo",
+    "bairro": "VILA CALU",
+    "logradouro": "ESTRADA DO M BOI MIRIM",
+    "lat": -23.6683658,
+    "lon": -46.7331529,
+    "cnes": "3762831"
+  },
+  {
+    "nome": "UBS VILA CAMPESTRE",
+    "cidade": "São Paulo",
+    "bairro": "VILA CAMPESTRE",
+    "logradouro": "R ARTHUR NUNES SILVA",
+    "lat": -23.66031956,
+    "lon": -46.65027469,
+    "cnes": "6165516"
+  },
+  {
+    "nome": "UBS VILA CANAA",
+    "cidade": "São Paulo",
+    "bairro": "VILA CANAA",
+    "logradouro": "RUA CONTOS GAUCHESCOS",
+    "lat": -23.65447484,
+    "lon": -46.66406929,
+    "cnes": "7136617"
+  },
+  {
+    "nome": "UBS VILA CARMOSINA",
+    "cidade": "São Paulo",
+    "bairro": "ITAQUERA",
+    "logradouro": "RUA IPOPOCA",
+    "lat": -23.5495193,
+    "lon": -46.4485196,
+    "cnes": "2788772"
+  },
+  {
+    "nome": "UBS VILA CARRAO DR ADHEMAR MONTEIRO PACHECO",
+    "cidade": "São Paulo",
+    "bairro": "VILA CARRAO",
+    "logradouro": "RUA DR JACY BARBOSA",
+    "lat": -23.55293302,
+    "lon": -46.52487874,
+    "cnes": "2752352"
+  },
+  {
+    "nome": "UBS VILA CHABILANDIA",
+    "cidade": "São Paulo",
+    "bairro": "LAJEADO",
+    "logradouro": "ESTRADA DO LAJEADO VELHO",
+    "lat": -23.537465,
+    "lon": -46.4075365,
+    "cnes": "2788780"
+  },
+  {
+    "nome": "UBS VILA CISPER",
+    "cidade": "São Paulo",
+    "bairro": "ERMELINO MATARAZZO",
+    "logradouro": "RUA CACULE",
+    "lat": -23.4489258,
+    "lon": -46.4260487,
+    "cnes": "2079070"
+  },
+  {
+    "nome": "UBS VILA CONSTANCIA VICENTE OCTAVIO GUIDA",
+    "cidade": "São Paulo",
+    "bairro": "VILA DO CASTELO",
+    "logradouro": "RUA HERMENEGILDO MARTINI",
+    "lat": -23.673668,
+    "lon": -46.666417,
+    "cnes": "2788799"
+  },
+  {
+    "nome": "UBS VILA COSMOPOLITA",
+    "cidade": "São Paulo",
+    "bairro": "GUAIANASES",
+    "logradouro": "RUA CHUVAS DE VERAO",
+    "lat": -23.5609613,
+    "lon": -46.4238104,
+    "cnes": "2789310"
+  },
+  {
+    "nome": "UBS VILA CURUCA",
+    "cidade": "São Paulo",
+    "bairro": "VILA CURUCA",
+    "logradouro": "RUA PEDRO MEIRA",
+    "lat": -23.5023245,
+    "lon": -46.4255787,
+    "cnes": "2788802"
+  },
+  {
+    "nome": "UBS VILA DALVA ENG GUILHERME H PINTO COELHO",
+    "cidade": "São Paulo",
+    "bairro": "VILA DALVA",
+    "logradouro": "RUA GUSTAVO BERTHIER",
+    "lat": -23.334,
+    "lon": -46.453,
+    "cnes": "2788810"
+  },
+  {
+    "nome": "UBS VILA DAS BELEZAS ALBERTO AMBROSIO",
+    "cidade": "São Paulo",
+    "bairro": "VILA DAS BELEZAS",
+    "logradouro": "ESTRADA DE ITAPECERICA",
+    "lat": -23.64784,
+    "lon": -46.74813,
+    "cnes": "4049810"
+  },
+  {
+    "nome": "UBS VILA DAS MERCES",
+    "cidade": "São Paulo",
+    "bairro": "VILA DAS MERCES",
+    "logradouro": "RUA NOSSA SENHORA DAS MERCES",
+    "lat": -23.62966808,
+    "lon": -46.60491318,
+    "cnes": "2788829"
+  },
+  {
+    "nome": "UBS VILA DIONISIA",
+    "cidade": "São Paulo",
+    "bairro": "VILA DIONISIA",
+    "logradouro": "RUA CHEN FERRAZ FALCAO",
+    "lat": -23.46482,
+    "lon": -46.66171,
+    "cnes": "2788837"
+  },
+  {
+    "nome": "UBS VILA DIONISIA II",
+    "cidade": "São Paulo",
+    "bairro": "VILA NOVA CACHOEIRIN",
+    "logradouro": "RUA SETE DE DEZEMBRO",
+    "lat": -23.46757,
+    "lon": -46.65884,
+    "cnes": "6974511"
+  },
+  {
+    "nome": "UBS VILA EDE",
+    "cidade": "São Paulo",
+    "bairro": "VILA EDE",
+    "logradouro": "R PADRE MARCOS SIMONI",
+    "lat": -23.490468,
+    "lon": -46.591484,
+    "cnes": "2788845"
+  },
+  {
+    "nome": "UBS VILA EMA DR FUAD KASSAB",
+    "cidade": "São Paulo",
+    "bairro": "VILA EMA",
+    "logradouro": "RUA GUSTAVO STACH",
+    "lat": -23.5802785,
+    "lon": -46.546275,
+    "cnes": "9624988"
+  },
+  {
+    "nome": "UBS VILA ESPANHOLA",
+    "cidade": "São Paulo",
+    "bairro": "VILA ESPANHOLA",
+    "logradouro": "AV JOAO DOS SANTOS ABREU",
+    "lat": -23.48181,
+    "lon": -46.66711,
+    "cnes": "2788853"
+  },
+  {
+    "nome": "UBS VILA ESPERANCA DR CASSIO BITTENCOURT FILHO",
+    "cidade": "São Paulo",
+    "bairro": "VILA BEATRIZ",
+    "logradouro": "RUA ALVINOPOLIS",
+    "lat": -23.5316558,
+    "lon": -46.5270099,
+    "cnes": "2788861"
+  },
+  {
+    "nome": "UBS VILA ESPERANCA DR EMILIO SANTIAGO DE OLIVEIRA",
+    "cidade": "São Paulo",
+    "bairro": "VILA ESPERANCA",
+    "logradouro": "RUA COREMU",
+    "lat": -23.5231763,
+    "lon": -46.5265393,
+    "cnes": "2788888"
+  },
+  {
+    "nome": "UBS VILA FORMOSA I DR ANTONIO DA SILVEIRA E OLIVEIRA",
+    "cidade": "São Paulo",
+    "bairro": "VILA FORMOSA",
+    "logradouro": "RUA ACURUI",
+    "lat": -23.5584521,
+    "lon": -46.5530846,
+    "cnes": "2788918"
+  },
+  {
+    "nome": "UBS VILA FORMOSA II",
+    "cidade": "São Paulo",
+    "bairro": "VILA FORMOSA",
+    "logradouro": "RUA OURICURI",
+    "lat": -23.56929995,
+    "lon": -46.53913736,
+    "cnes": "2788896"
+  },
+  {
+    "nome": "UBS VILA GRANADA DR ALFREDO FERREIRA PAULINO FILHO",
+    "cidade": "São Paulo",
+    "bairro": "VILA RE",
+    "logradouro": "RUA MADALENA JULIA",
+    "lat": -23.52354336,
+    "lon": -46.5087038,
+    "cnes": "2788926"
+  },
+  {
+    "nome": "UBS VILA GUACURI CICERO SERGIO CAVALCANTE",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM RUBILENE",
+    "logradouro": "RUA VALENTINO FIORAVANTE",
+    "lat": -23.70248049,
+    "lon": -46.63560365,
+    "cnes": "2788934"
+  },
+  {
+    "nome": "UBS VILA GUARANI",
+    "cidade": "São Paulo",
+    "bairro": "JD MARINGA",
+    "logradouro": "RUA TERESINHA",
+    "lat": -23.57951442,
+    "lon": -46.52838439,
+    "cnes": "2788942"
+  },
+  {
+    "nome": "UBS VILA GUILHERME",
+    "cidade": "São Paulo",
+    "bairro": "VILA GUILHERME",
+    "logradouro": "RUA JOAO VENTURA BATISTA",
+    "lat": -23.51604389,
+    "lon": -46.60533079,
+    "cnes": "2788950"
+  },
+  {
+    "nome": "UBS VILA GUILHERMINA DR AMERICO RASPA NETO",
+    "cidade": "São Paulo",
+    "bairro": "CIDADE PATRIARCA",
+    "logradouro": "RUA JOAO MARCHIORI",
+    "lat": -23.5388344,
+    "lon": -46.5131932,
+    "cnes": "2788969"
+  },
+  {
+    "nome": "UBS VILA GUMERCINDO PROF JANDIRA MASSUR",
+    "cidade": "São Paulo",
+    "bairro": "VILA FIRMIANO PINTO",
+    "logradouro": "AV DR RICARDO JAFET",
+    "lat": -23.60208176,
+    "lon": -46.62472934,
+    "cnes": "2787598"
+  },
+  {
+    "nome": "UBS VILA HELOISA",
+    "cidade": "São Paulo",
+    "bairro": "VILA HELOISA",
+    "logradouro": "RUA AIRES QUARESMA",
+    "lat": -23.58970105,
+    "lon": -46.53481901,
+    "cnes": "2026961"
+  },
+  {
+    "nome": "UBS VILA IMPERIO DRA GILDA TERA TAHIRA",
+    "cidade": "São Paulo",
+    "bairro": "AMERICANOPOLIS",
+    "logradouro": "NESTOR SAMPAIO PENTEADO",
+    "lat": -23.6777057,
+    "lon": -46.6520268,
+    "cnes": "2788977"
+  },
+  {
+    "nome": "UBS VILA IPOJUCA WANDA COELHO DE MORAES",
+    "cidade": "São Paulo",
+    "bairro": "VILA ROMANA",
+    "logradouro": "RUA CATAO",
+    "lat": -23.531982,
+    "lon": -46.7011,
+    "cnes": "2788985"
+  },
+  {
+    "nome": "UBS VILA ITAPEMA",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM ARISI",
+    "logradouro": "RUA COSTEIRA",
+    "lat": -23.5612691,
+    "lon": -46.509024,
+    "cnes": "2752271"
+  },
+  {
+    "nome": "UBS VILA IZOLINA MAZZEI",
+    "cidade": "São Paulo",
+    "bairro": "VILA IZOLINA MAZZEI",
+    "logradouro": "R ORLANDO RIBEIRO DANTAS",
+    "lat": -23.4933415,
+    "lon": -46.6008918,
+    "cnes": "2788993"
+  },
+  {
+    "nome": "UBS VILA JACUI",
+    "cidade": "São Paulo",
+    "bairro": "VILA JACUI",
+    "logradouro": "RUA EDIPO FELICIANO",
+    "lat": -23.502567,
+    "lon": -46.450048,
+    "cnes": "2789000"
+  },
+  {
+    "nome": "UBS VILA JAGUARA",
+    "cidade": "São Paulo",
+    "bairro": "VILA JAGUARA",
+    "logradouro": "RUA PAUVA",
+    "lat": -23.51404,
+    "lon": -46.746574,
+    "cnes": "2789019"
+  },
+  {
+    "nome": "UBS VILA JOANIZA JOAO YUNES",
+    "cidade": "São Paulo",
+    "bairro": "VILA JOANIZA",
+    "logradouro": "AVENIDA YERVANT KISSAJIKIAN",
+    "lat": -23.67445528,
+    "lon": -46.66179173,
+    "cnes": "2751828"
+  },
+  {
+    "nome": "UBS VILA LEONOR",
+    "cidade": "São Paulo",
+    "bairro": "VL LEONOR",
+    "logradouro": "AV ANGELINA",
+    "lat": -23.498654,
+    "lon": -46.596754,
+    "cnes": "2068109"
+  },
+  {
+    "nome": "UBS VILA MAGGI",
+    "cidade": "São Paulo",
+    "bairro": "PIRITUBA",
+    "logradouro": "RUA CONDE MONTERONE",
+    "lat": -23.4555259,
+    "lon": -46.7189896,
+    "cnes": "2789027"
+  },
+  {
+    "nome": "UBS VILA MANGALOT",
+    "cidade": "São Paulo",
+    "bairro": "SAO DOMINGOS",
+    "logradouro": "RUA PORTAO PRETO",
+    "lat": -23.4958124,
+    "lon": -46.7502068,
+    "cnes": "2789035"
+  },
+  {
+    "nome": "UBS VILA MARCELO",
+    "cidade": "São Paulo",
+    "bairro": "VILA MARCELO",
+    "logradouro": "RUA AMADO BENEDITO VILAS BOAS",
+    "lat": -23.7893331,
+    "lon": -46.724081,
+    "cnes": "6332501"
+  },
+  {
+    "nome": "UBS VILA MARIA LUIZ PAULO GNECCO",
+    "cidade": "São Paulo",
+    "bairro": "VILA MUNHOZ",
+    "logradouro": "R ANDRE DA FONSECA",
+    "lat": -23.500101,
+    "lon": -46.59053,
+    "cnes": "2027720"
+  },
+  {
+    "nome": "UBS VILA MARIANA DIOGO NOMURA",
+    "cidade": "São Paulo",
+    "bairro": "V CLEMENTINO",
+    "logradouro": "RUA DIOGO DE FARIA",
+    "lat": -23.59558554,
+    "lon": -46.64327413,
+    "cnes": "5662699"
+  },
+  {
+    "nome": "UBS VILA MATILDE DR RUBENS DO VAL",
+    "cidade": "São Paulo",
+    "bairro": "VILA MATILDE",
+    "logradouro": "AV MARCONDES DE BRITO",
+    "lat": -23.53684042,
+    "lon": -46.52761762,
+    "cnes": "2789043"
+  },
+  {
+    "nome": "UBS VILA MORAES JOAO PAULO BOTELHO VIEIRA",
+    "cidade": "São Paulo",
+    "bairro": "VILA MORAES",
+    "logradouro": "RUA GIOVANNI DI BALDUCCIO",
+    "lat": -23.63348179,
+    "lon": -46.61259234,
+    "cnes": "2789086"
+  },
+  {
+    "nome": "UBS VILA NATAL",
+    "cidade": "São Paulo",
+    "bairro": "VILA NATAL",
+    "logradouro": "AVENIDA PROFESSORA MARTA MARIA BERNARDES",
+    "lat": -23.76364279,
+    "lon": -46.70749593,
+    "cnes": "6998186"
+  },
+  {
+    "nome": "UBS VILA NIVI",
+    "cidade": "São Paulo",
+    "bairro": "VILA NIVI",
+    "logradouro": "PRACA CAMPINOPOLIS",
+    "lat": -23.4777485,
+    "lon": -46.58805313,
+    "cnes": "2027674"
+  },
+  {
+    "nome": "UBS VILA NOSSA SENHORA APARECIDA",
+    "cidade": "São Paulo",
+    "bairro": "ITAQUERA",
+    "logradouro": "RUA PAULINO SERQUEIRA",
+    "lat": -23.5339888,
+    "lon": -46.4426679,
+    "cnes": "2789094"
+  },
+  {
+    "nome": "UBS VILA NOVA CURUCA",
+    "cidade": "São Paulo",
+    "bairro": "SAO MIGUEL PAULISTA",
+    "logradouro": "RUA NARCEJA",
+    "lat": -23.5165789,
+    "lon": -46.4264606,
+    "cnes": "4050207"
+  },
+  {
+    "nome": "UBS VILA NOVA GALVAO SONIA REGINA CAMPANELLI",
+    "cidade": "São Paulo",
+    "bairro": "VILA NOVA GALVAO",
+    "logradouro": "RUA ALPHEU LUIZ GASPARINI",
+    "lat": -23.4513211,
+    "lon": -46.572347,
+    "cnes": "2789108"
+  },
+  {
+    "nome": "UBS VILA NOVA MANCHESTER DR ARLINDO GENNARI",
+    "cidade": "São Paulo",
+    "bairro": "VILA NOVA MANCHESTER",
+    "logradouro": "PRACA HAROLDO DALTRO",
+    "lat": -23.54653518,
+    "lon": -46.53197587,
+    "cnes": "2752360"
+  },
+  {
+    "nome": "UBS VILA NOVA YORK",
+    "cidade": "São Paulo",
+    "bairro": "VILA NOVA YORK",
+    "logradouro": "R DR EDGARD MAGALHAES NORONHA",
+    "lat": -23.57860977,
+    "lon": -46.50993884,
+    "cnes": "2789124"
+  },
+  {
+    "nome": "UBS VILA OLIMPIA MAX PERLMAN",
+    "cidade": "São Paulo",
+    "bairro": "VILA NOVA CONCEICAO",
+    "logradouro": "RUA JACQUES FELIX",
+    "lat": -23.59234,
+    "lon": -46.67137,
+    "cnes": "2789132"
+  },
+  {
+    "nome": "UBS VILA PARANAGUA",
+    "cidade": "São Paulo",
+    "bairro": "VL PARANAGUA",
+    "logradouro": "RUA JOSE GOES NOGUEIRA",
+    "lat": -23.4953038,
+    "lon": -46.4741372,
+    "cnes": "2751836"
+  },
+  {
+    "nome": "UBS VILA PIRITUBA",
+    "cidade": "São Paulo",
+    "bairro": "VILA PIRITUBA",
+    "logradouro": "RUA RIBEIRAO VERMELHO",
+    "lat": -23.4825264,
+    "lon": -46.7495593,
+    "cnes": "2789183"
+  },
+  {
+    "nome": "UBS VILA PROGRESSO",
+    "cidade": "São Paulo",
+    "bairro": "VILA PROGRESSO",
+    "logradouro": "RUA REAL HORTO",
+    "lat": -23.4958665,
+    "lon": -46.7333942,
+    "cnes": "2075016"
+  },
+  {
+    "nome": "UBS VILA PROGRESSO JD MONTE ALEGRE",
+    "cidade": "São Paulo",
+    "bairro": "JARDIM MONTE ALEGRE",
+    "logradouro": "RUA ANTONIO GENELLE",
+    "lat": -23.32093715,
+    "lon": -46.37962103,
+    "cnes": "2789213"
+  },
+  {
+    "nome": "UBS VILA PRUDENTE",
+    "cidade": "São Paulo",
+    "bairro": "VILA PRUDENTE",
+    "logradouro": "PCA CENTENARIO DE VILA PRUDENTE",
+    "lat": -23.58199,
+    "lon": -46.582737,
+    "cnes": "3359131"
+  },
+  {
+    "nome": "UBS VILA RAMOS DR LUIS AUGUSTO DE CAMPOS",
+    "cidade": "São Paulo",
+    "bairro": "LIMOEIRO",
+    "logradouro": "AV AUGUSTO ANTUNES",
+    "lat": -23.52065,
+    "lon": -46.46386,
+    "cnes": "4050126"
+  },
+  {
+    "nome": "UBS VILA RAMOS FREGUESIA DO O",
+    "cidade": "São Paulo",
+    "bairro": "NOSSA SENHORA DO O",
+    "logradouro": "RUA FERRAZ DE VASCONCELOS",
+    "lat": -23.4824475,
+    "lon": -46.6802105,
+    "cnes": "2027062"
+  },
+  {
+    "nome": "UBS VILA REGINA",
+    "cidade": "São Paulo",
+    "bairro": "ITAQUERA",
+    "logradouro": "RUA CATARINA LOPES",
+    "lat": -23.5301808,
+    "lon": -46.4617041,
+    "cnes": "4050029"
+  },
+  {
+    "nome": "UBS VILA RENATO MARIA DAS GRACAS DA SILVA",
+    "cidade": "São Paulo",
+    "bairro": "VILA RENATO",
+    "logradouro": "RUA BERNARDINO FERRAZ",
+    "lat": -23.6179395,
+    "lon": -46.5069999,
+    "cnes": "2789221"
+  },
+  {
+    "nome": "UBS VILA ROMANA",
+    "cidade": "São Paulo",
+    "bairro": "VILA ROMANA",
+    "logradouro": "RUA VESPASIANO",
+    "lat": -23.31336,
+    "lon": -46.414416,
+    "cnes": "2789248"
+  },
+  {
+    "nome": "UBS VILA ROSCHEL",
+    "cidade": "São Paulo",
+    "bairro": "VILA ROSCHEL",
+    "logradouro": "RUA ALICE BASTIDE",
+    "lat": -23.8407853,
+    "lon": -46.7354125,
+    "cnes": "6332528"
+  },
+  {
+    "nome": "UBS VILA RUBI",
+    "cidade": "São Paulo",
+    "bairro": "PARQUE DAS ARVORES",
+    "logradouro": "RUA ARCHOTE DO PERU",
+    "lat": -23.727575,
+    "lon": -46.692047,
+    "cnes": "8047790"
+  },
+  {
+    "nome": "UBS VILA SABRINA DR CARLOS AUGUSTO AUTRAN PEDERNEIRAS LIMA",
+    "cidade": "São Paulo",
+    "bairro": "VILA SABRINA",
+    "logradouro": "R FRANCISCO FRANCO MACHADO",
+    "lat": -23.492303,
+    "lon": -46.573111,
+    "cnes": "2063670"
+  },
+  {
+    "nome": "UBS VILA SANTA MARIA",
+    "cidade": "São Paulo",
+    "bairro": "LIMAO",
+    "logradouro": "RUA PROF DARIO RIBEIRO",
+    "lat": -23.49282,
+    "lon": -46.67142,
+    "cnes": "2788632"
+  },
+  {
+    "nome": "UBS VILA SANTANA",
+    "cidade": "São Paulo",
+    "bairro": "VILA SANTANA",
+    "logradouro": "RUA VITOR JOSE DE CASTRO",
+    "lat": -23.52548,
+    "lon": -46.44593,
+    "cnes": "4050215"
+  },
+  {
+    "nome": "UBS VILA SANTO ESTEVAO DR WOADY JORGE KALIL",
+    "cidade": "São Paulo",
+    "bairro": "VILA GOMES CARDIM",
+    "logradouro": "RUA ANTONIO CAMARDO",
+    "lat": -23.54942924,
+    "lon": -46.56314045,
+    "cnes": "2752387"
+  },
+  {
+    "nome": "UBS VILA STA CATARINA",
+    "cidade": "São Paulo",
+    "bairro": "VILA SANTA CATARINA",
+    "logradouro": "RUA BELMIRO ZANETTI ESTEVES",
+    "lat": -23.65342576,
+    "lon": -46.65231317,
+    "cnes": "2046997"
+  },
+  {
+    "nome": "UBS VILA ZATT",
+    "cidade": "São Paulo",
+    "bairro": "VILA ZATT",
+    "logradouro": "RUA MONSENHOR MANOEL GOMES",
+    "lat": -23.4770078,
+    "lon": -46.7140482,
+    "cnes": "2789272"
+  },
+  {
+    "nome": "UBS ZUMBI DOS PALMARES",
+    "cidade": "São Paulo",
+    "bairro": "CHACARA SANTANA",
+    "logradouro": "R HUMBERTO DE ALMEIDA",
+    "lat": -23.6720958,
+    "lon": -46.74459756,
+    "cnes": "2815273"
+  }
+]
