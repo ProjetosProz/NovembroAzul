@@ -8,177 +8,193 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header class="topo">
-        <nav class="navegacao" aria-label="Navegação principal">
-            <a class="logo" href="index.html">Novembro Azul</a>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre nós</a></li>
-                <li><a href="#artigos">Artigos</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
-                <li><a href="mapa.html">Unidades</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header>
+    <a class="logo" href="index.html">
+        <span class="logo-icon"></span>
+        <span>NOVEMBRO <strong>AZUL</strong>
+            <small>PREVENÇÃO É O MELHOR CAMINHO</small>
+        </span>
+    </a>
 
-    <main>
-        <section id="inicio" class="inicio">
-            <div class="introducao">
-                <p class="etiqueta">Informação e conscientização</p>
-                <h1>Novembro Azul</h1>
-                <p class="subtitulo">Cuidar da saúde também é coisa de homem.</p>
-                <p class="descricao">
-                    Conheça a campanha e informe-se sobre a importância de cuidar da saúde masculina.
-                </p>
-            </div>
-        </section>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="quiz.html">Dúvidas e Quiz</a>
+        <a href="mapa.html">Mapa</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
 
-        <section id="sobre" class="sobre secao">
-            <div class="cabecalho-secao">
-                <p class="etiqueta">Nosso propósito</p>
-                <h2>Sobre nós</h2>
-            </div>
-            <p>
-                Somos um projeto educativo dedicado à conscientização sobre
-                a saúde masculina e à divulgação de informações sobre o
-                Novembro Azul.
-            </p>
-            <p>
-                Nosso objetivo é facilitar o acesso à informação, incentivar
-                conversas sobre saúde e ajudar os visitantes a encontrar
-                conteúdos confiáveis.
-            </p>
-            <p>
-                Para orientações individuais sobre exames e cuidados,
-                procure um profissional de saúde.
-            </p>
-        </section>
+    <a class="header-button" href="cuidados.html">✚ &nbsp; Cuide de você</a>
+</header>
 
-        <section id="video" class="video-bloco secao">
-            <div class="cabecalho-secao">
-                <p class="etiqueta">Assista e informe-se</p>
-                <h2>Conhecimento também é cuidado</h2>
-                <p>Confira o vídeo educativo sobre o Novembro Azul.</p>
-            </div>
-            <div class="video-container">
-                <iframe
-                    src="https://www.youtube-nocookie.com/embed/ID_DO_VIDEO"
-                    title="Vídeo educativo sobre o Novembro Azul"
-                    loading="lazy"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </section>
+<section class="hero" aria-label="Destaques da campanha">
 
-        <section class="secao acessos" aria-label="Explore os próximos passos">
-            <article id="quiz" class="card-acesso card-quiz">
-                <div class="icone-quiz" aria-hidden="true">?</div>
-                <div class="texto-quiz">
-                    <p class="etiqueta">Desafio educativo</p>
-                    <h2>Você prestou atenção?</h2>
-                    <p>Teste seus conhecimentos sobre o Novembro Azul e os cuidados com a saúde masculina.</p>
-                    <a class="botao" href="quiz.html">Começar o quiz <span aria-hidden="true">→</span></a>
-                </div>
-            </article>
-            <article class="card-acesso card-unidades">
-                <div class="icone-quiz" aria-hidden="true">⌖</div>
-                <div class="texto-quiz">
-                    <p class="etiqueta">Encontre atendimento</p>
-                    <h2>Precisa de orientação?</h2>
-                    <p>Encontre unidades de saúde e saiba onde buscar atendimento.</p>
-                    <a class="botao botao-secundario" href="unidades.html">Buscar unidades próximas <span aria-hidden="true">→</span></a>
-                </div>
-            </article>
-        </section>
+    <div class="slide active">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1800&q=85" alt="Retrato de homem">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <span class="eyebrow">NOVEMBRO AZUL</span>
+            <h1>SAÚDE TAMBÉM É<br><strong>FORÇA</strong></h1>
+            <p>Informação e prevenção fazem a diferença. Cuide da sua saúde e do seu futuro.</p>
+            <a class="button" href="sobre.html">Saiba mais <span>→</span></a>
+        </div>
+        <div class="hero-message">Homem<br>também se<br>cuida!</div>
+    </div>
 
-            <section class="carrossel-secao" aria-label="Explore o Novembro Azul">
-                <div class="cabecalho-carrossel">
-                    <p class="etiqueta">Explore o site</p>
-                    <h2>Informação que aproxima você do cuidado</h2>
-                </div>
-                <div class="carrossel" id="carrossel" aria-roledescription="carrossel">
-                    <div class="trilho-carrossel" id="trilhoCarrossel">
-                        <article class="card-carrossel card-frase" data-slide="0">
-                            <span class="icone-card" aria-hidden="true">♡</span>
-                            <p class="tipo-card">Autocuidado</p>
-                            <h3>“Cuidar de si também é um ato de coragem.”</h3>
-                            <p>Valorize sua saúde. Reserve um tempo para você e não deixe o cuidado para depois.</p>
-                        </article>
-                        <article class="card-carrossel card-frase" data-slide="1">
-                            <span class="icone-card" aria-hidden="true">✦</span>
-                            <p class="tipo-card">Prevenção</p>
-                            <h3>“Prevenir é uma forma de proteger o seu futuro.”</h3>
-                            <p>Buscar informação e conversar com profissionais de saúde são passos importantes.</p>
-                        </article>
-                        <article class="card-carrossel card-frase" data-slide="2">
-                            <span class="icone-card" aria-hidden="true">☀</span>
-                            <p class="tipo-card">Saúde o ano todo</p>
-                            <h3>“Sua saúde merece atenção durante todo o ano.”</h3>
-                            <p>O Novembro Azul é um convite para manter o cuidado e buscar orientação quando necessário.</p>
-                        </article>
-                        <a class="card-carrossel card-acao" data-slide="3" href="unidades.html">
-                            <span class="icone-card" aria-hidden="true">⌖</span>
-                            <p class="tipo-card">Atendimento</p>
-                            <h3>Buscar unidades próximas</h3>
-                            <p>Encontre locais onde você pode buscar orientação e atendimento em saúde.</p>
-                            <span class="link-card">Encontrar unidades <span aria-hidden="true">→</span></span>
-                        </a>
-                        <a class="card-carrossel card-acao" data-slide="4" href="#artigos">
-                            <span class="icone-card" aria-hidden="true">▤</span>
-                            <p class="tipo-card">Informação confiável</p>
-                            <h3>Artigos e informações</h3>
-                            <p>Explore conteúdos de instituições reconhecidas e aprenda mais sobre saúde masculina.</p>
-                            <span class="link-card">Explorar artigos <span aria-hidden="true">→</span></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="controles-carrossel">
-                    <button class="seta-carrossel" id="slideAnterior" type="button" aria-label="Card anterior">‹</button>
-                    <div class="indicadores-carrossel" id="indicadoresCarrossel" aria-label="Escolher card">
-                        <button type="button" aria-label="Ir para o card 1" aria-current="true"></button>
-                        <button type="button" aria-label="Ir para o card 2"></button>
-                        <button type="button" aria-label="Ir para o card 3"></button>
-                        <button type="button" aria-label="Ir para o card 4"></button>
-                        <button type="button" aria-label="Ir para o card 5"></button>
-                    </div>
-                    <button class="seta-carrossel" id="slideProximo" type="button" aria-label="Próximo card">›</button>
-                </div>
-                <p class="dica-carrossel">Os cards avançam automaticamente. Use as setas para navegar quando quiser.</p>
-            </section>
+    <div class="slide">
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1800&q=85" alt="Homem em retrato">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <span class="eyebrow">PREVENÇÃO E CUIDADO</span>
+            <h1>SUA SAÚDE<br>EM <strong>PRIMEIRO LUGAR</strong></h1>
+            <p>Conheça informações importantes e converse com um profissional de saúde.</p>
+            <a class="button" href="cuidados.html">Descubra mais <span>→</span></a>
+        </div>
+        <div class="hero-message">Sua saúde<br>merece<br>atenção!</div>
+    </div>
 
-        <section id="artigos" class="conteudos">
-            <div class="cabecalho-secao">
-                <p class="etiqueta">Leia mais</p>
-                <h2>Artigos e fontes confiáveis</h2>
-                <p>Consulte informações de instituições reconhecidas sobre prevenção e saúde masculina.</p>
-            </div>
-            <div class="grade-cards">
-                <article class="card-link">
-                    <h3>Instituto Nacional de Câncer (INCA)</h3>
-                    <p>Informações institucionais sobre câncer de próstata e ações de prevenção.</p>
-                    <a href="https://www.gov.br/inca/pt-br" target="_blank" rel="noopener noreferrer">Acessar o INCA <span aria-hidden="true">↗</span></a>
-                </article>
-                <article class="card-link">
-                    <h3>Ministério da Saúde</h3>
-                    <p>Orientações e conteúdos oficiais sobre saúde e atendimento no SUS.</p>
-                    <a href="https://www.gov.br/saude/pt-br" target="_blank" rel="noopener noreferrer">Acessar o Ministério <span aria-hidden="true">↗</span></a>
-                </article>
-                <article class="card-link">
-                    <h3>Encontre atendimento</h3>
-                    <p>Procure orientação de saúde em um serviço próximo de você.</p>
-                    <a href="unidades.html">Buscar unidades <span aria-hidden="true">→</span></a>
-                </article>
-            </div>
-        </section>
-    </main>
+    <div class="slide">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1800&q=85" alt="Homem sorrindo">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <span class="eyebrow">INFORMAÇÃO É PREVENÇÃO</span>
+            <h1>CONHECER É<br><strong>CUIDAR</strong></h1>
+            <p>Aprenda mais sobre a campanha e descubra conteúdos sobre saúde masculina.</p>
+            <a class="button" href="sobre.html">Conheça a campanha <span>→</span></a>
+        </div>
+        <div class="hero-message">Cuidar de si<br>é um ato de<br>coragem!</div>
+    </div>
 
-    <footer class="rodape">
-        <p>Projeto Novembro Azul — Conscientização e saúde masculina.</p>
-        <p>Conteúdo educativo. Procure um profissional de saúde para orientações individuais.</p>
-    </footer>
+    <button class="arrow prev" aria-label="Imagem anterior">‹</button>
+    <button class="arrow next" aria-label="Próxima imagem">›</button>
 
-    <script src="script.js"></script>
+    <div class="dots">
+        <button class="dot active" aria-label="Imagem 1"></button>
+        <button class="dot" aria-label="Imagem 2"></button>
+        <button class="dot" aria-label="Imagem 3"></button>
+    </div>
+</section>
+
+<main>
+    <div class="section-top">
+        <div>
+            <span class="label">ACESSO RÁPIDO</span>
+            <h2>Explore o que você precisa</h2>
+            <div class="underline"></div>
+        </div>
+        <p class="section-description">
+            Informação, prevenção e cuidado.
+            Tudo em um só lugar para ajudar você a se manter bem.
+        </p>
+    </div>
+
+    <section class="cards">
+
+        <article class="card">
+            <div class="card-icon">▶</div>
+            <h3>Dúvidas e Quiz</h3>
+            <p>Assista aos conteúdos, tire suas dúvidas e teste seus conhecimentos.</p>
+            <a class="card-button" href="quiz.html">Acessar <span>→</span></a>
+        </article>
+
+        <article class="card">
+            <div class="card-icon">☷</div>
+            <h3>Questionário de Saúde</h3>
+            <p>Conheça informações educativas sobre saúde e prevenção.</p>
+            <a class="card-button" href="questionario.html">Iniciar <span>→</span></a>
+        </article>
+
+        <article class="card">
+            <div class="card-icon">⌖</div>
+            <h3>Mapa de Unidades de Saúde</h3>
+            <p>Encontre unidades de saúde e pesquise locais próximos.</p>
+            <a class="card-button" href="mapa.html">Ver no mapa <span>→</span></a>
+        </article>
+
+        <article class="card">
+            <div class="card-icon">ⓘ</div>
+            <h3>Sobre a Campanha</h3>
+            <p>Entenda o Novembro Azul e a importância da prevenção.</p>
+            <a class="card-button" href="sobre.html">Saiba mais <span>→</span></a>
+        </article>
+
+    </section>
+</main>
+
+<section class="benefits">
+    <div class="benefit">
+        <span class="benefit-icon">♡</span>
+        <span>Qualidade<br>de vida</span>
+    </div>
+    <div class="benefit">
+        <span class="benefit-icon">◇</span>
+        <span>Informação<br>e prevenção</span>
+    </div>
+    <div class="benefit">
+        <span class="benefit-icon">♧</span>
+        <span>Apoio e<br>orientação</span>
+    </div>
+    <div class="benefits-message">
+        CUIDAR DA SUA SAÚDE<br>É UM ATO DE <strong>CORAGEM.</strong> 
+    </div>
+</section>
+
+<footer>
+    <a class="logo" href="index.html">
+        <span class="logo-icon"></span>
+        <span>NOVEMBRO <strong style="color:#168fff">AZUL</strong>
+            <small>PREVENÇÃO É O MELHOR CAMINHO</small>
+        </span>
+    </a>
+
+    <span>Juntos pela saúde e prevenção.</span>
+    <span>#NovembroAzul</span>
+</footer>
+
+<script>
+const slides = document.querySelectorAll(".slide");
+const dots = document.querySelectorAll(".dot");
+const hero = document.querySelector(".hero");
+
+let current = 0;
+let timer;
+
+function showSlide(index) {
+    slides[current].classList.remove("active");
+    dots[current].classList.remove("active");
+
+    current = (index + slides.length) % slides.length;
+
+    slides[current].classList.add("active");
+    dots[current].classList.add("active");
+}
+
+function startCarousel() {
+    clearInterval(timer);
+    timer = setInterval(() => showSlide(current + 1), 5000);
+}
+
+document.querySelector(".prev").addEventListener("click", () => {
+    showSlide(current - 1);
+    startCarousel();
+});
+
+document.querySelector(".next").addEventListener("click", () => {
+    showSlide(current + 1);
+    startCarousel();
+});
+
+dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+        showSlide(index);
+        startCarousel();
+    });
+});
+
+hero.addEventListener("mouseenter", () => clearInterval(timer));
+hero.addEventListener("mouseleave", startCarousel);
+
+startCarousel();
+</script>
+
 </body>
 </html>
