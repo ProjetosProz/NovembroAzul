@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Projeto Novembro Azul</title>
+</head>
+<body>
+
+<div id="telaVideo">
+<h1>Projeto Novembro Azul</h1>
+<p>Assista ao vídeo explicativo antes de começar o quiz:</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/xCfnTnzPUtE" title="Novembro Azul" frameborder="0" allowfullscreen></iframe>
+<br><br>
+   <button onclick="irParaQuiz()"> Ir para o Quiz</button>
+</div>
+
+<div id="telaQuiz" hidden>
+   <h1>Quiz - Novembro Azul</h1>
+<p id="progresso"></p>
+<div id="quiz"></div>
+   <br>
+<button id="btnProximo" onclick="proxima()">Próxima Pergunta</button>
+<button id="btnFinalizar" onclick="finalizar()" hidden>Finalizar Quiz</button>
+      <h3 id="resultado"></h3>
+<div id="gabarito"></div>
+<br>
+<button onclick="voltarVideo()">Ver vídeo novamente</button>
+</div>
+
+<script>
+function irParaQuiz(){
+  document.getElementById("telaVideo").hidden = true;
+  document.getElementById("telaQuiz").hidden = false;
+  mostrarPergunta();
+}
+function voltarVideo(){
+  document.getElementById("telaQuiz").hidden = true;
+  document.getElementById("telaVideo").hidden = false;
+}
+
+const perguntas = [
+  {q: "O que é o Novembro Azul?", opcoes: ["Campanha de conscientização sobre saúde do homem e câncer de próstata"
+  ,"Campanha sobre gripe","Campanha de vacinação infantil"], correta: 0, exp: "Campanha criada para alertar sobre saúde masculina."},
+  {q: "A partir de qual idade os exames são recomendados?", opcoes:
+   ["45 anos para grupo de risco e 50 para população geral","18 anos","70 anos"], correta: 0, exp: 
+   "Homens negros ou com histórico familiar aos 45."},
+  {q: "Quais são os exames para detecção precoce?",
+   opcoes: ["PSA (sangue) e toque retal","Raio-X","Teste de visão"], correta: 0, exp: "Os dois juntos aumentam a precisão."},
+  {q: "Por que o diagnóstico precoce é importante?", opcoes: ["Chance de cura maior que 90%","Não precisa tratar","É mais caro"], correta: 0, exp: "Quanto antes descobrir, maior a chance de cura."},
+        {q: "Qual hábito ajuda na prevenção?", opcoes: ["Alimentação saudável, exercícios e check-up anual","Fumar e beber","Não ir ao médico"], correta: 0, exp: "Estilo de vida saudável ajuda muito."},
+  {q: "Por que muitos homens evitam o exame?", opcoes: ["Por preconceito, vergonha e falta de informação","Porque dói muito","Porque é proibido por lei"], correta: 0, exp: "O exame dura segundos e é indolor."}
+];
+
+let atual = 0;
+let respostas = [];
+
+function mostrarPergunta(){
+  const p = perguntas[atual];
+  document.getElementById("progresso").innerText = `Pergunta ${atual+1} de 6`;
+  document.getElementById("quiz").innerHTML = `
+    <div>
+      <p><b>${atual+1}. ${p.q}</b></p>
+      ${p.opcoes.map((op,j)=> `<label><input type="radio" name="p${atual}" value="${j}"> ${op}</label><br>`).join("")}
+    </div>
+  `;
+  if(atual < 5){
+    document.getElementById("btnProximo").hidden = false;
+    document.getElementById("btnFinalizar").hidden = true;
+    } else {
+    document.getElementById("btnProximo").hidden = true;
+    document.getElementById("btnFinalizar").hidden = false;
+  }
+  if(respostas[atual] !== undefined){
+    const el = document.querySelector(`input[name="p${atual}"][value="${respostas[atual]}"]`);
+    if(el) el.checked = true;
+  }
+}
+
+function proxima(){
+  const sel = document.querySelector(`input[name="p${atual}"]:checked`);
+  if(!sel){ alert("Escolha uma opção antes de continuar!"); return; }
+  respostas[atual] = parseInt(sel.value);
+  atual++;
+  mostrarPergunta();
+  window.scrollTo(0,0);
+}
+
+function finalizar(){
+  const sel = document.querySelector(`input[name="p${atual}"]:checked`);
+  if(!sel){ alert("Escolha uma opção antes de finalizar!"); return; }
+  respostas[atual] = parseInt(sel.value);
+
+  let acertos = 0;
+  let detalhes = "<h3>Gabarito:</h3>";
+  perguntas.forEach((p,i)=>{
+    const ok = respostas[i] === p.correta;
+    if(ok) acertos++;
+    detalhes += `<p><b>${i+1}. ${p.q}</b><br>Correta: ${p.opcoes[p.correta]}<br><i>${p.exp}</i> - ${ok ? "✅ Acertou" : "❌ Errou"}</p>`;
+  });
+  document.getElementById("quiz").innerHTML = "";
+  document.getElementById("progresso").innerText = "Quiz Finalizado!";
+  document.getElementById("btnProximo").hidden = true;
+  document.getElementById("btnFinalizar").hidden = true;
+  document.getElementById("resultado").innerText = `Você acertou ${acertos} de 6! ${acertos >=4 ? "Parabéns!" : "Reveja o vídeo!"}`;
+  document.getElementById("gabarito").innerHTML = detalhes;
+}
+</script>
+</body>
+</html>
