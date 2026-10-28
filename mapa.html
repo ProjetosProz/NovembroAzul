@@ -1,421 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novembro Azul - Mapa de UBS</title>
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="stylesheet" href="css/mapa.css">
 </head>
 <body>
-    <header>
-        <h1>Novembro Azul</h1>
-        <p>Encontre unidades de saúde próximas de você</p>
+
+    <header class="navbar">
+    <div class="logo">
+    <div class="logo-top">
+        <img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul">
+        <strong>NOVEMBRO AZUL</strong>
+    </div>
+    
+    <small>PREVENÇÃO É O MELHOR CAMINHO</small>
+</div>
+
+        </div>
+        <nav class="menu">
+            <a href="#" class="active">Início</a>
+            <a href="#">Dúvidas e Quiz</a>
+            <a href="#">Mapa</a>
+            <a href="#">Sobre</a>
+        </nav>
+        <button class="btn-care">Cuide de você</button>
     </header>
 
-    <main>
-        <section class="introducao">
-            <h2>Unidades de saúde próximas</h2>
-            <p>
-                Pesquise um endereço para encontrar UBS, hospitais, postos
-                de saúde e centros de atendimento médico na região.
-            </p>
-        </section>
+    <section class="hero-section">
+        <div class="hero-content">
+            <span class="subtitle">MAPA DE UNIDADES DE SAÚDE</span>
+            <h1>ENCONTRE A UBS OU HOSPITAL MAIS PRÓXIMO DE VOCÊ</h1>
+            <p>Aqui você pode buscar por unidades de saúde que oferecem atendimento relacionado ao câncer de próstata, como UBS, postos de saúde e hospitais.</p>
+            
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" placeholder="Digite seu endereço, bairro ou cidade...">
+                <button class="btn-search"> Buscar</button>
+            </div>
+        </div>
+        <div class="hero-graphic">
+            <div class="slogan-handwritten">Homem também se cuida!</div>
+        </div>
+    </section>
 
-        <section class="busca">
-            <form id="form-busca">
-                <label for="endereco">Digite seu endereço ou localização</label>
-
-                <div class="campo-busca">
-                    <input
-                        type="text"
-                        id="endereco"
-                        placeholder="Ex.: Ferraz de Vasconcelos, SP"
-                        required
-                    >
-                    <button type="submit" id="buscar">Buscar unidades</button>
+    <main class="map-section">
+        <div class="map-card">
+            <div class="map-tabs">
+                <button class="tab active">🗺️ Mapa</button>
+                <button class="tab"> Lista</button>
+            </div>
+            
+            <div id="map-canvas">
+                <div class="mock-map-ui-right">
+                    <button>+</button>
+                    <button>-</button>
+                    <button></button>
                 </div>
-            </form>
-
-            <button type="button" id="usar-localizacao" style="margin-top: 12px;">
-                Usar minha localização
-            </button>
-
-            <p id="mensagem-busca" aria-live="polite">
-                Digite um endereço ou use sua localização para começar.
-            </p>
-        </section>
-
-        <section>
-            <div class="resumo">
-                <h2>Resultados da busca</h2>
-                <span class="contador">
-                    <span id="total-unidades">0</span> unidades encontradas
-                </span>
+                <button class="btn-fullscreen">🔄 Ver em tela cheia</button>
             </div>
-
-            <div class="abas">
-                <button type="button" id="tab-mapa" class="ativa">
-                    Ver mapa
-                </button>
-                <button type="button" id="tab-lista">
-                    Ver lista
-                </button>
-            </div>
-
-            <div id="map-canvas"></div>
-
-            <div id="lista-unidades" hidden>
-                <div class="vazio">
-                    Faça uma busca para visualizar as unidades de saúde.
-                </div>
-            </div>
-        </section>
+        </div>
+        
+        <p class="map-instruction">Use o campo de busca para encontrar a unidade mais próxima de você.</p>
     </main>
 
-    <footer>
-        Projeto educativo — Novembro Azul | Consulte profissionais de saúde
-        para orientações médicas.
+    <footer class="footer">
+        <div class="footer-brand">
+            <span class="ribbon"><img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul"></span>
+            <div>
+                <strong>NOVEMBRO AZUL</strong>
+                <small>PREVENÇÃO É O MELHOR CAMINHO</small>
+            </div>
+        </div>
+        
+        <div class="footer-badges">
+            <div class="badge"> <span>Diagnóstico precoce</span></div>
+            <div class="badge"> <span>Mais chances de cura</span></div>
+            <div class="badge"> <span>Qualidade de vida</span></div>
+            <div class="badge"> <span>Apoio e informação</span></div>
+        </div>
+
+        <div class="footer-callout">
+            CUIDAR DA SUA SAÚDE É UM ATO DE <strong>CORAGEM.</strong>
+        </div>
     </footer>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-    <script>
-        const mensagem = document.getElementById("mensagem-busca");
-        const campoEndereco = document.getElementById("endereco");
-        const botaoBuscar = document.getElementById("buscar");
-        const lista = document.getElementById("lista-unidades");
-        const mapaElemento = document.getElementById("map-canvas");
-        const totalElemento = document.getElementById("total-unidades");
-
-        const mapa = L.map("map-canvas").setView([-23.55, -46.63], 11);
-
-        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(mapa);
-
-        const marcadores = L.featureGroup().addTo(mapa);
-
-        let buscaEmAndamento = false;
-
-        document.getElementById("tab-mapa").addEventListener("click", () => {
-            mapaElemento.hidden = false;
-            lista.hidden = true;
-
-            document.getElementById("tab-mapa").classList.add("ativa");
-            document.getElementById("tab-lista").classList.remove("ativa");
-
-            setTimeout(() => mapa.invalidateSize(), 100);
-        });
-
-        document.getElementById("tab-lista").addEventListener("click", () => {
-            mapaElemento.hidden = true;
-            lista.hidden = false;
-
-            document.getElementById("tab-lista").classList.add("ativa");
-            document.getElementById("tab-mapa").classList.remove("ativa");
-        });
-
-        document.getElementById("form-busca").addEventListener("submit", async (evento) => {
-            evento.preventDefault();
-
-            const endereco = campoEndereco.value.trim();
-
-            if (!endereco) {
-                mensagem.textContent = "Digite um endereço para pesquisar.";
-                return;
-            }
-
-            if (buscaEmAndamento) return;
-
-            buscaEmAndamento = true;
-            botaoBuscar.disabled = true;
-
-            try {
-                mensagem.textContent = "Localizando endereço...";
-
-                const url = new URL("https://nominatim.openstreetmap.org/search");
-                url.searchParams.set("q", endereco);
-                url.searchParams.set("format", "jsonv2");
-                url.searchParams.set("limit", "1");
-                url.searchParams.set("countrycodes", "br");
-
-                const resposta = await fetch(url);
-
-                if (!resposta.ok) {
-                    throw new Error("O serviço de localização está indisponível.");
-                }
-
-                const resultados = await resposta.json();
-
-                if (!resultados.length) {
-                    mensagem.textContent =
-                        "Endereço não encontrado. Tente informar cidade e estado.";
-                    return;
-                }
-
-                const latitude = Number(resultados[0].lat);
-                const longitude = Number(resultados[0].lon);
-
-                await buscarUnidades(latitude, longitude, resultados[0].display_name);
-            } catch (erro) {
-                console.error(erro);
-                mensagem.textContent =
-                    "Não foi possível localizar o endereço. Tente novamente mais tarde.";
-            } finally {
-                buscaEmAndamento = false;
-                botaoBuscar.disabled = false;
-            }
-        });
-
-        document.getElementById("usar-localizacao").addEventListener("click", () => {
-            if (!navigator.geolocation) {
-                mensagem.textContent = "Seu navegador não oferece suporte à localização.";
-                return;
-            }
-
-            mensagem.textContent =
-                "Solicitando sua localização. Autorize o acesso no navegador.";
-
-            navigator.geolocation.getCurrentPosition(
-                async (posicao) => {
-                    const latitude = posicao.coords.latitude;
-                    const longitude = posicao.coords.longitude;
-
-                    campoEndereco.value = `${latitude}, ${longitude}`;
-
-                    if (buscaEmAndamento) return;
-
-                    buscaEmAndamento = true;
-                    botaoBuscar.disabled = true;
-
-                    try {
-                        await buscarUnidades(latitude, longitude, "Sua localização");
-                    } catch (erro) {
-                        console.error(erro);
-                        mensagem.textContent =
-                            "Não foi possível buscar as unidades próximas.";
-                    } finally {
-                        buscaEmAndamento = false;
-                        botaoBuscar.disabled = false;
-                    }
-                },
-                () => {
-                    mensagem.textContent =
-                        "Não foi possível obter sua localização. Digite seu endereço manualmente.";
-                },
-                {
-                    enableHighAccuracy: true,
-                    timeout: 10000
-                }
-            );
-        });
-
-        async function buscarUnidades(latitude, longitude, nomeLocal) {
-            mensagem.textContent =
-                "Buscando UBS, hospitais e postos de saúde em um raio de 10 km...";
-
-            lista.innerHTML = "";
-            marcadores.clearLayers();
-            totalElemento.textContent = "0";
-
-            mapa.setView([latitude, longitude], 13);
-
-            L.marker([latitude, longitude])
-                .bindPopup("Local pesquisado")
-                .addTo(marcadores);
-
-            const consulta = `
-                [out:json][timeout:35];
-                (
-                    nwr(around:10000,${latitude},${longitude})["amenity"="hospital"];
-                    nwr(around:10000,${latitude},${longitude})["healthcare"="hospital"];
-                    nwr(around:10000,${latitude},${longitude})["amenity"="clinic"];
-                    nwr(around:10000,${latitude},${longitude})["healthcare"="clinic"];
-                    nwr(around:10000,${latitude},${longitude})["amenity"="doctors"];
-                    nwr(around:10000,${latitude},${longitude})["healthcare"="centre"];
-                    nwr(around:10000,${latitude},${longitude})["healthcare"="doctor"];
-                    nwr(around:10000,${latitude},${longitude})["healthcare"="community_health_centre"];
-                    nwr(around:10000,${latitude},${longitude})["amenity"="health_post"];
-                    nwr(around:10000,${latitude},${longitude})["healthcare"="health_post"];
-                    nwr(around:10000,${latitude},${longitude})["healthcare"="public_healthcare"];
-                );
-                out center tags;
-            `;
-
-            try {
-                const resposta = await fetch(
-                    "https://overpass-api.de/api/interpreter",
-                    {
-                        method: "POST",
-                        body: new URLSearchParams({ data: consulta })
-                    }
-                );
-
-                if (!resposta.ok) {
-                    throw new Error("Falha ao consultar a base de unidades de saúde.");
-                }
-
-                const dados = await resposta.json();
-                const unidades = new Map();
-
-                dados.elements.forEach(unidade => {
-                    const tags = unidade.tags || {};
-                    const nome = tags.name || tags["name:pt"];
-
-                    if (!nome) return;
-
-                    const lat = unidade.lat ?? unidade.center?.lat;
-                    const lon = unidade.lon ?? unidade.center?.lon;
-
-                    if (lat == null || lon == null) return;
-
-                    const chave = `${nome.toLowerCase()}-${Number(lat).toFixed(5)}-${Number(lon).toFixed(5)}`;
-
-                    if (!unidades.has(chave)) {
-                        unidades.set(chave, {
-                            nome,
-                            lat: Number(lat),
-                            lon: Number(lon),
-                            tags
-                        });
-                    }
-                });
-
-                const resultados = Array.from(unidades.values());
-
-                if (resultados.length === 0) {
-                    lista.innerHTML = `
-                        <div class="vazio">
-                            Nenhuma unidade foi encontrada nos dados do mapa
-                            para esta região. Isso não significa que não existam
-                            UBS ou hospitais próximos. Tente outro endereço.
-                        </div>
-                    `;
-
-                    mensagem.textContent =
-                        "Nenhuma unidade cadastrada foi encontrada em um raio de 10 km.";
-                    return;
-                }
-
-                resultados.forEach(unidade => {
-                    const tags = unidade.tags;
-                    const nome = unidade.nome;
-
-                    const tipoOriginal =
-                        tags.amenity || tags.healthcare || "";
-
-                    let tipo = "Unidade de saúde";
-
-                    if (
-                        tipoOriginal === "hospital" ||
-                        /hospital/i.test(nome)
-                    ) {
-                        tipo = "Hospital";
-                    } else if (
-                        tipoOriginal === "health_post" ||
-                        tipoOriginal === "community_health_centre" ||
-                        /ubs|unidade básica|posto de saúde/i.test(nome)
-                    ) {
-                        tipo = "UBS / Posto de saúde";
-                    } else if (
-                        tipoOriginal === "clinic" ||
-                        tipoOriginal === "centre"
-                    ) {
-                        tipo = "Clínica / Centro de saúde";
-                    } else if (
-                        tipoOriginal === "doctors" ||
-                        tipoOriginal === "doctor"
-                    ) {
-                        tipo = "Atendimento médico";
-                    }
-
-                    const endereco = [
-                        tags["addr:street"],
-                        tags["addr:housenumber"],
-                        tags["addr:suburb"],
-                        tags["addr:city"]
-                    ].filter(Boolean).join(", ") || "Endereço não informado";
-
-                    const marcador = L.marker([unidade.lat, unidade.lon])
-                        .bindPopup(`
-                            <strong>${escaparHTML(nome)}</strong><br>
-                            ${escaparHTML(tipo)}<br>
-                            ${escaparHTML(endereco)}
-                        `)
-                        .addTo(marcadores);
-
-                    const item = document.createElement("article");
-                    item.className = "unidade-item";
-
-                    const titulo = document.createElement("h3");
-                    titulo.textContent = nome;
-
-                    const etiqueta = document.createElement("span");
-                    etiqueta.className = "tipo-unidade";
-                    etiqueta.textContent = tipo;
-
-                    const textoEndereco = document.createElement("p");
-                    textoEndereco.textContent = endereco;
-
-                    const link = document.createElement("a");
-                    link.href =
-                        `https://www.google.com/maps/dir/?api=1&destination=${unidade.lat},${unidade.lon}`;
-                    link.target = "_blank";
-                    link.rel = "noopener noreferrer";
-                    link.textContent = "Como chegar";
-
-                    item.append(titulo, etiqueta, textoEndereco, link);
-
-                    item.addEventListener("click", evento => {
-                        if (evento.target.closest("a")) return;
-
-                        document.getElementById("tab-mapa").click();
-                        mapa.setView([unidade.lat, unidade.lon], 16);
-                        marcador.openPopup();
-                    });
-
-                    lista.appendChild(item);
-                });
-
-                totalElemento.textContent = resultados.length;
-
-                mensagem.textContent =
-                    `${resultados.length} unidades encontradas próximas de: ${nomeLocal}. Os dados dependem do cadastro no OpenStreetMap.`;
-
-                if (marcadores.getLayers().length > 1) {
-                    mapa.fitBounds(marcadores.getBounds(), {
-                        padding: [30, 30],
-                        maxZoom: 14
-                    });
-                }
-
-            } catch (erro) {
-                console.error(erro);
-
-                lista.innerHTML = `
-                    <div class="vazio">
-                        O serviço de pesquisa está temporariamente indisponível.
-                        Tente novamente em alguns instantes.
-                    </div>
-                `;
-
-                mensagem.textContent =
-                    "Não foi possível carregar as unidades. Tente novamente mais tarde.";
-            }
-        }
-
-        function escaparHTML(texto) {
-            return String(texto).replace(/[&<>"']/g, caractere => ({
-                "&": "&amp;",
-                "<": "&lt;",
-                ">": "&gt;",
-                '"': "&quot;",
-                "'": "&#39;"
-            })[caractere]);
-        }
-    </script>
 </body>
 </html>
