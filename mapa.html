@@ -139,63 +139,131 @@
             }
         });
 
-        async function buscarEndereco() {
-            const endereco = campoEndereco.value.trim();
+        
+async function buscarEndereco() {
+    const endereco = document.getElementById('endereco').value.trim();
+    const botao = document.getElementById('buscar');
+    const mensagem = document.getElementById('mensagem-busca');
+    const lista = document.getElementById('resultados-lista');
 
-            if (!endereco) {
-                mensagem.textContent = 'Digite um endereço, bairro ou cidade.';
+    if (!endereco) {
+        mensagem.textContent = 'Digite um endereço, bairro ou cidade.';
+        return;
+    }
+
+    botao.disabled = true;
+    botao.textContent = 'Buscando...';
+    mensagem.textContent = '';
+    lista.innerHTML = '';
+
+    try {
+        const consultas = [
+            endereco,
+            endereco + ', Brasil'
+        ];
+
+        let resultados = [];
+
+        for (const consulta of consultas) {
+            const parametros = new URLSearchParams({
+                format: 'jsonv2',
+                q: consulta,
+                countrycodes: 'br',
+                limit: '5',
+                'accept-language': 'pt-BR'
+            });
+
+            const resposta = await fetch(
+                'https://nominatim.openstreetmap.org/search?' +
+                parametros.toString()
+            );
+
+            if (!resposta.ok) {
+                throw new Error('Erro HTTP: ' + resposta.status);
+            }
+
+            resultados = await resposta.json();
+
+            if (resultados.length > 0) {
+                break;
+            }
+        }
+
+        if (resultados.length === 0) {
+            mensagem.textContent =
+                'Nenhum resultado encontrado. Tente informar o bairro e a cidade.';
+            return;
+        }
+
+        marcadores.clearLayers();
+
+        const pontos = [];
+
+        resultados.forEach(function(local) {
+            const lat = Number(local.lat);
+            const lon = Number(local.lon);
+
+            if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
                 return;
             }
 
-            botaoBuscar.disabled = true;
-            botaoBuscar.textContent = 'Buscando...';
-            mensagem.textContent = '';
-            resultadosLista.innerHTML = '';
+            pontos.push([lat, lon]);
 
-            try {
-                const url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&q='
-                    + encodeURIComponent(endereco + ', Brasil');
+            L.marker([lat, lon])
+                .addTo(marcadores)
+                .bindPopup(local.display_name);
 
-                const resposta = await fetch(url);
+            const item = document.createElement('li');
+            const link = document.createElement('a');
 
-                if (!resposta.ok) {
-                    throw new Error('Falha na consulta do endereço.');
-                }
+            link.href = '#';
+            link.textContent = local.display_name;
 
-                const resultados = await resposta.json();
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                mapa.setView([lat, lon], 16);
+                mapa.invalidateSize();
+                marcadores.eachLayer(function(marcador) {
+                    if (marcador.getLatLng().lat === lat &&
+                        marcador.getLatLng().lng === lon) {
+                        marcador.openPopup();
+                    }
+                });
 
-                if (resultados.length === 0) {
-                    mensagem.textContent = 'Endereço não encontrado. Tente informar outro local.';
-                    return;
-                }
+                document.getElementById('tab-mapa').click();
+            });
 
-                const local = resultados[0];
-                const latitude = Number(local.lat);
-                const longitude = Number(local.lon);
+            item.appendChild(link);
+            lista.appendChild(item);
+        });
 
-                mapa.setView([latitude, longitude], 15);
-
-                marcadores.clearLayers();
-
-                L.marker([latitude, longitude])
-                    .addTo(marcadores)
-                    .bindPopup(local.display_name)
-                    .openPopup();
-
-                mensagem.textContent = 'Localização encontrada!';
-
-                const item = document.createElement('li');
-                item.textContent = local.display_name;
-                resultadosLista.appendChild(item);
-
-            } catch (erro) {
-                console.error(erro);
-                mensagem.textContent = 'Não foi possível buscar o endereço. Verifique sua conexão.';
-            } finally {
-                botaoBuscar.disabled = false;
-                botaoBuscar.textContent = 'Buscar';
-            }
+        if (pontos.length === 0) {
+            mensagem.textContent = 'Não foi possível interpretar as coordenadas.';
+            return;
         }
+
+        if (pontos.length === 1) {
+            mapa.setView(pontos[0], 15);
+        } else {
+            mapa.fitBounds(pontos, { padding: [30, 30] });
+        }
+
+        mensagem.textContent =
+            resultados.length + ' resultado(s) encontrado(s).';
+
+        document.getElementById('tab-mapa').click();
+
+    } catch (erro) {
+        console.error('Erro na pesquisa:', erro);
+
+        mensagem.textContent =
+            'Falha na pesquisa. Verifique a conexão e tente novamente.';
+    } finally {
+        botao.disabled = false;
+        botao.textContent = 'Buscar';
+    }
+}
+
 
         document.getElementById('tab-mapa').addEventListener('click', function() {
             document.getElementById('map-canvas').hidden = false;
