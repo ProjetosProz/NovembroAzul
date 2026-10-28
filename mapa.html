@@ -23,11 +23,13 @@
         <nav class="menu">
             <a href="#" class="active">Início</a>
             <a href="#">Dúvidas e Quiz</a>
-            <a href="#">Mapa</a>
+            <a href="#mapa">Mapa</a>
             <a href="#">Sobre</a>
         </nav>
 
-        <button class="btn-care">Cuide de você</button>
+        <button class="btn-care" onclick="document.getElementById('mapa').scrollIntoView({behavior:'smooth'})">
+            Cuide de você
+        </button>
     </header>
 
     <section class="hero-section">
@@ -51,10 +53,10 @@
                     placeholder="Digite seu endereço, bairro ou cidade..."
                 >
 
-                <button class="btn-search" id="buscar">
-                    Buscar
-                </button>
+                <button class="btn-search" id="buscar">Buscar</button>
             </div>
+
+            <p id="mensagem-busca" role="status"></p>
         </div>
 
         <div class="hero-graphic">
@@ -62,7 +64,7 @@
         </div>
     </section>
 
-    <main class="map-section">
+    <main class="map-section" id="mapa">
         <div class="map-card">
             <div class="map-tabs">
                 <button class="tab active" id="tab-mapa">🗺️ Mapa</button>
@@ -72,12 +74,14 @@
             <div id="map-canvas"></div>
 
             <div id="lista-unidades" hidden>
-                <p>Pesquise um endereço para localizar a região no mapa.</p>
+                <h3>Local pesquisado</h3>
+                <p>Pesquise um endereço para visualizar sua localização no mapa.</p>
+                <ul id="resultados-lista"></ul>
             </div>
         </div>
 
         <p class="map-instruction">
-            Use o campo de busca para encontrar uma região no mapa.
+            Digite um endereço, bairro ou cidade para localizar a região no mapa.
         </p>
     </main>
 
@@ -114,50 +118,54 @@
         );
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
             maxZoom: 19
         }).addTo(mapa);
 
         L.control.scale().addTo(mapa);
 
-        document.getElementById('buscar').addEventListener('click', buscarEndereco);
+        const marcadores = L.layerGroup().addTo(mapa);
+        const campoEndereco = document.getElementById('endereco');
+        const botaoBuscar = document.getElementById('buscar');
+        const mensagem = document.getElementById('mensagem-busca');
+        const listaUnidades = document.getElementById('lista-unidades');
+        const resultadosLista = document.getElementById('resultados-lista');
 
-        document.getElementById('endereco').addEventListener('keydown', function(event) {
+        botaoBuscar.addEventListener('click', buscarEndereco);
+
+        campoEndereco.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
                 buscarEndereco();
             }
         });
 
         async function buscarEndereco() {
-            const endereco = document.getElementById('endereco').value.trim();
+            const endereco = campoEndereco.value.trim();
 
             if (!endereco) {
-                alert('Digite um endereço, bairro ou cidade.');
+                mensagem.textContent = 'Digite um endereço, bairro ou cidade.';
                 return;
             }
 
-            const botao = document.getElementById('buscar');
-            botao.disabled = true;
-            botao.textContent = 'Buscando...';
+            botaoBuscar.disabled = true;
+            botaoBuscar.textContent = 'Buscando...';
+            mensagem.textContent = '';
+            resultadosLista.innerHTML = '';
 
             try {
                 const url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&q='
                     + encodeURIComponent(endereco + ', Brasil');
 
-                const resposta = await fetch(url, {
-                    headers: {
-                        'Accept': 'application/json'
-                    }
-                });
+                const resposta = await fetch(url);
 
                 if (!resposta.ok) {
-                    throw new Error('Não foi possível consultar o endereço.');
+                    throw new Error('Falha na consulta do endereço.');
                 }
 
                 const resultados = await resposta.json();
 
                 if (resultados.length === 0) {
-                    alert('Endereço não encontrado. Tente informar uma cidade ou bairro.');
+                    mensagem.textContent = 'Endereço não encontrado. Tente informar outro local.';
                     return;
                 }
 
@@ -167,50 +175,54 @@
 
                 mapa.setView([latitude, longitude], 15);
 
+                marcadores.clearLayers();
+
                 L.marker([latitude, longitude])
-                    .addTo(mapa)
+                    .addTo(marcadores)
                     .bindPopup(local.display_name)
                     .openPopup();
 
+                mensagem.textContent = 'Localização encontrada!';
+
+                const item = document.createElement('li');
+                item.textContent = local.display_name;
+                resultadosLista.appendChild(item);
+
             } catch (erro) {
-                alert('Erro ao buscar o endereço. Verifique sua conexão e tente novamente.');
                 console.error(erro);
+                mensagem.textContent = 'Não foi possível buscar o endereço. Verifique sua conexão.';
             } finally {
-                botao.disabled = false;
-                botao.textContent = 'Buscar';
+                botaoBuscar.disabled = false;
+                botaoBuscar.textContent = 'Buscar';
             }
         }
 
         document.getElementById('tab-mapa').addEventListener('click', function() {
             document.getElementById('map-canvas').hidden = false;
-            document.getElementById('lista-unidades').hidden = true;
+            listaUnidades.hidden = true;
 
             this.classList.add('active');
             document.getElementById('tab-lista').classList.remove('active');
 
-            setTimeout(() => mapa.invalidateSize(), 100);
+            setTimeout(function() {
+                mapa.invalidateSize();
+            }, 100);
         });
 
         document.getElementById('tab-lista').addEventListener('click', function() {
             document.getElementById('map-canvas').hidden = true;
-            document.getElementById('lista-unidades').hidden = false;
+            listaUnidades.hidden = false;
 
             this.classList.add('active');
             document.getElementById('tab-mapa').classList.remove('active');
         });
 
-        document.querySelector('.btn-fullscreen')?.addEventListener('click', function() {
-            const elemento = document.getElementById('map-canvas');
-
-            if (!document.fullscreenElement) {
-                elemento.requestFullscreen?.();
-            } else {
-                document.exitFullscreen?.();
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                setTimeout(function() {
+                    mapa.invalidateSize();
+                }, 100);
             }
-        });
-
-        document.addEventListener('fullscreenchange', function() {
-            setTimeout(() => mapa.invalidateSize(), 100);
         });
     </script>
 
