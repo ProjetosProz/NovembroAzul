@@ -10,431 +10,412 @@
     <link rel="stylesheet" href="css/mapa.css">
 </head>
 <body>
-
-    <header class="navbar">
-        <div class="logo">
-            <div class="logo-top">
-                <img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul">
-                <strong>NOVEMBRO AZUL</strong>
-            </div>
-            <small>PREVENÇÃO É O MELHOR CAMINHO</small>
-        </div>
-
-        <nav class="menu">
-            <a href="#" class="active">Início</a>
-            <a href="#">Dúvidas e Quiz</a>
-            <a href="#mapa">Mapa</a>
-            <a href="#">Sobre</a>
-        </nav>
-
-        <button class="btn-care" onclick="document.getElementById('mapa').scrollIntoView({behavior:'smooth'})">
-            Cuide de você
-        </button>
+    <header>
+        <h1>Novembro Azul</h1>
+        <p>Encontre unidades de saúde próximas de você</p>
     </header>
 
-    <section class="hero-section">
-        <div class="hero-content">
-            <span class="subtitle">MAPA DE UNIDADES DE SAÚDE</span>
-
-            <h1>ENCONTRE A UBS OU HOSPITAL MAIS PRÓXIMO DE VOCÊ</h1>
-
+    <main>
+        <section class="introducao">
+            <h2>Unidades de saúde próximas</h2>
             <p>
-                Encontre UBS, postos de saúde, clínicas e hospitais próximos
-                da região pesquisada. Informe seu endereço, bairro ou cidade.
+                Pesquise um endereço para encontrar UBS, hospitais, postos
+                de saúde e centros de atendimento médico na região.
             </p>
+        </section>
 
-            <form class="search-container" id="form-busca">
-                <span class="search-icon">🔍</span>
+        <section class="busca">
+            <form id="form-busca">
+                <label for="endereco">Digite seu endereço ou localização</label>
 
-                <input
-                    type="text"
-                    id="endereco"
-                    placeholder="Digite seu endereço, bairro ou cidade..."
-                    aria-label="Endereço, bairro ou cidade"
-                    required
-                >
-
-                <button type="submit" class="btn-search" id="buscar">
-                    Buscar
-                </button>
+                <div class="campo-busca">
+                    <input
+                        type="text"
+                        id="endereco"
+                        placeholder="Ex.: Ferraz de Vasconcelos, SP"
+                        required
+                    >
+                    <button type="submit" id="buscar">Buscar unidades</button>
+                </div>
             </form>
 
-            <p id="mensagem-busca" role="status" aria-live="polite"></p>
-        </div>
+            <button type="button" id="usar-localizacao" style="margin-top: 12px;">
+                Usar minha localização
+            </button>
 
-        <div class="hero-graphic">
-            <div class="slogan-handwritten">Homem também se cuida!</div>
-        </div>
-    </section>
+            <p id="mensagem-busca" aria-live="polite">
+                Digite um endereço ou use sua localização para começar.
+            </p>
+        </section>
 
-    <main class="map-section" id="mapa">
-        <div class="map-card">
-            <div class="map-tabs">
-                <button type="button" class="tab active" id="tab-mapa">
-                    🗺️ Mapa
+        <section>
+            <div class="resumo">
+                <h2>Resultados da busca</h2>
+                <span class="contador">
+                    <span id="total-unidades">0</span> unidades encontradas
+                </span>
+            </div>
+
+            <div class="abas">
+                <button type="button" id="tab-mapa" class="ativa">
+                    Ver mapa
                 </button>
-
-                <button type="button" class="tab" id="tab-lista">
-                    Lista
+                <button type="button" id="tab-lista">
+                    Ver lista
                 </button>
             </div>
 
             <div id="map-canvas"></div>
 
-            <section id="lista-unidades" hidden>
-                <h2>Unidades de saúde encontradas</h2>
-                <p id="total-unidades"></p>
-                <ul id="resultados-lista"></ul>
-            </section>
-        </div>
-
-        <p class="map-instruction">
-            Pesquise uma região para encontrar unidades de saúde cadastradas
-            no OpenStreetMap.
-        </p>
-
-        <p class="map-instruction">
-            <small>
-                Os resultados dependem dos dados disponíveis no mapa.
-                Confirme diretamente com a unidade os serviços oferecidos.
-            </small>
-        </p>
+            <div id="lista-unidades" hidden>
+                <div class="vazio">
+                    Faça uma busca para visualizar as unidades de saúde.
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer-brand">
-            <span class="ribbon">
-                <img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul">
-            </span>
-
-            <div>
-                <strong>NOVEMBRO AZUL</strong>
-                <small>PREVENÇÃO É O MELHOR CAMINHO</small>
-            </div>
-        </div>
-
-        <div class="footer-badges">
-            <div class="badge"><span>Diagnóstico precoce</span></div>
-            <div class="badge"><span>Mais chances de cura</span></div>
-            <div class="badge"><span>Qualidade de vida</span></div>
-            <div class="badge"><span>Apoio e informação</span></div>
-        </div>
-
-        <div class="footer-callout">
-            CUIDAR DA SUA SAÚDE É UM ATO DE <strong>CORAGEM.</strong>
-        </div>
+    <footer>
+        Projeto educativo — Novembro Azul | Consulte profissionais de saúde
+        para orientações médicas.
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
     <script>
-        // Inicialização do mapa
-        const mapa = L.map('map-canvas').setView(
-            [-23.5415, -46.3685],
-            13
-        );
+        const mensagem = document.getElementById("mensagem-busca");
+        const campoEndereco = document.getElementById("endereco");
+        const botaoBuscar = document.getElementById("buscar");
+        const lista = document.getElementById("lista-unidades");
+        const mapaElemento = document.getElementById("map-canvas");
+        const totalElemento = document.getElementById("total-unidades");
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-            maxZoom: 19
+        const mapa = L.map("map-canvas").setView([-23.55, -46.63], 11);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(mapa);
 
-        L.control.scale().addTo(mapa);
+        const marcadores = L.featureGroup().addTo(mapa);
 
-        const marcadores = L.layerGroup().addTo(mapa);
+        let buscaEmAndamento = false;
 
-        const formulario = document.getElementById('form-busca');
-        const campoEndereco = document.getElementById('endereco');
-        const botaoBuscar = document.getElementById('buscar');
-        const mensagem = document.getElementById('mensagem-busca');
-        const listaUnidades = document.getElementById('lista-unidades');
-        const resultadosLista = document.getElementById('resultados-lista');
-        const totalUnidades = document.getElementById('total-unidades');
+        document.getElementById("tab-mapa").addEventListener("click", () => {
+            mapaElemento.hidden = false;
+            lista.hidden = true;
 
-        let ultimaPesquisa = 0;
+            document.getElementById("tab-mapa").classList.add("ativa");
+            document.getElementById("tab-lista").classList.remove("ativa");
 
-        // Evita inserir conteúdo HTML recebido da API
-        function escaparHTML(texto) {
-            return String(texto).replace(/[&<>"']/g, function(caractere) {
-                return {
-                    '&': '&amp;',
-                    '<': '&lt;',
-                    '>': '&gt;',
-                    '"': '&quot;',
-                    "'": '&#39;'
-                }[caractere];
-            });
-        }
+            setTimeout(() => mapa.invalidateSize(), 100);
+        });
 
-        // Pesquisa endereço e unidades de saúde
-        formulario.addEventListener('submit', async function(event) {
-            event.preventDefault();
+        document.getElementById("tab-lista").addEventListener("click", () => {
+            mapaElemento.hidden = true;
+            lista.hidden = false;
+
+            document.getElementById("tab-lista").classList.add("ativa");
+            document.getElementById("tab-mapa").classList.remove("ativa");
+        });
+
+        document.getElementById("form-busca").addEventListener("submit", async (evento) => {
+            evento.preventDefault();
 
             const endereco = campoEndereco.value.trim();
 
             if (!endereco) {
-                mensagem.textContent = 'Digite um endereço, bairro ou cidade.';
+                mensagem.textContent = "Digite um endereço para pesquisar.";
                 return;
             }
 
-            const pesquisaAtual = ++ultimaPesquisa;
+            if (buscaEmAndamento) return;
 
+            buscaEmAndamento = true;
             botaoBuscar.disabled = true;
-            botaoBuscar.textContent = 'Buscando...';
-            mensagem.textContent = 'Localizando região...';
-
-            resultadosLista.replaceChildren();
-            totalUnidades.textContent = '';
 
             try {
-                // Localizar o endereço
-                const parametros = new URLSearchParams({
-                    format: 'jsonv2',
-                    q: endereco + ', Brasil',
-                    countrycodes: 'br',
-                    limit: '1',
-                    'accept-language': 'pt-BR'
-                });
+                mensagem.textContent = "Localizando endereço...";
 
-                const respostaLocal = await fetch(
-                    'https://nominatim.openstreetmap.org/search?' +
-                    parametros.toString()
-                );
+                const url = new URL("https://nominatim.openstreetmap.org/search");
+                url.searchParams.set("q", endereco);
+                url.searchParams.set("format", "jsonv2");
+                url.searchParams.set("limit", "1");
+                url.searchParams.set("countrycodes", "br");
 
-                if (!respostaLocal.ok) {
-                    throw new Error('Falha ao pesquisar o endereço.');
+                const resposta = await fetch(url);
+
+                if (!resposta.ok) {
+                    throw new Error("O serviço de localização está indisponível.");
                 }
 
-                const locais = await respostaLocal.json();
+                const resultados = await resposta.json();
 
-                if (pesquisaAtual !== ultimaPesquisa) return;
-
-                if (!locais.length) {
+                if (!resultados.length) {
                     mensagem.textContent =
-                        'Local não encontrado. Tente informar bairro e cidade.';
+                        "Endereço não encontrado. Tente informar cidade e estado.";
                     return;
                 }
 
-                const local = locais[0];
-                const latitude = Number(local.lat);
-                const longitude = Number(local.lon);
+                const latitude = Number(resultados[0].lat);
+                const longitude = Number(resultados[0].lon);
 
-                mapa.setView([latitude, longitude], 14);
-
-                // Mostrar o local pesquisado
-                marcadores.clearLayers();
-
-                L.marker([latitude, longitude])
-                    .addTo(marcadores)
-                    .bindPopup(
-                        '<strong>Região pesquisada</strong><br>' +
-                        escaparHTML(local.display_name)
-                    );
-
+                await buscarUnidades(latitude, longitude, resultados[0].display_name);
+            } catch (erro) {
+                console.error(erro);
                 mensagem.textContent =
-                    'Região encontrada. Procurando unidades de saúde...';
+                    "Não foi possível localizar o endereço. Tente novamente mais tarde.";
+            } finally {
+                buscaEmAndamento = false;
+                botaoBuscar.disabled = false;
+            }
+        });
 
-                // Buscar UBS, hospitais, clínicas e postos num raio de 10 km
-                const consulta = `
-                    [out:json][timeout:25];
-                    (
-                        node["amenity"~"^(hospital|clinic|doctors|health_post|community_health_centre)$"](around:10000,${latitude},${longitude});
-                        way["amenity"~"^(hospital|clinic|doctors|health_post|community_health_centre)$"](around:10000,${latitude},${longitude});
-                        relation["amenity"~"^(hospital|clinic|doctors|health_post|community_health_centre)$"](around:10000,${latitude},${longitude});
+        document.getElementById("usar-localizacao").addEventListener("click", () => {
+            if (!navigator.geolocation) {
+                mensagem.textContent = "Seu navegador não oferece suporte à localização.";
+                return;
+            }
 
-                        node["healthcare"~"^(hospital|clinic|doctor|centre|doctor_office|health_centre)$"](around:10000,${latitude},${longitude});
-                        way["healthcare"~"^(hospital|clinic|doctor|centre|doctor_office|health_centre)$"](around:10000,${latitude},${longitude});
-                        relation["healthcare"~"^(hospital|clinic|doctor|centre|doctor_office|health_centre)$"](around:10000,${latitude},${longitude});
-                    );
-                    out center tags;
-                `;
+            mensagem.textContent =
+                "Solicitando sua localização. Autorize o acesso no navegador.";
 
-                const respostaUnidades = await fetch(
-                    'https://overpass-api.de/api/interpreter',
+            navigator.geolocation.getCurrentPosition(
+                async (posicao) => {
+                    const latitude = posicao.coords.latitude;
+                    const longitude = posicao.coords.longitude;
+
+                    campoEndereco.value = `${latitude}, ${longitude}`;
+
+                    if (buscaEmAndamento) return;
+
+                    buscaEmAndamento = true;
+                    botaoBuscar.disabled = true;
+
+                    try {
+                        await buscarUnidades(latitude, longitude, "Sua localização");
+                    } catch (erro) {
+                        console.error(erro);
+                        mensagem.textContent =
+                            "Não foi possível buscar as unidades próximas.";
+                    } finally {
+                        buscaEmAndamento = false;
+                        botaoBuscar.disabled = false;
+                    }
+                },
+                () => {
+                    mensagem.textContent =
+                        "Não foi possível obter sua localização. Digite seu endereço manualmente.";
+                },
+                {
+                    enableHighAccuracy: true,
+                    timeout: 10000
+                }
+            );
+        });
+
+        async function buscarUnidades(latitude, longitude, nomeLocal) {
+            mensagem.textContent =
+                "Buscando UBS, hospitais e postos de saúde em um raio de 10 km...";
+
+            lista.innerHTML = "";
+            marcadores.clearLayers();
+            totalElemento.textContent = "0";
+
+            mapa.setView([latitude, longitude], 13);
+
+            L.marker([latitude, longitude])
+                .bindPopup("Local pesquisado")
+                .addTo(marcadores);
+
+            const consulta = `
+                [out:json][timeout:35];
+                (
+                    nwr(around:10000,${latitude},${longitude})["amenity"="hospital"];
+                    nwr(around:10000,${latitude},${longitude})["healthcare"="hospital"];
+                    nwr(around:10000,${latitude},${longitude})["amenity"="clinic"];
+                    nwr(around:10000,${latitude},${longitude})["healthcare"="clinic"];
+                    nwr(around:10000,${latitude},${longitude})["amenity"="doctors"];
+                    nwr(around:10000,${latitude},${longitude})["healthcare"="centre"];
+                    nwr(around:10000,${latitude},${longitude})["healthcare"="doctor"];
+                    nwr(around:10000,${latitude},${longitude})["healthcare"="community_health_centre"];
+                    nwr(around:10000,${latitude},${longitude})["amenity"="health_post"];
+                    nwr(around:10000,${latitude},${longitude})["healthcare"="health_post"];
+                    nwr(around:10000,${latitude},${longitude})["healthcare"="public_healthcare"];
+                );
+                out center tags;
+            `;
+
+            try {
+                const resposta = await fetch(
+                    "https://overpass-api.de/api/interpreter",
                     {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-                        },
+                        method: "POST",
                         body: new URLSearchParams({ data: consulta })
                     }
                 );
 
-                if (!respostaUnidades.ok) {
-                    throw new Error(
-                        'O serviço de busca de unidades está temporariamente indisponível.'
-                    );
+                if (!resposta.ok) {
+                    throw new Error("Falha ao consultar a base de unidades de saúde.");
                 }
 
-                const dados = await respostaUnidades.json();
+                const dados = await resposta.json();
+                const unidades = new Map();
 
-                if (pesquisaAtual !== ultimaPesquisa) return;
-
-                const unidades = dados.elements || [];
-                const unidadesUnicas = new Map();
-
-                // Evitar duplicar o mesmo estabelecimento
-                unidades.forEach(function(unidade) {
+                dados.elements.forEach(unidade => {
                     const tags = unidade.tags || {};
-                    const lat = Number(unidade.lat ?? unidade.center?.lat);
-                    const lon = Number(unidade.lon ?? unidade.center?.lon);
+                    const nome = tags.name || tags["name:pt"];
 
-                    if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
-                        return;
-                    }
+                    if (!nome) return;
 
-                    const chave = tags.wikidata ||
-                        (tags.name
-                            ? tags.name.toLowerCase().trim() + '-' +
-                              lat.toFixed(5) + '-' + lon.toFixed(5)
-                            : unidade.type + '-' + unidade.id);
+                    const lat = unidade.lat ?? unidade.center?.lat;
+                    const lon = unidade.lon ?? unidade.center?.lon;
 
-                    if (!unidadesUnicas.has(chave)) {
-                        unidadesUnicas.set(chave, {
-                            nome: tags.name || tags['name:pt'] || 'Unidade de saúde sem nome',
-                            tipo: tags.amenity || tags.healthcare || 'Unidade de saúde',
-                            lat: lat,
-                            lon: lon,
-                            endereco: [
-                                tags['addr:street'],
-                                tags['addr:housenumber'],
-                                tags['addr:suburb'],
-                                tags['addr:city']
-                            ].filter(Boolean).join(', ')
+                    if (lat == null || lon == null) return;
+
+                    const chave = `${nome.toLowerCase()}-${Number(lat).toFixed(5)}-${Number(lon).toFixed(5)}`;
+
+                    if (!unidades.has(chave)) {
+                        unidades.set(chave, {
+                            nome,
+                            lat: Number(lat),
+                            lon: Number(lon),
+                            tags
                         });
                     }
                 });
 
-                const lista = Array.from(unidadesUnicas.values());
+                const resultados = Array.from(unidades.values());
 
-                lista.sort(function(a, b) {
-                    const distanciaA = mapa.distance(
-                        [latitude, longitude],
-                        [a.lat, a.lon]
-                    );
+                if (resultados.length === 0) {
+                    lista.innerHTML = `
+                        <div class="vazio">
+                            Nenhuma unidade foi encontrada nos dados do mapa
+                            para esta região. Isso não significa que não existam
+                            UBS ou hospitais próximos. Tente outro endereço.
+                        </div>
+                    `;
 
-                    const distanciaB = mapa.distance(
-                        [latitude, longitude],
-                        [b.lat, b.lon]
-                    );
+                    mensagem.textContent =
+                        "Nenhuma unidade cadastrada foi encontrada em um raio de 10 km.";
+                    return;
+                }
 
-                    return distanciaA - distanciaB;
-                });
+                resultados.forEach(unidade => {
+                    const tags = unidade.tags;
+                    const nome = unidade.nome;
 
-                // Manter o marcador da região pesquisada
-                lista.forEach(function(unidade) {
-                    const marcador = L.marker([
-                        unidade.lat,
-                        unidade.lon
-                    ]).addTo(marcadores);
+                    const tipoOriginal =
+                        tags.amenity || tags.healthcare || "";
 
-                    marcador.bindPopup(
-                        '<strong>' + escaparHTML(unidade.nome) + '</strong><br>' +
-                        escaparHTML(unidade.tipo.replaceAll('_', ' ')) +
-                        (unidade.endereco
-                            ? '<br>' + escaparHTML(unidade.endereco)
-                            : '')
-                    );
+                    let tipo = "Unidade de saúde";
 
-                    const item = document.createElement('li');
-                    item.className = 'unidade-item';
+                    if (
+                        tipoOriginal === "hospital" ||
+                        /hospital/i.test(nome)
+                    ) {
+                        tipo = "Hospital";
+                    } else if (
+                        tipoOriginal === "health_post" ||
+                        tipoOriginal === "community_health_centre" ||
+                        /ubs|unidade básica|posto de saúde/i.test(nome)
+                    ) {
+                        tipo = "UBS / Posto de saúde";
+                    } else if (
+                        tipoOriginal === "clinic" ||
+                        tipoOriginal === "centre"
+                    ) {
+                        tipo = "Clínica / Centro de saúde";
+                    } else if (
+                        tipoOriginal === "doctors" ||
+                        tipoOriginal === "doctor"
+                    ) {
+                        tipo = "Atendimento médico";
+                    }
 
-                    const titulo = document.createElement('strong');
-                    titulo.textContent = unidade.nome;
+                    const endereco = [
+                        tags["addr:street"],
+                        tags["addr:housenumber"],
+                        tags["addr:suburb"],
+                        tags["addr:city"]
+                    ].filter(Boolean).join(", ") || "Endereço não informado";
 
-                    const tipo = document.createElement('p');
-                    tipo.textContent = unidade.tipo.replaceAll('_', ' ');
+                    const marcador = L.marker([unidade.lat, unidade.lon])
+                        .bindPopup(`
+                            <strong>${escaparHTML(nome)}</strong><br>
+                            ${escaparHTML(tipo)}<br>
+                            ${escaparHTML(endereco)}
+                        `)
+                        .addTo(marcadores);
 
-                    const enderecoTexto = document.createElement('p');
-                    enderecoTexto.textContent =
-                        unidade.endereco || 'Endereço não cadastrado';
+                    const item = document.createElement("article");
+                    item.className = "unidade-item";
 
-                    const link = document.createElement('a');
-                    link.href = '#mapa';
-                    link.textContent = 'Ver no mapa';
+                    const titulo = document.createElement("h3");
+                    titulo.textContent = nome;
 
-                    link.addEventListener('click', function(event) {
-                        event.preventDefault();
+                    const etiqueta = document.createElement("span");
+                    etiqueta.className = "tipo-unidade";
+                    etiqueta.textContent = tipo;
 
-                        document.getElementById('tab-mapa').click();
+                    const textoEndereco = document.createElement("p");
+                    textoEndereco.textContent = endereco;
 
-                        mapa.setView([
-                            unidade.lat,
-                            unidade.lon
-                        ], 17);
+                    const link = document.createElement("a");
+                    link.href =
+                        `https://www.google.com/maps/dir/?api=1&destination=${unidade.lat},${unidade.lon}`;
+                    link.target = "_blank";
+                    link.rel = "noopener noreferrer";
+                    link.textContent = "Como chegar";
 
+                    item.append(titulo, etiqueta, textoEndereco, link);
+
+                    item.addEventListener("click", evento => {
+                        if (evento.target.closest("a")) return;
+
+                        document.getElementById("tab-mapa").click();
+                        mapa.setView([unidade.lat, unidade.lon], 16);
                         marcador.openPopup();
                     });
 
-                    item.append(
-                        titulo,
-                        tipo,
-                        enderecoTexto,
-                        link
-                    );
-
-                    resultadosLista.appendChild(item);
+                    lista.appendChild(item);
                 });
 
-                totalUnidades.textContent =
-                    lista.length + ' unidade(s) encontrada(s) em até 10 km.';
+                totalElemento.textContent = resultados.length;
 
-                if (lista.length > 0) {
-                    const pontos = lista.map(function(unidade) {
-                        return [unidade.lat, unidade.lon];
-                    });
+                mensagem.textContent =
+                    `${resultados.length} unidades encontradas próximas de: ${nomeLocal}. Os dados dependem do cadastro no OpenStreetMap.`;
 
-                    pontos.push([latitude, longitude]);
-
-                    mapa.fitBounds(pontos, {
+                if (marcadores.getLayers().length > 1) {
+                    mapa.fitBounds(marcadores.getBounds(), {
                         padding: [30, 30],
                         maxZoom: 14
                     });
-
-                    mensagem.textContent =
-                        'Pesquisa concluída! ' + lista.length +
-                        ' unidade(s) encontrada(s).';
-                } else {
-                    mensagem.textContent =
-                        'Região encontrada, mas não foram encontradas unidades cadastradas num raio de 10 km.';
                 }
 
             } catch (erro) {
-                console.error('Erro na pesquisa:', erro);
+                console.error(erro);
+
+                lista.innerHTML = `
+                    <div class="vazio">
+                        O serviço de pesquisa está temporariamente indisponível.
+                        Tente novamente em alguns instantes.
+                    </div>
+                `;
 
                 mensagem.textContent =
-                    erro.message ||
-                    'Não foi possível realizar a pesquisa. Tente novamente.';
-            } finally {
-                if (pesquisaAtual === ultimaPesquisa) {
-                    botaoBuscar.disabled = false;
-                    botaoBuscar.textContent = 'Buscar';
-                }
+                    "Não foi possível carregar as unidades. Tente novamente mais tarde.";
             }
-        });
+        }
 
-        // Alternar para o mapa
-        document.getElementById('tab-mapa').addEventListener('click', function() {
-            document.getElementById('map-canvas').hidden = false;
-            listaUnidades.hidden = true;
-
-            this.classList.add('active');
-            document.getElementById('tab-lista').classList.remove('active');
-
-            setTimeout(function() {
-                mapa.invalidateSize();
-            }, 100);
-        });
-
-        // Alternar para a lista
-        document.getElementById('tab-lista').addEventListener('click', function() {
-            document.getElementById('map-canvas').hidden = true;
-            listaUnidades.hidden = false;
-
-            this.classList.add('active');
-            document.getElementById('tab-mapa').classList.remove('active');
-        });
+        function escaparHTML(texto) {
+            return String(texto).replace(/[&<>"']/g, caractere => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#39;"
+            })[caractere]);
+        }
     </script>
-
 </body>
 </html>
