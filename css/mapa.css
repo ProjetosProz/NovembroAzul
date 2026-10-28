@@ -1,145 +1,156 @@
-@import url('https://googleapis.com');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #f4f7f9;
     color: #333;
 }
 
-#map-canvas {
-    width: 100%;
-    height: 450px;
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    z-index: 1;
-}
-
-#map-canvas .btn-fullscreen {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 1000;
-    padding: 10px 14px;
-    border: none;
-    border-radius: 6px;
-    background: white;
-    color: #222;
-    cursor: pointer;
-}
-
-a, a:visited {
+a,
+a:visited {
     text-decoration: none;
-    color: inherit; /* Faz o link herdar a cor do elemento pai (evita que fique roxo ou azul) */
+    color: inherit;
 }
+
+button,
+input {
+    font: inherit;
+}
+
+/* NAVBAR */
 
 .navbar {
     background-color: #0a2540;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 25px;
     padding: 15px 8%;
     border-bottom: 2px solid #0056b3;
 }
 
 .logo {
     display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
 }
 
 .logo-top {
     display: flex;
-    align-items: center; 
-    gap: 8px; 
+    align-items: center;
+    gap: 8px;
 }
 
 .logo-icon {
     height: 51px;
     width: auto;
+    object-fit: contain;
 }
 
 .logo strong {
     display: block;
-    font-size: 1.3rem;
-    font-weight: 800; 
+    font-size: 1.2rem;
+    font-weight: 800;
     letter-spacing: 1px;
-    color: #0516b3; 
+    color: #fff;
 }
 
 .logo small {
-    color: #6ba4ff; 
-    font-size: 0.65rem; 
-    font-weight: bold;
+    color: #6ba4ff;
+    font-size: 0.62rem;
+    font-weight: 600;
     letter-spacing: 0.5px;
-    margin-top: 2px; 
+    margin-top: 2px;
 }
 
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
 
-.menu a{
-    color:#c4d9f2;
-    text-decoration: none;
-    margin: 0 15px;
+.menu a {
+    color: #c4d9f2;
+    font-size: 0.9rem;
     font-weight: 500;
     transition: color 0.3s;
+    padding-bottom: 5px;
 }
 
-.menu a:hover, .menu a.active{
- color: white;
- border-bottom: 2px solid #00d2ff; 
- padding-bottom: 5px;
+.menu a:hover,
+.menu a.active {
+    color: white;
+    border-bottom: 2px solid #00d2ff;
 }
+
 .btn-care {
     background-color: #0080ff;
-    color: white;
+    color: white !important;
     border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
+    padding: 11px 20px;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 700;
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    white-space: nowrap;
+    transition: background 0.3s;
 }
+
+.btn-care:hover {
+    background-color: #0056b3;
+}
+
+/* HERO */
 
 .hero-section {
     background: linear-gradient(135deg, #071e36 0%, #004080 50%, #0066cc 100%);
     color: white;
-    padding: 60px 8%;
+    padding: 65px 8%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
     position: relative;
     overflow: hidden;
 }
 
 .hero-content {
-    max-width: 600px;
+    width: 100%;
+    max-width: 650px;
     z-index: 2;
 }
 
 .hero-content .subtitle {
     color: #00d2ff;
-    font-size: 0.85rem;
-    font-weight: bold;
+    font-size: 0.8rem;
+    font-weight: 700;
     letter-spacing: 1.5px;
 }
 
 .hero-content h1 {
-    font-size: 2.2rem;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
     margin: 15px 0;
-    line-height: 1.2;
+    line-height: 1.25;
     font-weight: 800;
 }
 
-.hero-content p {
+.hero-content > p:not(.mensagem-busca) {
     color: #d0e1f9;
     font-size: 0.95rem;
-    line-height: 1.5;
-    margin-bottom: 30px;
+    line-height: 1.8;
+    margin-bottom: 25px;
 }
 
 .search-container {
@@ -148,19 +159,22 @@ a, a:visited {
     display: flex;
     align-items: center;
     padding: 5px 5px 5px 20px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    gap: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .search-icon {
     color: #888;
-    margin-right: 10px;
+    flex-shrink: 0;
 }
 
 .search-container input {
     border: none;
     outline: none;
     width: 100%;
-    font-size: 0.95rem;
+    min-width: 0;
+    padding: 10px 0;
+    font-size: 0.85rem;
     color: #333;
 }
 
@@ -168,9 +182,10 @@ a, a:visited {
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 12px 28px;
+    padding: 12px 25px;
     border-radius: 25px;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 0.85rem;
     cursor: pointer;
     white-space: nowrap;
     transition: background 0.3s;
@@ -180,40 +195,49 @@ a, a:visited {
     background-color: #0056b3;
 }
 
+.mensagem-busca {
+    color: #fff;
+    font-size: 0.85rem;
+    margin-top: 12px;
+    min-height: 20px;
+}
+
 .hero-graphic {
-    flex-grow: 1;
+    flex: 1;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: center;
     align-items: center;
-    padding-right: 40px;
-    white-space: nowrap; 
-    min-width: max-content; 
+    min-width: 250px;
 }
 
 .slogan-handwritten {
-    font-family: 'Caveat', 'Segoe Script', 'Lucida Handwriting', cursive, sans-serif;  ; 
-    font-size: 2.8rem; 
+    font-family: 'Caveat', cursive;
+    font-size: clamp(2rem, 3.5vw, 3.3rem);
     font-weight: 700;
     color: #00d2ff;
-    transform: rotate(-10deg);
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transform: rotate(-8deg);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+/* MAPA */
 
 .map-section {
     padding: 40px 8%;
-    margin-top: -30px; 
+    margin-top: -30px;
+    position: relative;
+    z-index: 3;
 }
 
 .map-card {
     background-color: white;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     overflow: hidden;
-    position: relative;
 }
 
 .map-tabs {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 15px 20px;
     border-bottom: 1px solid #eef2f5;
     display: flex;
@@ -223,10 +247,17 @@ a, a:visited {
 .tab {
     border: 1px solid #dcdcdc;
     background: white;
-    padding: 8px 16px;
+    color: #333;
+    padding: 9px 18px;
     border-radius: 6px;
     cursor: pointer;
-    font-weight: 500;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.tab:hover {
+    border-color: #007bff;
 }
 
 .tab.active {
@@ -236,120 +267,292 @@ a, a:visited {
 }
 
 #map-canvas {
+    width: 100%;
     height: 500px;
-    background-color: #e5e9f0; 
     position: relative;
+    background-color: #e5e9f0;
+    overflow: hidden;
+    z-index: 1;
 }
 
-.mock-map-ui-right {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+#map-canvas:fullscreen {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
 }
 
-.mock-map-ui-right button {
-    width: 35px;
-    height: 35px;
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
+#map-canvas[hidden],
+.lista-unidades[hidden] {
+    display: none;
 }
 
 .btn-fullscreen {
     position: absolute;
     bottom: 20px;
     right: 20px;
+    z-index: 1000;
     background: white;
+    color: #222;
     border: 1px solid #ccc;
-    padding: 8px 12px;
-    border-radius: 4px;
+    padding: 10px 14px;
+    border-radius: 6px;
     cursor: pointer;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-fullscreen:hover {
+    background-color: #f0f4f8;
+}
+
+.lista-unidades {
+    min-height: 180px;
+    padding: 30px;
+    color: #555;
+    font-size: 0.9rem;
 }
 
 .map-instruction {
     margin-top: 15px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #555;
 }
+
+/* RODAPÉ */
 
 .footer {
     background-color: #071e36;
     color: white;
-    padding: 30px 8%;
+    padding: 35px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
     margin-top: 40px;
 }
 
 .footer-brand {
     display: flex;
     align-items: center;
+    gap: 12px;
 }
 
-.footer-brand .ribbon {
-    height: 35px;
-    width: auto;
+.footer-brand .logo-icon {
+    height: 42px;
 }
 
 .footer-brand strong {
     display: block;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
 }
 
 .footer-brand small {
+    display: block;
     color: #6ba4ff;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
+    margin-top: 4px;
 }
 
 .footer-badges {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
 .badge {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.85rem;
-    background-color: rgba(255, 255, 255, 0.05);
-    padding: 8px 12px;
+    font-size: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 10px 12px;
     border-radius: 6px;
 }
 
 .footer-callout {
-    font-size: 1rem;
+    font-size: 0.85rem;
     letter-spacing: 0.5px;
     border-left: 3px solid #00d2ff;
     padding-left: 15px;
+    line-height: 1.8;
 }
 
 .footer-callout strong {
     color: #00d2ff;
 }
 
+/* RESPONSIVIDADE */
+
+@media (max-width: 1050px) {
+    .navbar {
+        padding: 15px 4%;
+        gap: 15px;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .menu a {
+        font-size: 0.8rem;
+    }
+
+    .hero-section,
+    .map-section,
+    .footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hero-graphic {
+        min-width: 180px;
+    }
+}
+
 @media (max-width: 768px) {
-    .navbar, .hero-section, .footer {
+    .navbar {
         flex-direction: column;
-        text-align: center;
+        gap: 15px;
+        padding: 20px 5%;
+    }
+
+    .logo {
         align-items: center;
     }
+
+    .logo-top {
+        justify-content: center;
+    }
+
     .menu {
-        margin: 15px 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 20px;
     }
+
+    .menu a {
+        font-size: 0.8rem;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 45px 5% 60px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
     .hero-graphic {
-        display: none; 
+        display: none;
     }
+
+    .search-container {
+        border-radius: 14px;
+        padding: 8px;
+        gap: 6px;
+    }
+
+    .search-container input {
+        font-size: 0.75rem;
+    }
+
+    .btn-search {
+        padding: 11px 15px;
+        border-radius: 10px;
+        font-size: 0.75rem;
+    }
+
+    .map-section {
+        padding: 25px 4%;
+        margin-top: -25px;
+    }
+
+    #map-canvas {
+        height: 400px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 5%;
+    }
+
+    .footer-brand {
+        justify-content: center;
+    }
+
     .footer-badges {
         justify-content: center;
+    }
+
+    .footer-callout {
+        border-left: none;
+        border-top: 3px solid #00d2ff;
+        padding: 12px 0 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .logo strong {
+        font-size: 1rem;
+    }
+
+    .logo-icon {
+        height: 42px;
+    }
+
+    .logo small {
+        font-size: 0.55rem;
+    }
+
+    .menu {
+        gap: 10px 14px;
+    }
+
+    .menu a {
+        font-size: 0.72rem;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .search-container {
+        gap: 5px;
+        padding-left: 12px;
+    }
+
+    .search-icon {
+        font-size: 0.8rem;
+    }
+
+    .search-container input {
+        font-size: 0.68rem;
+    }
+
+    .btn-search {
+        padding: 10px 11px;
+        font-size: 0.7rem;
+    }
+
+    #map-canvas {
+        height: 350px;
+    }
+
+    .map-tabs {
+        padding: 12px;
+    }
+
+    .btn-fullscreen {
+        right: 10px;
+        bottom: 10px;
+        padding: 8px 10px;
+        font-size: 0.7rem;
     }
 }
