@@ -17,6 +17,26 @@ body {
     color: #333;
 }
 
+
+.mapa {
+    width: 100%;
+    max-width: 1100px;
+    height: 500px;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+
+.cards {
+    display: block;
+    color: black;
+    cursor: pointer;
+}
+
+.titulo2 {
+    margin-top: 55px;
+}
+
 a,
 a:visited {
     text-decoration: none;
