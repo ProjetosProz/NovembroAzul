@@ -1,45 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novembro Azul - Mapa de UBS</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="stylesheet" href="css/mapa.css">
 </head>
 <body>
 
     <header class="navbar">
-    <div class="logo">
-    <div class="logo-top">
-        <img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul">
-        <strong>NOVEMBRO AZUL</strong>
-    </div>
-    
-    <small>PREVENÇÃO É O MELHOR CAMINHO</small>
-</div>
-
+        <div class="logo">
+            <div class="logo-top">
+                <img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul">
+                <strong>NOVEMBRO AZUL</strong>
+            </div>
+            <small>PREVENÇÃO É O MELHOR CAMINHO</small>
         </div>
+
         <nav class="menu">
             <a href="#" class="active">Início</a>
             <a href="#">Dúvidas e Quiz</a>
             <a href="#">Mapa</a>
             <a href="#">Sobre</a>
         </nav>
+
         <button class="btn-care">Cuide de você</button>
     </header>
 
     <section class="hero-section">
         <div class="hero-content">
             <span class="subtitle">MAPA DE UNIDADES DE SAÚDE</span>
+
             <h1>ENCONTRE A UBS OU HOSPITAL MAIS PRÓXIMO DE VOCÊ</h1>
-            <p>Aqui você pode buscar por unidades de saúde que oferecem atendimento relacionado ao câncer de próstata, como UBS, postos de saúde e hospitais.</p>
-            
+
+            <p>
+                Aqui você pode buscar por unidades de saúde que oferecem
+                atendimento relacionado ao câncer de próstata, como UBS,
+                postos de saúde e hospitais.
+            </p>
+
             <div class="search-container">
                 <span class="search-icon">🔍</span>
-                <input type="text" placeholder="Digite seu endereço, bairro ou cidade...">
-                <button class="btn-search"> Buscar</button>
+
+                <input
+                    type="text"
+                    id="endereco"
+                    placeholder="Digite seu endereço, bairro ou cidade..."
+                >
+
+                <button class="btn-search" id="buscar">
+                    Buscar
+                </button>
             </div>
         </div>
+
         <div class="hero-graphic">
             <div class="slogan-handwritten">Homem também se cuida!</div>
         </div>
@@ -48,43 +65,154 @@
     <main class="map-section">
         <div class="map-card">
             <div class="map-tabs">
-                <button class="tab active">🗺️ Mapa</button>
-                <button class="tab"> Lista</button>
+                <button class="tab active" id="tab-mapa">🗺️ Mapa</button>
+                <button class="tab" id="tab-lista">Lista</button>
             </div>
-            
-            <div id="map-canvas">
-                <div class="mock-map-ui-right">
-                    <button>+</button>
-                    <button>-</button>
-                    <button></button>
-                </div>
-                <button class="btn-fullscreen">🔄 Ver em tela cheia</button>
+
+            <div id="map-canvas"></div>
+
+            <div id="lista-unidades" hidden>
+                <p>Pesquise um endereço para localizar a região no mapa.</p>
             </div>
         </div>
-        
-        <p class="map-instruction">Use o campo de busca para encontrar a unidade mais próxima de você.</p>
+
+        <p class="map-instruction">
+            Use o campo de busca para encontrar uma região no mapa.
+        </p>
     </main>
 
     <footer class="footer">
         <div class="footer-brand">
-            <span class="ribbon"><img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul"></span>
+            <span class="ribbon">
+                <img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul">
+            </span>
+
             <div>
                 <strong>NOVEMBRO AZUL</strong>
                 <small>PREVENÇÃO É O MELHOR CAMINHO</small>
             </div>
         </div>
-        
+
         <div class="footer-badges">
-            <div class="badge"> <span>Diagnóstico precoce</span></div>
-            <div class="badge"> <span>Mais chances de cura</span></div>
-            <div class="badge"> <span>Qualidade de vida</span></div>
-            <div class="badge"> <span>Apoio e informação</span></div>
+            <div class="badge"><span>Diagnóstico precoce</span></div>
+            <div class="badge"><span>Mais chances de cura</span></div>
+            <div class="badge"><span>Qualidade de vida</span></div>
+            <div class="badge"><span>Apoio e informação</span></div>
         </div>
 
         <div class="footer-callout">
             CUIDAR DA SUA SAÚDE É UM ATO DE <strong>CORAGEM.</strong>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        const mapa = L.map('map-canvas').setView(
+            [-23.5415, -46.3685],
+            13
+        );
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 19
+        }).addTo(mapa);
+
+        L.control.scale().addTo(mapa);
+
+        document.getElementById('buscar').addEventListener('click', buscarEndereco);
+
+        document.getElementById('endereco').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                buscarEndereco();
+            }
+        });
+
+        async function buscarEndereco() {
+            const endereco = document.getElementById('endereco').value.trim();
+
+            if (!endereco) {
+                alert('Digite um endereço, bairro ou cidade.');
+                return;
+            }
+
+            const botao = document.getElementById('buscar');
+            botao.disabled = true;
+            botao.textContent = 'Buscando...';
+
+            try {
+                const url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&q='
+                    + encodeURIComponent(endereco + ', Brasil');
+
+                const resposta = await fetch(url, {
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (!resposta.ok) {
+                    throw new Error('Não foi possível consultar o endereço.');
+                }
+
+                const resultados = await resposta.json();
+
+                if (resultados.length === 0) {
+                    alert('Endereço não encontrado. Tente informar uma cidade ou bairro.');
+                    return;
+                }
+
+                const local = resultados[0];
+                const latitude = Number(local.lat);
+                const longitude = Number(local.lon);
+
+                mapa.setView([latitude, longitude], 15);
+
+                L.marker([latitude, longitude])
+                    .addTo(mapa)
+                    .bindPopup(local.display_name)
+                    .openPopup();
+
+            } catch (erro) {
+                alert('Erro ao buscar o endereço. Verifique sua conexão e tente novamente.');
+                console.error(erro);
+            } finally {
+                botao.disabled = false;
+                botao.textContent = 'Buscar';
+            }
+        }
+
+        document.getElementById('tab-mapa').addEventListener('click', function() {
+            document.getElementById('map-canvas').hidden = false;
+            document.getElementById('lista-unidades').hidden = true;
+
+            this.classList.add('active');
+            document.getElementById('tab-lista').classList.remove('active');
+
+            setTimeout(() => mapa.invalidateSize(), 100);
+        });
+
+        document.getElementById('tab-lista').addEventListener('click', function() {
+            document.getElementById('map-canvas').hidden = true;
+            document.getElementById('lista-unidades').hidden = false;
+
+            this.classList.add('active');
+            document.getElementById('tab-mapa').classList.remove('active');
+        });
+
+        document.querySelector('.btn-fullscreen')?.addEventListener('click', function() {
+            const elemento = document.getElementById('map-canvas');
+
+            if (!document.fullscreenElement) {
+                elemento.requestFullscreen?.();
+            } else {
+                document.exitFullscreen?.();
+            }
+        });
+
+        document.addEventListener('fullscreenchange', function() {
+            setTimeout(() => mapa.invalidateSize(), 100);
+        });
+    </script>
 
 </body>
 </html>
