@@ -1,90 +1,232 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novembro Azul - Mapa de UBS</title>
+
     <link rel="stylesheet" href="css/mapa.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
 
     <header class="navbar">
-    <div class="logo">
-    <div class="logo-top">
-        <img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul">
-        <strong>NOVEMBRO AZUL</strong>
-    </div>
-    
-    <small>PREVENÇÃO É O MELHOR CAMINHO</small>
-</div>
+        <a href="#" class="logo">
+            <div class="logo-top">
+                <img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul">
+                <strong>NOVEMBRO AZUL</strong>
+            </div>
+            <small>PREVENÇÃO É O MELHOR CAMINHO</small>
+        </a>
 
-        </div>
         <nav class="menu">
-            <a href="#" class="active">Início</a>
+            <a href="#">Início</a>
             <a href="#">Dúvidas e Quiz</a>
-            <a href="#">Mapa</a>
+            <a href="#" class="active">Mapa</a>
             <a href="#">Sobre</a>
         </nav>
-        <button class="btn-care">Cuide de você</button>
+
+        <a href="#mapa" class="btn-care">Cuide de você</a>
     </header>
 
     <section class="hero-section">
         <div class="hero-content">
             <span class="subtitle">MAPA DE UNIDADES DE SAÚDE</span>
+
             <h1>ENCONTRE A UBS OU HOSPITAL MAIS PRÓXIMO DE VOCÊ</h1>
-            <p>Aqui você pode buscar por unidades de saúde que oferecem atendimento relacionado ao câncer de próstata, como UBS, postos de saúde e hospitais.</p>
-            
-            <div class="search-container">
+
+            <p>
+                Encontre unidades de saúde, UBS, postos de atendimento
+                e hospitais para buscar orientação e acompanhamento
+                relacionado à saúde do homem.
+            </p>
+
+            <form class="search-container" id="form-busca">
                 <span class="search-icon">🔍</span>
-                <input type="text" placeholder="Digite seu endereço, bairro ou cidade...">
-                <button class="btn-search"> Buscar</button>
-            </div>
+
+                <input
+                    type="text"
+                    id="endereco"
+                    placeholder="Digite seu endereço, bairro ou cidade..."
+                    aria-label="Endereço para pesquisa"
+                    required
+                >
+
+                <button type="submit" class="btn-search">Buscar</button>
+            </form>
+
+            <p id="mensagem-busca" class="mensagem-busca" aria-live="polite"></p>
         </div>
+
         <div class="hero-graphic">
             <div class="slogan-handwritten">Homem também se cuida!</div>
         </div>
     </section>
 
-    <main class="map-section">
+    <main class="map-section" id="mapa">
         <div class="map-card">
             <div class="map-tabs">
-                <button class="tab active">🗺️ Mapa</button>
-                <button class="tab"> Lista</button>
+                <button type="button" class="tab active" id="tab-mapa">
+                    🗺️ Mapa
+                </button>
+
+                <button type="button" class="tab" id="tab-lista">
+                    ☰ Lista
+                </button>
             </div>
-            
-            <div id="map-canvas">
-                <div class="mock-map-ui-right">
-                    <button>+</button>
-                    <button>-</button>
-                    <button></button>
-                </div>
-                <button class="btn-fullscreen">🔄 Ver em tela cheia</button>
+
+            <div id="map-canvas" aria-label="Mapa de localização"></div>
+
+            <div id="lista-unidades" class="lista-unidades" hidden>
+                <p>Pesquise um endereço para visualizar sua localização no mapa.</p>
             </div>
         </div>
-        
-        <p class="map-instruction">Use o campo de busca para encontrar a unidade mais próxima de você.</p>
+
+        <p class="map-instruction">
+            Digite um endereço, bairro ou cidade para localizar uma região no mapa.
+        </p>
     </main>
 
     <footer class="footer">
         <div class="footer-brand">
-            <span class="ribbon"><img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul"></span>
+            <img src="Images/laço.png" class="logo-icon" alt="Laço Novembro Azul">
+
             <div>
                 <strong>NOVEMBRO AZUL</strong>
                 <small>PREVENÇÃO É O MELHOR CAMINHO</small>
             </div>
         </div>
-        
+
         <div class="footer-badges">
-            <div class="badge"> <span>Diagnóstico precoce</span></div>
-            <div class="badge"> <span>Mais chances de cura</span></div>
-            <div class="badge"> <span>Qualidade de vida</span></div>
-            <div class="badge"> <span>Apoio e informação</span></div>
+            <div class="badge">Diagnóstico precoce</div>
+            <div class="badge">Mais chances de cura</div>
+            <div class="badge">Qualidade de vida</div>
+            <div class="badge">Apoio e informação</div>
         </div>
 
         <div class="footer-callout">
             CUIDAR DA SUA SAÚDE É UM ATO DE <strong>CORAGEM.</strong>
         </div>
     </footer>
+
+    <script>
+        const mapa = L.map('map-canvas').setView([-23.5415, -46.3685], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            maxZoom: 19
+        }).addTo(mapa);
+
+        let marcadorBusca = null;
+
+        const formBusca = document.getElementById('form-busca');
+        const campoEndereco = document.getElementById('endereco');
+        const mensagemBusca = document.getElementById('mensagem-busca');
+        const tabMapa = document.getElementById('tab-mapa');
+        const tabLista = document.getElementById('tab-lista');
+        const mapaCanvas = document.getElementById('map-canvas');
+        const listaUnidades = document.getElementById('lista-unidades');
+
+        formBusca.addEventListener('submit', async function(evento) {
+            evento.preventDefault();
+
+            const endereco = campoEndereco.value.trim();
+
+            if (!endereco) {
+                mensagemBusca.textContent = 'Digite um endereço para pesquisar.';
+                return;
+            }
+
+            mensagemBusca.textContent = 'Pesquisando endereço...';
+
+            try {
+                const resposta = await fetch(
+                    'https://nominatim.openstreetmap.org/search?format=json&limit=1&q=' +
+                    encodeURIComponent(endereco)
+                );
+
+                if (!resposta.ok) {
+                    throw new Error('Falha na pesquisa');
+                }
+
+                const dados = await resposta.json();
+
+                if (dados.length === 0) {
+                    mensagemBusca.textContent = 'Endereço não encontrado. Tente outra pesquisa.';
+                    return;
+                }
+
+                const latitude = Number(dados[0].lat);
+                const longitude = Number(dados[0].lon);
+
+                mapa.setView([latitude, longitude], 15);
+
+                if (marcadorBusca) {
+                    mapa.removeLayer(marcadorBusca);
+                }
+
+                marcadorBusca = L.marker([latitude, longitude])
+                    .addTo(mapa)
+                    .bindPopup(dados[0].display_name)
+                    .openPopup();
+
+                mensagemBusca.textContent = 'Localização encontrada!';
+            } catch (erro) {
+                mensagemBusca.textContent =
+                    'Não foi possível pesquisar. Verifique sua conexão e tente novamente.';
+            }
+        });
+
+        tabMapa.addEventListener('click', function() {
+            mapaCanvas.hidden = false;
+            listaUnidades.hidden = true;
+
+            tabMapa.classList.add('active');
+            tabLista.classList.remove('active');
+
+            mapa.invalidateSize();
+        });
+
+        tabLista.addEventListener('click', function() {
+            mapaCanvas.hidden = true;
+            listaUnidades.hidden = false;
+
+            tabLista.classList.add('active');
+            tabMapa.classList.remove('active');
+        });
+
+        const botaoTelaCheia = document.createElement('button');
+
+        botaoTelaCheia.type = 'button';
+        botaoTelaCheia.className = 'btn-fullscreen';
+        botaoTelaCheia.textContent = '⛶ Ver em tela cheia';
+        botaoTelaCheia.addEventListener('click', async function() {
+            try {
+                if (!document.fullscreenElement) {
+                    await mapaCanvas.requestFullscreen();
+                } else {
+                    await document.exitFullscreen();
+                }
+
+                setTimeout(() => mapa.invalidateSize(), 100);
+            } catch (erro) {
+                mensagemBusca.textContent = 'Não foi possível abrir a tela cheia.';
+            }
+        });
+
+        mapaCanvas.appendChild(botaoTelaCheia);
+
+        document.addEventListener('fullscreenchange', function() {
+            setTimeout(() => mapa.invalidateSize(), 100);
+        });
+    </script>
 
 </body>
 </html>
