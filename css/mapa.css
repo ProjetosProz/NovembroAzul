@@ -29,6 +29,9 @@ a {
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 3px 15px #00152b25;
+    background: rgba(4, 31, 61, 0.98);
+    border-bottom: 1px solid #1b5285;
 }
 
 .navegacao {
