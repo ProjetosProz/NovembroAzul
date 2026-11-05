@@ -8,16 +8,43 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
 </head>
-<body>
-    <a href="index.html">Voltar</a>
-    <h1>Encontre uma unidade de saúde perto de você</h1>
-    <p>Pesquise uma cidade, bairro ou rua para encontrar unidades de atendimento e saiba onde buscar orientação sobre a saúde do homem.</p>
 
+<header class="topo">
+    <nav class="navegacao" aria-label="Navegação principal">
+        <a class="logo" href="index.html">
+            <span class="laco">🎗</span>
+            <span>NOVEMBRO <strong>AZUL</strong></span>
+        </a>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#artigos">Artigos</a></li>
+            <li><a href="duvidas.html">Quiz</a></li>
+            <li><a href="mapa.html">Unidades</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<body>
+    <section class="hero-section">
+    <div class="hero-content">
+    <span class="subtitle">MAPA DE UNIDADES DE SAÚDE</span>
+            <h1>ENCONTRE A UBS OU HOSPITAL MAIS PRÓXIMO DE VOCÊ</h1>
+            <p>Aqui você pode buscar por unidades de saúde que oferecem atendimento relacionado ao câncer de próstata, como UBS, postos de saúde e hospitais.</p>
+            
+        
+     
     <div class="pesquisa">
         <input type="text" id="buscar" placeholder="Digite sua cidade, bairro ou rua">
-        <button type="button" id="btnBuscar">Buscar</button>
+        <button type="button" class="btnBuscar" id="btnBuscar">Buscar</button>
     </div>
-
+    </div>
+    <div class="hero-graphic">
+            <div class="slogan-handwritten">Homem também se cuida!</div>
+        </div>
+    </section>
+    
     <h2>Mapa de unidades UBS</h2>
     <div class="mapa" id="mapa"></div>
 
@@ -27,4 +54,10 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="script/mapa.js"></script>
 </body>
+
+<footer class="rodape">
+    <p>Projeto Novembro Azul — Conscientização e saúde masculina.</p>
+    <p>Conteúdo educativo. Procure um profissional de saúde para orientações individuais.</p>
+</footer>
+
 </html>
