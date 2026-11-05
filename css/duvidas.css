@@ -1,0 +1,473 @@
+/* ==============================
+
+   CONFIGURAÇÕES GERAIS
+
+============================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+}
+
+body {
+
+    background: #f1f6fc;
+
+    color: #102e57;
+
+}
+
+[hidden] {
+
+    display: none !important;
+
+}
+
+/* ==============================
+
+   TELA DO VÍDEO
+
+============================== */
+
+#telaVideo {
+
+    min-height: 100vh;
+
+    padding: 60px 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background:
+
+        radial-gradient(circle at 80% 30%, #1268a8, transparent 35%),
+
+        linear-gradient(135deg, #041b3b, #073c75, #031a39);
+
+    color: white;
+
+}
+
+#telaVideo h1 {
+
+    font-size: 38px;
+
+    font-weight: 800;
+
+    text-align: center;
+
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+
+}
+
+#telaVideo p {
+
+    font-size: 17px;
+
+    color: #d9eaff;
+
+    margin-bottom: 30px;
+
+    text-align: center;
+
+}
+
+#telaVideo iframe {
+
+    width: 100%;
+
+    max-width: 850px;
+
+    height: 450px;
+
+    border: 2px solid #168cf5;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+
+}
+
+/* ==============================
+
+   BOTÕES
+
+============================== */
+
+button {
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+
+}
+
+#telaVideo button {
+
+    margin-top: 30px;
+
+    padding: 15px 35px;
+
+    color: white;
+
+    background: linear-gradient(90deg, #0878e8, #12a0ff);
+
+    border-radius: 30px;
+
+    box-shadow: 0 5px 15px rgba(0, 120, 232, 0.3);
+
+}
+
+#telaVideo button:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 8px 20px rgba(0, 120, 232, 0.5);
+
+}
+
+/* ==============================
+
+   TELA DO QUIZ
+
+============================== */
+
+#telaQuiz {
+
+    min-height: 100vh;
+
+    padding: 50px 8%;
+
+    background: linear-gradient(
+
+        180deg,
+
+        #f4f8fd,
+
+        #e7f2ff
+
+    );
+
+}
+
+#telaQuiz h1 {
+
+    font-size: 34px;
+
+    color: #082e60;
+
+    font-weight: 800;
+
+    margin-bottom: 15px;
+
+}
+
+#progresso {
+
+    color: #087ee8;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    margin-bottom: 25px;
+
+}
+
+/* ==============================
+
+   CARD DAS PERGUNTAS
+
+============================== */
+
+#quiz {
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    border: 1px solid #dceafa;
+
+    box-shadow: 0 5px 20px rgba(0, 50, 100, 0.08);
+
+    min-height: 200px;
+
+}
+
+#quiz p {
+
+    font-size: 19px;
+
+    color: #082e60;
+
+    margin-bottom: 25px;
+
+    line-height: 1.5;
+
+}
+
+/* ==============================
+
+   ALTERNATIVAS
+
+============================== */
+
+#quiz label {
+
+    display: block;
+
+    padding: 16px 20px;
+
+    margin-bottom: 12px;
+
+    background: #f6faff;
+
+    border: 1px solid #d4e2f2;
+
+    border-radius: 10px;
+
+    color: #25466e;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+#quiz label:hover {
+
+    background: #e5f2ff;
+
+    border-color: #168cf5;
+
+}
+
+#quiz input[type="radio"] {
+
+    width: 17px;
+
+    height: 17px;
+
+    margin-right: 10px;
+
+    accent-color: #0789f5;
+
+    cursor: pointer;
+
+}
+
+/* ==============================
+
+   BOTÕES DO QUIZ
+
+============================== */
+
+#btnProximo,
+
+#btnFinalizar {
+
+    padding: 14px 30px;
+
+    color: white;
+
+    background: linear-gradient(90deg, #0754b5, #078cf5);
+
+    border-radius: 30px;
+
+    margin-top: 25px;
+
+    margin-right: 10px;
+
+}
+
+#btnProximo:hover,
+
+#btnFinalizar:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 5px 15px rgba(0, 100, 220, 0.3);
+
+}
+
+#telaQuiz button:last-of-type {
+
+    background: #e5f1ff;
+
+    color: #0754a8;
+
+    padding: 12px 25px;
+
+    border-radius: 30px;
+
+}
+
+#telaQuiz button:last-of-type:hover {
+
+    background: #cce4ff;
+
+}
+
+/* ==============================
+
+   RESULTADO
+
+============================== */
+
+#resultado {
+
+    margin-top: 30px;
+
+    padding: 20px;
+
+    color: #0754a8;
+
+    background: #e1f1ff;
+
+    border-left: 5px solid #078cf5;
+
+    border-radius: 10px;
+
+    font-size: 21px;
+
+}
+
+/* ==============================
+
+   GABARITO
+
+============================== */
+
+#gabarito {
+
+    margin-top: 25px;
+
+}
+
+#gabarito h3 {
+
+    font-size: 24px;
+
+    color: #082e60;
+
+    margin-bottom: 20px;
+
+}
+
+#gabarito p {
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    border: 1px solid #dceafa;
+
+    margin-bottom: 15px;
+
+    line-height: 1.7;
+
+    font-size: 15px;
+
+    color: #25466e;
+
+}
+
+#gabarito p b {
+
+    color: #073b79;
+
+}
+
+#gabarito p i {
+
+    color: #54708f;
+
+}
+
+/* ==============================
+
+   RESPONSIVIDADE
+
+============================== */
+
+@media (max-width: 768px) {
+
+    #telaVideo {
+
+        padding: 35px 15px;
+
+    }
+
+    #telaVideo h1 {
+
+        font-size: 27px;
+
+    }
+
+    #telaVideo iframe {
+
+        height: 250px;
+
+    }
+
+    #telaQuiz {
+
+        padding: 30px 15px;
+
+    }
+
+    #telaQuiz h1 {
+
+        font-size: 27px;
+
+    }
+
+    #quiz {
+        padding: 20px;
+    }
+
+    #quiz p {
+        font-size: 17px;
+    }
+
+    #quiz label {
+        font-size: 14px;
+        padding: 14px;
+    }
+
+    #btnProximo,
+    #btnFinalizar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #resultado {
+        font-size: 18px;
+    }
+}
