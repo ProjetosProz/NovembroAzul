@@ -204,13 +204,14 @@ a {
 
 /* MAPA */
 .mapa {
-    position: fixed;
-    top: 100px;
-    right: 20px;
-    width: 400px;
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
     height: 500px;
+    margin: 20px auto;
     border-radius: 12px;
-    z-index: 50;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* CARDS */
